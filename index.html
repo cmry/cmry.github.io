@@ -1,28 +1,18 @@
 ---
-layout: default
-title: Welcome to Your Jekyll Blog!
+layout: index
 ---
 
-<div id="home">
-  <h1 class="no-subheading">Archive</h1>
+<strong class="muted upcase">
+  Some words:
+</strong><br /><br />
 
-  <ul class="posts index-menu">
-    {% for post in site.posts %}
-    <li>
-      <a class="post-index-link" href="{{ post.url }}">
-        <span class="post-title">{{ post.title }}</span>
-        <span class="post-subtitle">{{ post.subtitle }}</span>
-      </a>
-      <small>{{ post.date | date: "%-d %B, %Y" }}</small>
-
-      {% if post.tags.size > 0 %}
-      <span>
-      {% for tag in post.tags %}
-        <span class="tag-label">{{ tag }}</span>
-      {% endfor %}
-      </span>
-      {% endif %}
-    </li>
-    {% endfor %}
-  </ul>
-</div>
+<ul class="posts">
+  {% for post in site.posts %}
+  <li>
+    <h2><a class="upcase" href="{{ post.url }}#">
+      {{ post.title }}<br />
+    </a></h2>
+    <small class="datetime muted">Posted <span data-time="{{ post.date }}">{{ post.date | date_to_string }}</span></small>
+  </li>
+  {% endfor %}
+</ul>

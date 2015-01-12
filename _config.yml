@@ -1,7 +1,21 @@
-name: Nick Williams
-tagline: Full-stack developer with a passion for JavaScript.
-location: Leicestershire, UK
-twitter: http://twitter.com/nickwuh
-github: https://github.com/nilliams
-markdown: redcarpet
-pygments: false
+title:            How nice!
+description:      Mu-An Chiou. Designer and front-end developer living in London. I am very nice.
+url:              http://muan.co
+permalink:        pretty
+pygments:         true
+markdown:         rdiscount
+folder:           stuff
+rdiscount:
+  extensions:     [smart]
+google_analytics: UA-21332781-7
+timezone:         Europe/London
+paginate: 5
+links: 
+  - name:         About
+    url:          /about
+  - name:         GitHub
+    url:          http://github.com/muan
+  - name:         Twitter
+    url:          http://twitter.com/muanchiou
+  - name:         Instagram
+    url:          http://instagram.com/muanchiou

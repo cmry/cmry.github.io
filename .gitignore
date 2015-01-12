@@ -1,2 +1,9 @@
-_site/
 .sass-cache/
+_drafts/
+_site/
+*.swp
+*.scssc
+.DS_Store
+.rvmrc
+*.psd
+*~
