@@ -47,12 +47,12 @@ hr {
     margin-bottom: 5px;
     font-weight: bold; }
     .site-header .site-title:hover {
-      color: #75c392; }
+      color: #61bb83; }
       .site-header .site-title:hover .block {
         background-color: #3AAA64; }
       .site-header .site-title:hover .lastname {
         opacity: .7;
-        color: #75c392; }
+        color: #61bb83; }
     .site-header .site-title .block {
       display: inline-block;
       width: 30px;
