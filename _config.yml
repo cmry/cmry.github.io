@@ -1,10 +1,7 @@
-name: Simply Grey
+name: Nick Williams
+tagline: Full-stack developer with a passion for JavaScript.
+location: Leicestershire, UK
+twitter: http://twitter.com/nickwuh
+github: https://github.com/nilliams
 markdown: redcarpet
-pygments: true
-github: https://www.github.com/exaem
-about: I am an independent developer from the sunny UK. I dabble in Ruby, play in C and I'm an avid systems administrator.
-urls:
-    - text: github
-      url: https://github.com/exaem
-    - text: email
-      url: mailto:exaem@exaem.co.uk
+pygments: false

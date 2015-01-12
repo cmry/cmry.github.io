@@ -1,62 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>{% if page.title %} {{ page.title }} {% else %} {{ site.name }} {% endif %}</title>
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>{{ page.title }}</title>
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="/feed.xml">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/prism.custom.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style>
+      /* These styles are inlined so if `prism.custom.css` is regenerated, these overrides are kept intact */
+      pre[data-line] { padding: 1.1em 0 1.1em 1.2em }
+      :not(pre) > code[class*="language-"], pre[class*="language-"] { background: #f8f8f8; margin-bottom: 20px }
+      code[class*="language-"], pre[class*="language-"] { line-height: 1.3em }
+    </style>
+
+    <!-- IE6/7 - `overflow: auto` works, but `scroll` saves worrying about inconsistent bottom-padding -->
+    <!--[if lt IE 8]>
+    <style> pre { position: relative; width: 650px; overflow-x: scroll } </style>
+    <![endif]-->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>       
+        <h1><a href="/">{{ site.name }}</a></h1>
         
-        <!-- Bootstrap core CSS -->
-    	<link href="/css/bootstrap.min.css" rel="stylesheet">
+        <p class="bio">{{ site.tagline }}</p>
+        <p class="bio">{{ site.location }}</p>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+        <ul class="nav cf">
+          <li><a href="/">Archive</a>
+          <!-- Uncomment to link to some other page, e.g. your resume -->
+          <!--<i class="sep">//</i>
+          <li><a href="/resume.html">Resume</a>-->
+        </ul>
 
-    </head>
-    <body>
+        <ul class="social cf">
+          <li><a href="/feed.xml" target="_blank"><i class="icon-rss-sign"></i></a>
+          <li><a href="{{ site.twitter }}" target="_blank"><i class="icon-twitter"></i></a>
+          <li><a href="{{ site.github }}" target="_blank"><i class="icon-github"></i></a>
+        </ul>
+      </header>
 
-		<div class="container">
+      <section>
+        {{ content }}
+      </section>
+    </div>
 
-			<div class="col-sm-3">
-				<h1>{{ site.name }}</h1>
-				<img id="about" src="/img/logo.jpg" height="75px" width="75px" /><br />	
-
-				<strong>navigation</strong><br />
-				<a href="/">home</a> <br />
-				{% for i in site.urls %}
-					<a class="about" href="{{ i.url }}">{{ i.text }}</a><br />
-				{% endfor %}
-				
-				{% if site.about %}
-				<div id="about">
-					<strong>about</strong><br />
-					{{ site.about }}
-				</div>
-				{% endif %}
-			</div>
-
-			<div class="col-sm-8 col-offset-1">
-				
-				{{ content }}
-				
-				<footer>
-					&copy; {{ site.name }}
-					{% if site.github %} 
-						- <a href="{{ site.github }}">{{ site.github }}</a>
-					{% endif %}
-				</footer>
-			</div>
-		
-		</div>
-
-	<!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    </body>
+    <!-- Don't load any JS for oldIE -->
+    <!--[if gt IE 8]><!-->
+    <script src="/js/scale.fix.js"></script>
+    <script src="/js/prism.custom.js"></script>
+    <script src="/js/zepto.min.js"></script>
+    <script src="/js/jquery.fitvids.js"></script>
+    <script>
+      $('.post').fitVids();
+    </script>
+    <!--<![endif]-->
+  </body>
 </html>
