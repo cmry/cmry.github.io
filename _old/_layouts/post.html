@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <meta content='{{ site.title }}' property='og:title' />
+    <title>{{ site.title }}</title>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="wrapper">
+
+      {% include header.html %}
+
+        <section class="content">
+          <article>
+            <div class="mark"></div>
+            <header>
+              <h2 class="post-title">{{ page.title }}</h2>
+              {% if page.date %}
+                <small class="datetime muted">{{ page.date | date_to_string }}</small>
+              {% endif %}
+            </header>
+            {{ content }}
+            {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
+          </article>
+          {% if page.previous or page.next %}
+          <div class="pagination">
+            {% if page.previous %}
+              <p class="toned upcase small">Use ← and → to navigate between posts.</p>
+              <hr />
+              <a href="{{ page.previous.url }}" id="js-previous-post">
+                <span class="small toned upcase">Previous Post</span>
+                <h4>{{ page.previous.title }}</h4>
+                <span class="small upcase datetime muted">{{ page.previous.date | date_to_string }}</span>
+              </a>
+            {% endif %}
+            {% if page.next %}
+              <hr />
+              <a href="{{ page.next.url }}" id="js-next-post">
+                <span class="small toned upcase">Next Post</span>
+                <h4>{{ page.next.title }}</h4>
+                <span class="small upcase datetime muted">{{ page.next.date | date_to_string }}</span>
+              </a>
+            {% endif %}
+          </div>
+          {% endif %}
+        </section>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

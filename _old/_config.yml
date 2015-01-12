@@ -1,0 +1,13 @@
+title:            Chris Emmery -- Blog
+url:              http://chris.emmery.nl/blog
+permalink:        pretty
+pygments:         true
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
+google_analytics: UA-21332781-7
+timezone:         Europe/London
+paginate:  		  5
+links: 
+  - name:         cv
+    url:          http://chris.emmery.nl/

@@ -1,0 +1,10 @@
+<header class="site-header">
+  <a href="/" class="site-title">
+    <span class="firstname">Chris</span><span class="lastname">Emmery</strong>
+  </a>
+  <nav>
+    {% for link in site.links %}
+      <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    {% endfor %}
+  </nav>
+</header>
