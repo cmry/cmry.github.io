@@ -111,8 +111,9 @@ pre code {
   padding: 0; }
 
 pre, code {
-  background-color: #F8F8FF;
-  border: 1px solid #DDDDDD;
+  font-family: Consolas,Monaco,"Andale Mono", monospace;
+  background-color: #F8F8F8;
+  border: 1px solid #E5E5E5;
   font-size: 13px;
   padding: 3px 5px;
   border-radius: 3px; }
