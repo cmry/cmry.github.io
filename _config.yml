@@ -1,5 +1,5 @@
-title:            Mu-An Chiou - @muanchiou || @muan
-url:              http://muan.co
+title:            Chris Emmery -- Blog
+url:              http://chris.emmery.nl/blog
 permalink:        pretty
 pygments:         true
 markdown:         rdiscount
@@ -8,6 +8,3 @@ rdiscount:
 google_analytics: UA-21332781-7
 timezone:         Europe/London
 paginate: 5
-links: 
-  - name:         About
-    url:          /about
