@@ -8,3 +8,6 @@ rdiscount:
 google_analytics: UA-21332781-7
 timezone:         Europe/London
 paginate:  		  5
+links: 
+  - name:         about
+    url:          http://chris.emmery.nl/
