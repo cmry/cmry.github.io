@@ -8,9 +8,10 @@ body {
 
 a {
   color: #3AAA64;
-  font-weight: 700; }
+  font-weight: 600; }
 
 b, strong, h1, h2, h3, h4, h5 {
+  color: #545E69;
   font-weight: 700; }
 
 hr {
