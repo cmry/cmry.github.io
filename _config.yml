@@ -7,4 +7,4 @@ rdiscount:
   extensions:     [smart]
 google_analytics: UA-21332781-7
 timezone:         Europe/London
-paginate: 5
+paginate:  		  5
