@@ -172,7 +172,7 @@ article {
     border-radius: 4px; }
   article blockquote {
     font-style: normal;
-    margin: 20px 0 20px -30px;
+    margin: 20px -30px 20px -30px;
     width: auto;
     display: block;
     padding: 5px 25px 5px 20px;
