@@ -1,3 +1,4 @@
-Feel free to use the theme, please attribute though.
+Coding blog thingy.
 
+Template by:
 [@muanchiou](http://twitter.com/muanchiou)
