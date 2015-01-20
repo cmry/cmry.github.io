@@ -17,6 +17,15 @@
               {% if page.date %}
                 <small class="datetime muted">{{ page.date | date_to_string }}</small>
               {% endif %}
+            {% if site.social.github and page.github %}
+              <ul>
+                <li>
+                  <a href="http://github.com/{{site.social.github}}/{{page.github}}">
+                    View on GitHub
+                  </a>
+                </li>
+              </ul>
+              {% endif %}
             </header>
             {{ content }}
             {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}

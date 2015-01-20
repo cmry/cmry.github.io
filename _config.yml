@@ -11,3 +11,5 @@ paginate:  		  5
 links: 
   - name:         cv
     url:          http://chris.emmery.nl/
+social:
+    github:       fazzeh

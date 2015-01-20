@@ -172,16 +172,19 @@ article {
     border-radius: 4px; }
   article blockquote {
     font-style: normal;
-    margin: 20px 0 20px -30px;
+    margin: 20px -30px 20px -30px;
     width: auto;
     display: block;
     padding: 5px 25px 5px 20px;
     border-left: 10px solid #e0e9ed;
-    box-shadow: -5px 0 0 white,  -5px 5px 0 white,  -5px -5px 0 white; }
+    background-color: #E0E9ED;
+    box-shadow: -5px 0 0 white,  -5px 5px 0 white,  -5px -5px 0 white, 0px 0px 0px 5px white;
+    max-width: 110% }
     article blockquote p:first-child, article blockquote p:last-child {
       margin: 0; }
   article ul, article ol {
-    margin: 20px 0 20px 20px; }
+    margin: 20px 0 20px 20px;
+    }
 
 .pagination {
   margin-top: 25px;
