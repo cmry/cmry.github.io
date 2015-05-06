@@ -83,7 +83,7 @@ for i in cursor.pages():
 
 Then we interact with this class methods like so:
 
-{% highlight ipython %}
+{% highlight python %}
 In [1]: api = TwAPI('user')
 
 In [2]: api.get_friends('_cmry')
