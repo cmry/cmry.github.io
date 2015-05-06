@@ -38,6 +38,10 @@ class TwAPI:
         self.api = twp.API(self.auth) 
 {% endhighlight %}
 
+At the [apps section](https://apps.twitter.com/) in Twitter, one is able to create an app, which will list a *manage keys and access tokens* point near the Consumer Key. From that section, you can generate the tokens needed to fill in at `cons_key`, `cons_sec`, `accs_tok`, `accs_sec`. Probably good to make these a bit higher level in the code. From there, either user or app authentication is possible, with have varying abilites and rate limits, documented [here](https://dev.twitter.com/rest/public/rate-limiting).
+
+> **Note:** Might be better to make TwAPI an api class, so you can just call `self.user_timeline` instead of `self.api.user_timeline`.
+
 ## Profile-based methods
 
 So starting for example `api = TwAPI('user')` already gives a fully authenticated api object to work with directly. Adding pieces of code to just retrieve friends and timelines isn't that big of a deal, we just call the appropriate Tweepy function:
@@ -75,6 +79,17 @@ To:
 for i in cursor.pages():
     for user in i:
         yield user.screen_name
+{% endhighlight %}
+
+Then we interact with this class methods like so:
+
+{% highlight ipython %}
+In [1]: api = TwAPI('user')
+
+In [2]: api.get_friends('_cmry')
+Out[2]: 
+['ProjectJupyter',
+...
 {% endhighlight %}
 
 ## Rate Limits
