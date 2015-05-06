@@ -9,7 +9,7 @@ Lately I have been collection a large amount of tweets for building a good repre
 So, as a first, of course we start off initiating the class and setting some of the first local parameters. Please note that I will truncate the docstrings and only leave the parameters, the code is documented on github.
 
 
-``` python
+{% highlight python %} 
 class TwAPI:
 	def __init__(self, mode):
 	        """ 
@@ -32,11 +32,11 @@ class TwAPI:
 
 	        self.mode = mode
 	        self.api = twp.API(self.auth) 
-```
+{% endhighlight %}
 
 So starting for example `api = TwAPI('user')` already gives a fully authenticated api object to work with directly. Adding pieces of code to just retrieve friends and timelines isn't that big of a deal, we just call the appropriate Tweepy function:
 
-``` python
+{% highlight python %} 
     def get_friends(self, name):
         cursor = twp.Cursor(self.api.friends, id=name, count=200)
         l = list()
@@ -51,19 +51,19 @@ So starting for example `api = TwAPI('user')` already gives a fully authenticate
             for tweet in i:
                 l.append(tweet)
         return l
-```
+{% endhighlight %}
 
 Or if we want to do it in a generator, we edit this bit:
 
-``` python
+{% highlight python %} 
 			for tweet in i:
                 l.append(tweet)
         return l
-```
+{% endhighlight %}
 
 To:
 
-``` python
+{% highlight python %} 
 			for tweet in i:
                 yield tweet
-```
+{% endhighlight %}
