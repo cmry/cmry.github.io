@@ -63,18 +63,20 @@ Each time we access the API, regardless of doing this in `cursor.pages()` or wit
 In [4]: api.rate_limit_status()['resources']['friends']
 Out[4]: 
 {'/friends/following/ids': {'limit': 15, 'remaining': 15, 'reset': 1430993361},
- '/friends/following/list': {'limit': 15,
+ '/friends/following/list': {'limit': 15, 
   'remaining': 15,
   'reset': 1430993361},
  '/friends/ids': {'limit': 15, 'remaining': 15, 'reset': 1430993361},
  '/friends/list': {'limit': 30, 'remaining': 29, 'reset': 1430993361}}
 {% endhighlight %}
 
-Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. Therefore, the optimal interval $i = (15 \cdot 60)/l$, where $lim$ is the limit. With this, we can define the time it will take to process a query ($t(q)$), by incorporating the number of results $max$ we can get per `Cursor`, and the total instances $sum$. As such:
+Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. Therefore, the optimal interval $i = 15 \cdot 60 / lim$, where $lim$ is the limit. With this, we can define the time it will take to process a query ($t(q)$), by incorporating the number of results $max$ we can get per `Cursor`, and the total instances $sum$. As such:
 
 \begin{equation}
 t(q) = \frac{sum}{max} \cdot i = \frac{sum}{max} \cdot \frac{15 \cdot 60}{lim}
 \end{equation}
+
+So say that we have three profiles with 1000 ($max = 1000 \cdot 3$) friends, this would result in $t(q) = 3000 / 200 \cdot 15*60 / 30 = 450$ seconds (!) for three profiles. This isn't such a big deal when we're only interested in a fairly small amount of people. Otherwise we'll have to sit this query process out for a while, which is definitely to be taken in consideration whilst designing an experimental setup.
 
 ## Class __init__
 
