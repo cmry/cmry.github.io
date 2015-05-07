@@ -70,10 +70,10 @@ Out[4]:
  '/friends/list': {'limit': 30, 'remaining': 29, 'reset': 1430993361}}
 {% endhighlight %}
 
-Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. Therefore, the optimal interval $i = \frac{15 \cdot 60}{l}$, where $lim$ is the limit. With this, we can define the time it will take to process a query ($t(q)$), by incorporating the number of results $max$ we can get per `Cursor`, and the total instances $sum$. As such:
+Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. Therefore, the optimal interval $i = (15 \cdot 60)/l$, where $lim$ is the limit. With this, we can define the time it will take to process a query ($t(q)$), by incorporating the number of results $max$ we can get per `Cursor`, and the total instances $sum$. As such:
 
 \begin{equation}
-t(q) = \frac{sum}{max} \cdot i = \frac{sum}{c} \cdot \frac{15 \cdot 60}{lim}
+t(q) = \frac{sum}{max} \cdot i = \frac{sum}{max} \cdot \frac{15 \cdot 60}{lim}
 \end{equation}
 
 ## Class __init__
