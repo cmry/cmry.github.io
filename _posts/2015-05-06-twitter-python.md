@@ -76,17 +76,17 @@ Note that at '/friends/list' we can only query 30 times as an authenticated app,
 t(q) = \frac{sum}{max} \cdot i = \frac{sum}{max} \cdot \frac{15 \cdot 60}{lim}
 \end{equation}
 
-So say that we have three profiles with 1000 ($max = 1000 \cdot 3$) friends, this would result in $t(q) = 3000 / 200 \cdot 15*60 / 30 = 450$ seconds (!) for three profiles. This isn't such a big deal when we're only interested in a fairly small amount of people. Otherwise we'll have to sit this query process out for a while, which definitely needs to be taken into account whilst designing an experimental setup.
+So say that we have three profiles with 1000 ($max = 1000 \cdot 3$) friends, this would result in $t(q) = 3000 / 200 \cdot 15\cdot60 / 30 = 450$ seconds (!) for three profiles. This isn't such a big deal when we're only interested in a fairly small amount of people. Otherwise we'll have to sit this query process out for a while, which definitely needs to be taken into account whilst designing an experimental setup.
 
-When writing a program that uses this API and which has to deal with its rate limits, it would be a good thing to optimize the amount of queries per some amount of seconds, especially when database interactions, preprocessing and this kind of stuff is happening in the background and taking up time before the next query. This was one of the reasons I started developing the wrapper for Tweepy; to make sure that the $t(q)$ in our equation is very approximate to the amount of time the class methods will be taking. So, let's get into the design now.
+When writing a program that uses this API and which has to deal with its rate limits, it would be a good thing to optimize the amount of queries per some amount of seconds, especially when database interactions, preprocessing and this kind of stuff is happening in the background and taking up time before the next query. This was one of the reasons I started developing the wrapper for Tweepy; to make sure that the $t(q)$ in our equation is very approximate to the amount of time the class methods will be taking.
 
 ## Syntactic Sugar
 
-As you might know, syntactic sugar is a way to describe syntax in a programming language that makes it 'tastier to consume': easier to read, work with or just to make things work in an alternative style. Now while this is predominantly used for lower-level code, it also works well to describe a certain type of wrapper.  
+As you might know, syntactic sugar is a way to describe syntax in a programming language that makes it 'tastier to consume': easier to read, work with, or just to make things work in an alternative style. Now while this is predominantly used for lower-level code, it also works well to describe a certain type of wrapper. The aim is then to simplify certain interactions, that do mostly the same as existing code, but in a more intuitive or task-specific manner (of which the latter is the case here). So, let's get into the design now.
 
 # Class __init__
 
-So, starting off, of course we start off initiating the class and setting some of the first local parameters. Please note that I will truncate the docstrings and only leave the parameters, the code is documented on github.
+We start off initiating the class, of course, and setting some of the first local parameters. Please note that I will truncate the docstrings and only leave the parameters, the code is documented on [github](). Moving the `auth` function to be called by either 'user' or 'app' makes fiddling with the different handler classes a little less troublesome. Now starting for example `api = TwAPI('user')` already gives a fully authenticated api object to work with directly!
 
 {% highlight python %} 
 import tweepy as twp
@@ -116,13 +116,11 @@ class TwAPI:
         self.api = twp.API(self.auth) 
 {% endhighlight %}
 
-Probably good to make these a bit higher level in the code. From there, either user or app authentication is possible.
-
-> **Note:** Might be better to make TwAPI an api class, so you can just call `self.user_timeline` instead of `self.api.user_timeline`.
+> **Note:** For future work, it is probably a good idea to move the tokens a bit higher level in the code (like in a dict) so you don't have to fiddle inside the class. Might also be better to make TwAPI an api class, so you can just call `self.user_timeline` instead of `self.api.user_timeline`.
 
 # Profile-based methods
 
-So starting for example `api = TwAPI('user')` already gives a fully authenticated api object to work with directly. Adding pieces of code to just retrieve friends and timelines isn't that big of a deal, we just call the appropriate Tweepy function:
+Adding pieces of code to just retrieve friends and timelines isn't that big of a deal, as we saw before. We integrate the cursor part and the iterator in separate methods and we just call the appropriate Tweepy function:
 
 {% highlight python %} 
 def get_friends(self, name):
@@ -141,22 +139,15 @@ def get_timeline(self, name):
         return l
 {% endhighlight %}
 
-Or if we want to do it in a generator, we edit this bit:
+Both of these functions have a preset maximum count window, and store all the retrieved data in one list, and return that. Due to memory constrains on big sets, it could be better to do it in a generator. For this, we edit this bit:
 
 {% highlight python %} 
-l = list()
-for i in cursor.pages():
-    for user in i:
-        l.append(user.screen_name)
-return l
-{% endhighlight %}
-
-To:
-
-{% highlight python %} 
-for i in cursor.pages():
-    for user in i:
-        yield user.screen_name
+- l = list()
+  for i in cursor.pages():
+      for user in i:
++         yield user.screen_name
+-         l.append(user.screen_name)
+- return l
 {% endhighlight %}
 
 Then we interact with these class methods like so:
@@ -170,9 +161,11 @@ Out[2]:
 ...
 {% endhighlight %}
 
+Note that this assumes that you want pagination anyway; there is no real reason to call the method without a cursor. In normal code, it is just a tad neater to omit this if you do not need multiple pages. This implies, however, that it will **always** retrieve the entire object. If you decide that someone with 1000 friends has only a relevant slice of the first or last 200, then it's best to alter the code.
+
 # Handling Rate Limits
 
-Either way, these functions do not have real added value, and we will quickly run into the [API rate limits](https://dev.twitter.com/rest/public/rate-limits). That's why I implemented a waiting function to correct for both processing time and amount of queries allowed per 15 minutes. The current version looks a bit horrible, but the general idea is as follows:
+Either way, these functions do not have real added value, and we will quickly run into the [API rate limits](https://dev.twitter.com/rest/public/rate-limits) as we have them set up now. That's why I implemented a waiting function to correct for both processing time and amount of queries allowed per 15 minutes. The current version looks a bit horrible, but the general idea is as follows:
 
 {% highlight python %} 
 from time import sleep, strftime, time
