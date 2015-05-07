@@ -4,17 +4,17 @@ title: Syntactic Sugar for Tweepy
 date: 2015-05-06 12:01:36
 ---
 
-Lately I have been collection a large amount of tweets for building a good representation of the expected social discourse and its meta-data. After some digging around, I settled for [Tweepy](https://tweepy.readthedocs.org/) to interface with the Twitter API. There were several scenario's which I was looking to implement: grab the available associates (followers, friends) and timeline given a user's name, and resolving a large number of tweets given a set of tweet IDs. Don't get me wrong, Tweepy offers a very nice interface, but it was a bit too general-purpose for my liking, so I started building a wrapper class around Tweepy. In this post, I will talk a bit about its functionality, considerations and future improvements while discussing the task of utilizing the Twitter API for NLP-related research.
+Lately I have been collecting a large amount of tweets for building a good representation of Twitter-user's expected social discourse and its meta-data. Basically, a fancy way of saying that I want to see who *publicly* shares what, and with whom. After some digging around, I settled for [Tweepy](https://tweepy.readthedocs.org/) to interface with the Twitter API. There were several scenarios which I was looking to implement: grab the available associates (followers, friends) and public timeline given a user's name, and resolving a large number of tweets given a set of tweet IDs. Don't get me wrong, Tweepy offers a very nice interface. It was a bit too general-purpose for my liking though, so I started building a wrapper class around Tweepy. In this post, I will talk a bit about its functionality, considerations and future improvements while discussing the task of utilizing the Twitter API for Natural Language Processing-related research.
 
 ![twitter](http://www.dototot.com/wp-content/uploads/2013/11/guidoTwitterBot_final1-1-820x460.jpg)
-
+    
 ## Introduction
 
-Twitter's short messaging system has been a well known issue for many tasks related to Natural Language Processing (NLP). Most of the techniques in its field tend to work very well given enough context per document; something which is clearly constrained in tweets. It therefore makes for a very challenging and equally interesting platform to work with. Accessing its data, however, can prove a time consuming task. For example: if you're interested in a specific topic relevant for only a region or language (such as political tweets), you can either hope to get some share of this in its [stream](), or constrain it with geo location (which many people do not enable). Keeping in mind that a [normal human being]() only has access to a very small percentage of this stream makes it all the more annoying at times. One might think: well, if I know a person who's from the country I'm interested in, I can just pull his tweets and look at those of his friends as well, right? Turns out it's not that simple.
+Twitter's short messaging system has been a well known hurdle for many tasks related to Natural Language Processing (NLP). Most of the techniques in its field tend to work very well given enough context per document; something which is clearly constrained in tweets. It therefore makes for a very challenging and equally interesting platform to work with. Accessing its data, however, can prove a time consuming task. To illustrate: if you're interested in a specific topic relevant for only a region or language (such as political tweets), you can either hope to get some share of this in its [stream](#), or constrain it with geo location (which many people do not enable). Keeping in mind that a [normal human being](#) only has access to a very small percentage of this stream makes it all the more annoying at times. One might think: well, if I know a person who's from the country I'm interested in, I can just pull his tweets and look at those of his friends as well, right? Turns out it's not that simple.
 
 ## The Twitter API & Tweepy
 
-Twitter offers an interface to the tasks I described above, as well as a wide variety of most other information one would like to get his hands on. These can in essence be accessed through a [REST]() interface, which might be rather unintuitive to novel users. Luckily most programming languages offer a wrapper for this API, [Tweepy](https://tweepy.readthedocs.org/) for Python being one of them. To access the API, you need a Twitter account and developer credentials - the latter of which can be obtained by creating an 'app'. At the [apps section](https://apps.twitter.com/) in Twitter, one is able to create this app. After creation, it will list a *manage keys and access tokens* point near the Consumer Key. From that section, you can generate the tokens needed to fill in for authorization, which I will refer to as `cons_key`, `cons_sec`, `accs_tok`, `accs_sec`. There are two steps to this authorization; app-level authorization, and-user level authorization. The `cons_` keys are needed for app-level, and need to be combined with the `accs_` ones for user-level authorization. This will give us app-level:
+Twitter offers an interface to the tasks I described above, as well as a wide variety of most other information one would like to get his hands on. These can in essence be accessed through a [REST](#) interface, which might be rather unintuitive to novel users. Luckily most programming languages offer a wrapper for this API, [Tweepy](https://tweepy.readthedocs.org/) for Python being one of them. To access the API, you need a Twitter account and developer credentials - the latter of which can be obtained by creating an 'app', for which one can refer to [apps section](https://apps.twitter.com/). After receiving your brand spanking new app environment, it will list a *manage keys and access tokens* point near the Consumer Key. From that section, you can generate the tokens needed to fill in for authorization, which I will refer to as `cons_key`, `cons_sec`, `accs_tok`, `accs_sec`. There are two steps to this authorization; app-level authorization, and-user level authorization. The `cons_` keys are needed for app-level, and need to be combined with the `accs_` ones for user-level authorization. This will give us app-level:
 
 {% highlight python %} 
 import tweepy
@@ -37,18 +37,18 @@ auth = tweepy.OAuthHandler(cons_key, cons_sec)
 auth.set_access_token(accs_tok, accs_sec)
 {% endhighlight %}
 
-Notice that the latter has a different Handler, and needs to add the tokens after creating the `auth` variable. Given that we authenticated ourselves, we can now do something such as:
+Notice that the latter has a different Handler, and needs to add the tokens after creating the `auth` variable. If no errors are thrown, you are good to go! Given that we authenticated ourselves, we can now move the `auth` variable in the API, and do something such as:
 
 {% highlight python %} 
 api = tweepy.API(auth)
 api.friends('username')
 {% endhighlight %}
 
-Which will return up until some amount of friend-names in a list! Great! Now that wasn't so hard, right? 
+Which will return up until some amount of friend-names in a list! Great! Now that wasn't so hard, right? Not yet.
 
 ## Twitter Rate Limits & Pagination
 
-Well, turns out Twitter has long monetized its data-access, and therefore only allows you to pull this for different accounts only some X amount of times per 15 minutes. These rate limits vary per access level, documented [here](https://dev.twitter.com/rest/public/rate-limiting). On top of that, the amount of entries that can be retrieved per 'page' also varies. Example: say that we want to list all the friends from some guy or girl who has more than 200 friends. Twitter only allows us to access these in pages of 200 friends. So in the previous example where I just called `api.friends('username')` we would get 200 friends only, even if the person has more. To solve this, we need to use a `Cursor` function, which in Python is similar to a [generator](). This works as follows:
+Well, turns out Twitter has long monetized its data access, and therefore only allows you to pull this `api.friends` for different accounts only some X amount of times per 15 minutes. These rate limits vary per access level (user/app), which is acceptably well documented [here](https://dev.twitter.com/rest/public/rate-limiting) (Twitter docs can be incredibly vague). On top of that, the amount of entries that can be retrieved per 'page' also varies. Example: say that we want to list all the friends from some guy or girl who has more than 200 friends. Twitter only allows us to access these in pages of 200 friends. So in the previous example where I just called `api.friends('username')` we would get 200 friends only, even if the person has more. To solve this, we need to use a `Cursor` function, which in Python is similar to a [generator](). You can call its `pages()` for iteration, which works as follows:
 
 {% highlight python %} 
 cursor = tweepy.Cursor(api.friends, id=name, count=200)
@@ -57,7 +57,20 @@ for page in cursor.pages():
         # do something with a friend
 {% endhighlight %}
 
-Each time we access the API, regardless of doing this in `cursor.pages()` or without, Twitter will count it as one access.
+Each time we access the API, regardless of doing this in `cursor.pages()` or without, Twitter will count it as one access instance. Per access instance, Twitter substracts one from the rate limit counter. These rate limits can be viewed with `api.rate_limit_status()`, which returns a dict listing, amongst others, remaining queries per function. So if we look this up for the query we previously used, we see:
+
+{% highlight python %} 
+In [4]: api.rate_limit_status()['resources']['friends']
+Out[4]: 
+{'/friends/following/ids': {'limit': 15, 'remaining': 15, 'reset': 1430993361},
+ '/friends/following/list': {'limit': 15,
+  'remaining': 15,
+  'reset': 1430993361},
+ '/friends/ids': {'limit': 15, 'remaining': 15, 'reset': 1430993361},
+ '/friends/list': {'limit': 30, 'remaining': 29, 'reset': 1430993361}}
+{% endhighlight %}
+
+Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. $c = \frac{60}{5}$. 
 
 ## Class __init__
 
