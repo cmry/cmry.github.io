@@ -70,7 +70,7 @@ Out[4]:
  '/friends/list': {'limit': 30, 'remaining': 29, 'reset': 1430993361}}
 {% endhighlight %}
 
-Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. \(c = 5\). 
+Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. <span>$c = \frac{60}{5}$</span>. 
 
 ## Class __init__
 
