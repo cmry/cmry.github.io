@@ -8,7 +8,7 @@ Lately I have been collecting a large amount of tweets for building a good repre
 
 ![twitter](http://www.dototot.com/wp-content/uploads/2013/11/guidoTwitterBot_final1-1-820x460.jpg)
     
-## Introduction
+# Introduction
 
 Twitter's short messaging system has been a well known hurdle for many tasks related to Natural Language Processing (NLP). Most of the techniques in its field tend to work very well given enough context per document; something which is clearly constrained in tweets. It therefore makes for a very challenging and equally interesting platform to work with. Accessing its data, however, can prove a time consuming task. To illustrate: if you're interested in a specific topic relevant for only a region or language (such as political tweets), you can either hope to get some share of this in its [stream](#), or constrain it with geo location (which many people do not enable). Keeping in mind that a [normal human being](#) only has access to a very small percentage of this stream makes it all the more annoying at times. One might think: well, if I know a person who's from the country I'm interested in, I can just pull his tweets and look at those of his friends as well, right? Turns out it's not that simple.
 
@@ -62,7 +62,7 @@ Each time we access the API, regardless of doing this in `cursor.pages()` or wit
 {% highlight python %} 
 In [4]: api.rate_limit_status()['resources']['friends']
 Out[4]: 
-{'/friends/following/ids': {'limit': 15, 'remaining': 15, 'reset': 1430993361},
+{'/friends/following/ids': {'limit': 15, 'remaining': 15, ...},
  '/friends/following/list': {'limit': 15, 
   'remaining': 15,
   'reset': 1430993361},
@@ -76,7 +76,13 @@ Note that at '/friends/list' we can only query 30 times as an authenticated app,
 t(q) = \frac{sum}{max} \cdot i = \frac{sum}{max} \cdot \frac{15 \cdot 60}{lim}
 \end{equation}
 
-So say that we have three profiles with 1000 ($max = 1000 \cdot 3$) friends, this would result in $t(q) = 3000 / 200 \cdot 15*60 / 30 = 450$ seconds (!) for three profiles. This isn't such a big deal when we're only interested in a fairly small amount of people. Otherwise we'll have to sit this query process out for a while, which is definitely to be taken in consideration whilst designing an experimental setup.
+So say that we have three profiles with 1000 ($max = 1000 \cdot 3$) friends, this would result in $t(q) = 3000 / 200 \cdot 15*60 / 30 = 450$ seconds (!) for three profiles. This isn't such a big deal when we're only interested in a fairly small amount of people. Otherwise we'll have to sit this query process out for a while, which definitely needs to be taken into account whilst designing an experimental setup.
+
+When writing a program that uses this API and which has to deal with its rate limits, it would be a good thing to optimize the amount of queries per some amount of seconds, especially when database interactions, preprocessing and this kind of stuff is happening in the background and taking up time before the next query. This was one of the reasons I started developing the wrapper for Tweepy; to make sure that the $t(q)$ in our equation is very approximate to the amount of time the class methods will be taking. So, let's get into the design now.
+
+# Syntactic Sugar
+
+As you might know, syntactic sugar is a way to describe syntax in a programming language that makes it 'tastier to consume': easier to read, work with or just to make things work in an alternative style. Now while this is predominantly used for lower-level code, it also works well to describe a certain type of wrapper.  
 
 ## Class __init__
 
