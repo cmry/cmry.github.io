@@ -1,16 +1,12 @@
 ---
 layout: post
-title: Syntactic Sugar for Tweepy
+title: The Twitter API & Python: Syntactic Sugar for Tweepy
 date: 2015-05-06 12:01:36
 ---
 
 Lately I have been collecting a large amount of tweets for building a good representation of Twitter-user's expected social discourse and its meta-data. Basically, a fancy way of saying that I want to see who *publicly* shares what, and with whom. After some digging around, I settled for [Tweepy](https://tweepy.readthedocs.org/) to interface with the Twitter API. There were several scenarios which I was looking to implement: grab the available associates (followers, friends) and public timeline given a user's name, and resolving a large number of tweets given a set of tweet IDs. Don't get me wrong, Tweepy offers a very nice interface. It was a bit too general-purpose for my liking though, so I started building a wrapper class around Tweepy. In this post, I will talk a bit about its functionality, considerations and future improvements while discussing the task of utilizing the Twitter API for Natural Language Processing-related research.
 
 ![twitter](http://www.dototot.com/wp-content/uploads/2013/11/guidoTwitterBot_final1-1-820x460.jpg)
-
-### Contents
-
-[Introduction](#Introduction)
     
 ## Introduction
 
@@ -268,13 +264,11 @@ def stream(self, o_filter):
         print(traceback.format_exc())
 {% endhighlight %}
 
-As can be seen, we can give this method some filter; either a `str` or a `list`. The list functions as a bound box for coordinates, such as bb = [2.52490234375, 50.6976074219, 5.89248046875, 51.4911132813]  (for Belgium). This will allow you to only collect tweets in some area. Alternatively, passing a string will result in the keyword filter I discussed above.
+As can be seen, we can give this method some filter; either a `str` or a `list`. The list functions as a bound box for coordinates, such as bb = [2.52490234375, 50.6976074219, 5.89248046875, 51.4911132813]  (for Belgium). This will allow you to only collect tweets in some area. Alternatively, passing a string results in the keyword filter I discussed. Sadly, due to the fact that stream only allows you to view a small percentage of the actual data, the more specific your searches will be, the less frequent things will show up in the stream.
 
-As I mentioned in the introduction of this post, the stream only allows for a small percentage 
+# Twitter datasets & List of IDs
 
-# List of id's
-
-Close to every Twitter dataset offers either user or post id's that have to be resolved, as giving the entire status object is in violation of Twitter's terms of service. It is therefore likely that one has resolve these at some point. Twitter allows for feeding lists of 100 of such id's, which we can use in code as such:
+Luckily, we can avoid working with most of the heavy rate limits by using Twitter datasets. These datasets are usually constructed for research purposes; therefore, if you're in luck they will have some form of annotation that provides more meta-data on instance. For example, one might receive a list of user IDs and an annotated gender. Close to every Twitter dataset offers either these user or tweet IDs that have to be resolved, as giving the entire status object is in violation of Twitter's terms of service. It is therefore likely that one has to retrieve either the User or Status objects at some point. Twitter allows for feeding lists of 100 of such IDs, which we can use in code as such:
 
 {% highlight python %} 
 def get_messages(self, msl):
@@ -288,8 +282,4 @@ for 100_batch in batchlist:
 		# do something
 {% endhighlight %}
 
-** To be updated **
-<!--
-7 min rest. 19 inst
-NaN: 368, 524353, 2558732, 406, 497808, 638382, 394, 5099
--->
+This would start resolving the ID's, after which they can be written do a database, file, or whatever. The advantage here is that at times you are able to process tweets much faster; say that we have 100.000 messages, then $t(q) = 100.000 / 100 \cdot 15\cdot60 / 180 = 5000$ seconds. In comparison with for example the user timeline where we would need to retrieve around 30 profiles for the same amount of messages, then $t(q) = 100.000 / 200 /cdot 15 /cdot 60 / 300 = 1500$ seconds only, this is slower. However, seeing that we already know what we are looking for (each tweet is relevant to our research), and that we still process 20 tweets per second, this is a good trade-off to make in specific cases.
