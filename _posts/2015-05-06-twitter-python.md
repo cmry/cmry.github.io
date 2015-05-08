@@ -8,7 +8,9 @@ Lately I have been collecting a large amount of tweets for building a good repre
 
 ![twitter](http://www.dototot.com/wp-content/uploads/2013/11/guidoTwitterBot_final1-1-820x460.jpg)
 
-[TOC]
+### Contents
+
+[Introduction](#Introduction)
     
 ## Introduction
 
