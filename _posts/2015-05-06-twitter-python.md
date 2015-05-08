@@ -217,12 +217,26 @@ Using these functions between each iteration, the hope is to approximate $t(q)$ 
 
 # Stream and Geo
 
+Previously I talked about the possibility for one to interact with the Twitter stream. Here, you can 'attach' yourself to the entire live stream of messages that are sent over Twitter. Despite the fact that you can only see some very small percentage of the actual data, sometimes it's useful to use in combination with a filter. The stream allows keyword filtering, as well as geo filtering. In the first case, we tell twitter that if there's a certain keyword (for example 'semantic'), we want it to show up in our stream. In Python, this would look something like this:
+
+{% highlight python %}
+
+11:49:41 - (stream): filtering keyword
+11:49:41 - (stream): cravetrain: Semantic timeline markup, hCal using HTML5 \<time\> events as \<li\> in \<ol\> ?
+
+{% endhighlight %}
+
+If we visualize:
+
+![stream](http://www.digital-constructions.com/blog/uploaded_images/twitterStreamGraph-799455.jpg)
+
 In order to pick Tweets from the stream, we need to add a bit more code. 
 
 {% highlight python %} 
 class StdOutListener(twp.StreamListener):
 
     def on_status(self, status):
+        print(status['text'])
         # do some stuff with the status
         return True
 
@@ -237,11 +251,14 @@ class StdOutListener(twp.StreamListener):
 Adding this to our class:
 
 {% highlight python %} 
-def stream(self, bound_box):
+def stream(self, o_filter):
     listener = StdOutListener()
     self.stream = twp.Stream(self.auth, listener)
     try:
-        self.stream.filter(locations=bound_box)
+        if type(o_filter) == list():
+            self.stream.filter(locations=o_filter)
+        else:
+            self.stream.filter(o_filter)
     except Exception:
         print(traceback.format_exc())
 {% endhighlight %}
