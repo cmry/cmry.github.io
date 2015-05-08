@@ -7,6 +7,8 @@ date: 2015-05-06 12:01:36
 Lately I have been collecting a large amount of tweets for building a good representation of Twitter-user's expected social discourse and its meta-data. Basically, a fancy way of saying that I want to see who *publicly* shares what, and with whom. After some digging around, I settled for [Tweepy](https://tweepy.readthedocs.org/) to interface with the Twitter API. There were several scenarios which I was looking to implement: grab the available associates (followers, friends) and public timeline given a user's name, and resolving a large number of tweets given a set of tweet IDs. Don't get me wrong, Tweepy offers a very nice interface. It was a bit too general-purpose for my liking though, so I started building a wrapper class around Tweepy. In this post, I will talk a bit about its functionality, considerations and future improvements while discussing the task of utilizing the Twitter API for Natural Language Processing-related research.
 
 ![twitter](http://www.dototot.com/wp-content/uploads/2013/11/guidoTwitterBot_final1-1-820x460.jpg)
+
+[TOC]
     
 ## Introduction
 
@@ -221,8 +223,9 @@ Previously I talked about the possibility for one to interact with the Twitter s
 
 {% highlight python %}
 
-11:49:41 - (stream): filtering keyword
-11:49:41 - (stream): cravetrain: Semantic timeline markup, hCal using HTML5 \<time\> events as \<li\> in \<ol\> ?
+11:49:41 - (stream): filtering keyword 'semantic'
+11:49:42 - (stream): cravetrain: Semantic timeline markup, hCal ...
+11:54:07 - (stream): djplb: @rustuswayne Obama!s Groundbreaking ...
 
 {% endhighlight %}
 
@@ -230,7 +233,7 @@ If we visualize:
 
 ![stream](http://www.digital-constructions.com/blog/uploaded_images/twitterStreamGraph-799455.jpg)
 
-In order to pick Tweets from the stream, we need to add a bit more code. 
+In order to pick these Tweets from the stream, we need to add a bit more code. First off, there needs to be a `StdOutListener` so that whatever is given to the streamer can actually be handled in Python:
 
 {% highlight python %} 
 class StdOutListener(twp.StreamListener):
@@ -248,7 +251,7 @@ class StdOutListener(twp.StreamListener):
 
 {% endhighlight %}
 
-Adding this to our class:
+Replacing `# do some stuff...` with database or file interactions allows direct storing of any [Status Object](https://dev.twitter.com/rest/reference/post/statuses/update) that the stream yields. To check if we're doing fine, I wrote a small print for `status['text']` here. Now that we have this, we can go about writing the method to call the stream. We add this to the `TwAPI` class:
 
 {% highlight python %} 
 def stream(self, o_filter):
@@ -263,7 +266,9 @@ def stream(self, o_filter):
         print(traceback.format_exc())
 {% endhighlight %}
 
-If we include some database interaction in the `StdOutListener`, tweets can be directly fetched from the stream. Additionally, giving a `bound_box` of coordinates such as bb = [2.52490234375, 50.6976074219, 5.89248046875, 51.4911132813] allows us to only collect tweets in some area. Calling `api.stream(bb)` then continuously writes these out.
+As can be seen, we can give this method some filter; either a `str` or a `list`. The list functions as a bound box for coordinates, such as bb = [2.52490234375, 50.6976074219, 5.89248046875, 51.4911132813]  (for Belgium). This will allow you to only collect tweets in some area. Alternatively, passing a string will result in the keyword filter I discussed above.
+
+As I mentioned in the introduction of this post, the stream only allows for a small percentage 
 
 # List of id's
 
@@ -282,3 +287,7 @@ for 100_batch in batchlist:
 {% endhighlight %}
 
 ** To be updated **
+<!--
+7 min rest. 19 inst
+NaN: 368, 524353, 2558732, 406, 497808, 638382, 394, 5099
+-->
