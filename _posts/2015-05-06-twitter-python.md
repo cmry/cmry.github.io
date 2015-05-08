@@ -70,7 +70,7 @@ Out[4]:
  '/friends/list': {'limit': 30, 'remaining': 29, 'reset': 1430993361}}
 {% endhighlight %}
 
-Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews. Therefore, the optimal interval $i = 15 \cdot 60 / lim$, where $lim$ is the limit. With this, we can define the time it will take to process a query ($t(q)$), by incorporating the number of results $max$ we can get per `Cursor`, and the total instances $sum$. As such:
+Note that at '/friends/list' we can only query 30 times as an authenticated app, and we queried once, so we have 29 remaining. These rate limits reset once every 15 minutes - the 'reset' counter keeps track of how much time remains until this renews (in [~~Epoch~~ Unix time](https://en.wikipedia.org/wiki/Unix_time)). Therefore, the optimal interval $i = 15 \cdot 60 / lim$, where $lim$ is the limit. With this, we can define the time it will take to process a query ($t(q)$), by incorporating the number of results $max$ we can get per `Cursor`, and the total instances $sum$. As such:
 
 \begin{equation}
 t(q) = \frac{sum}{max} \cdot i = \frac{sum}{max} \cdot \frac{15 \cdot 60}{lim}
@@ -161,11 +161,12 @@ Out[2]:
 ...
 {% endhighlight %}
 
-Note that this assumes that you want pagination anyway; there is no real reason to call the method without a cursor. In normal code, it is just a tad neater to omit this if you do not need multiple pages. This implies, however, that it will **always** retrieve the entire object. If you decide that someone with 1000 friends has only a relevant slice of the first or last 200, then it's best to alter the code.
+Note that this assumes that you want pagination anyway; there is no real reason to call the method without a cursor. In normal code, it is just a tad neater to omit this if you do not need multiple pages. This implies, however, that it will **always** retrieve the entire object. If you decide that someone with 1000 friends has only a relevant slice of the first or last 200, then it's best to alter the code. Moreover, though the methods have very similar functionality their 'pre-sets' (`count`, field calls) make it so that abstraction was avoided on purpose. 
+
 
 # Handling Rate Limits
 
-Either way, these functions do not have real added value, and we will quickly run into the [API rate limits](https://dev.twitter.com/rest/public/rate-limits) as we have them set up now. That's why I implemented a waiting function to correct for both processing time and amount of queries allowed per 15 minutes. The current version looks a bit horrible, but the general idea is as follows:
+Either way, these functions do not have real added value as-is, and we will quickly run into the [API rate limits](https://dev.twitter.com/rest/public/rate-limits) as we have them set up now. That's why I implemented a waiting function to correct for both processing time and amount of queries allowed per 15 minutes. The current version looks a bit horrible, but the general idea is as follows:
 
 {% highlight python %} 
 from time import sleep, strftime, time
@@ -211,6 +212,8 @@ def get_timeline(self, name):
         for tweet in i:
             yield tweet
 {% endhighlight %}
+
+Using these functions between each iteration, the hope is to approximate $t(q)$ as defined before. To properly correct for computation time between functions, the method tries to see how much global time has passed since the previous call, however, if this is $-$, the current code does not smear that out across multiple iterations. This is something for future work.
 
 # Stream and Geo
 
