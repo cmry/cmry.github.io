@@ -82,7 +82,7 @@ When writing a program that uses this API and which has to deal with its rate li
 
 ## Syntactic Sugar
 
-As you might know, syntactic sugar is a way to describe syntax in a programming language that makes it 'tastier to consume': easier to read, work with, or just to make things work in an alternative style. Now while this is predominantly used for lower-level code, it also works well to describe a certain type of wrapper. The aim is then to simplify certain interactions, that do mostly the same as existing code, but in a more intuitive or task-specific manner (of which the latter is the case here). So, let's get into the design now.
+As you might know, syntactic sugar is a way to describe syntax in a programming language that makes it 'tastier to consume': easier to read, work with, or just to make things work in an alternative style. Now while this is predominantly used for lower-level code, it also works well to describe a  type of wrapper. The aim is then to simplify certain interactions, that do mostly the same as existing code, but in a more intuitive or task-specific manner (of which the latter is the case here). So, let's get into the design now.
 
 # Class __init__
 
