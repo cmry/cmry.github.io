@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Twitter API & Python: Syntactic Sugar for Tweepy
+title: The Twitter API and Python: Syntactic Sugar for Tweepy
 date: 2015-05-06 12:01:36
 ---
 
