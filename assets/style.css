@@ -3,7 +3,7 @@
 body {
   /* font-family: Helvetica, Arial, sans-serif; */
   font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.5;
   font-weight: 300; 
   background-color: #DAE3E7;
@@ -27,7 +27,7 @@ hr {
   height: 6px; }
 
 .wrapper {
-  max-width: 620px;
+  max-width: 720px;
   width: 100%;
   margin: auto; }
 
@@ -87,7 +87,7 @@ hr {
   font-size: 0; }
   .posts .post-link {
     color: inherit;
-    font-size: 18px;
+    font-size: 16px;
     display: block;
     text-align: left;
     margin-bottom: 20px;
@@ -155,7 +155,7 @@ hr {
 article {
   padding: 25px;
   background-color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
   line-height: 1.6em;
   position: relative; }
