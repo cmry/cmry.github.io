@@ -1,14 +1,16 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
 body {
-  background-color: #DAE3E7;
-  color: #343434;
-  line-height: 1.6em;
-  padding: 20px 10px; 
   /* font-family: Helvetica, Arial, sans-serif; */
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  font-weight: 300; }
+  font-weight: 300; 
+  background-color: #DAE3E7;
+  color: #343434;
+  line-height: 1.6em;
+  padding: 20px 10px; 
+}
 
 a {
   color: #3AAA64;
@@ -84,7 +86,7 @@ hr {
   font-size: 0; }
   .posts .post-link {
     color: inherit;
-    font-size: 13px;
+    font-size: 16px;
     display: block;
     text-align: left;
     margin-bottom: 20px;
@@ -119,7 +121,7 @@ hr {
       margin: 0 0 5px; }
     .posts .post-link .meta {
       opacity: .4;
-      font-size: 10px; }
+      font-size: 14px; }
     .posts .post-link .excerpt {
       color: #888;
       margin: 20px 0 0;
@@ -152,7 +154,7 @@ hr {
 article {
   padding: 25px;
   background-color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   color: #565656;
   line-height: 1.6em;
   position: relative; }
@@ -196,7 +198,7 @@ article {
   .pagination .tip {
     padding-bottom: 20px; }
   .pagination .small-title, .pagination .tip {
-    font-size: 11px;
+    font-size: 14px;
     color: #888; }
   .pagination h4 {
     margin: 5px 0; }
