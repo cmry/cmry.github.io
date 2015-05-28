@@ -10,6 +10,8 @@ body {
   color: #343434;
   line-height: 1.6em;
   padding: 20px 10px; 
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 a {
@@ -17,7 +19,7 @@ a {
   font-weight: 400; }
 
 b, strong, h1, h2, h3, h4, h5 {
-  font-weight: 400; }
+  font-weight: 500; }
 
 hr {
   border: 0;
