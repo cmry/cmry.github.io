@@ -37,6 +37,7 @@ hr {
 
 .site-header {
   font-weight: bold;
+  font-size:12px;
   text-transform: uppercase;
   margin-bottom: 20px;
   text-align: right; }
@@ -155,7 +156,7 @@ article {
   padding: 25px;
   background-color: #fff;
   font-size: 18px;
-  color: #565656;
+  color: #333;
   line-height: 1.6em;
   position: relative; }
   article hr {
@@ -165,7 +166,7 @@ article {
   article header {
     margin-bottom: 30px; }
     article header .post-title {
-      font-weight: 700;
+      font-weight: 400;
       margin: 0; }
   article .signoff {
     margin-top: 30px;
