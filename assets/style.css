@@ -156,11 +156,11 @@ hr {
 }
 
 .posts .post-link .excerpt {
-  color: #888;
+  color: #333;
   margin: 20px 0 0;
   max-height: 100px;
   overflow: hidden;
-  font-weight: normal
+  font-weight: 300
 }
 
 .posts .post-link .mark {
