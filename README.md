@@ -1,4 +1,4 @@
 Coding blog thingy.
 
-Template by:
+Template derived from:
 [@muanchiou](http://twitter.com/muanchiou)
