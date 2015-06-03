@@ -13,7 +13,7 @@ body {
 }
 
 a {
-  color: #3AAA64;
+  color: #31363d;
   font-weight: 400
   }
 
@@ -63,16 +63,16 @@ hr {
 }
     
 .site-header .site-title:hover {
-  color: #61bb83
+  color: #363b43
 }
       
 .site-header .site-title:hover .block {
-  background-color: #3AAA64;
+  background-color: #31363d;
 }
       
 .site-header .site-title:hover .lastname {
   opacity: .7;
-  color: #61bb83;
+  color: #363b43;
 }
     
 .site-header .site-title .block {
