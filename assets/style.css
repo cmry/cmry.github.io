@@ -3,7 +3,7 @@
 body {
   /* font-family: Helvetica, Arial, sans-serif*/
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
   background-color: #ececec;
@@ -110,7 +110,7 @@ hr {
 
 .posts .post-link {
   color: inherit;
-  font-size: 20px;
+  font-size: 18px;
   display: block;
   text-align: left;
   margin-bottom: 20px;
@@ -200,7 +200,7 @@ article {
   padding: 25px;
   /* background-color: #fff; */
   background-color: #ececec;
-  font-size: 20px;
+  font-size: 18px;
   color: #333;
   line-height: 1.6em;
   position: relative
