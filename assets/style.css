@@ -160,7 +160,7 @@ hr {
 .posts .post-link .excerpt {
   color: #333;
   margin: 20px 0 0;
-  max-height: 160px;
+  max-height: 120px;
   overflow: hidden;
   font-weight: 300
 }
