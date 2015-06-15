@@ -6,7 +6,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #DAE3E7;
+  background-color: #ececec;
+  /* background-color: #DAE3E7; */
   color: #343434;
   line-height: 1.6em;
   padding: 20px 10px
@@ -113,7 +114,8 @@ hr {
   display: block;
   text-align: left;
   margin-bottom: 20px;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: #ececec;
   padding: 25px;
   border: 1px solid transparent;
   overflow: hidden;
