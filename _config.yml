@@ -9,7 +9,8 @@ google_analytics: UA-21332781-7
 timezone:         Europe/London
 paginate:  		  5
 links: 
-  - name:         check my cv
+  - name:         about me
     url:          http://chris.emmery.nl/
 social:
-    github:       fazzeh
+  - github:       fazzeh
+  	url:		  https://github.com/fazzeh
