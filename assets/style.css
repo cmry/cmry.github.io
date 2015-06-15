@@ -198,7 +198,8 @@ hr {
 
 article {
   padding: 25px;
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #ececec;
   font-size: 16px;
   color: #333;
   line-height: 1.6em;
