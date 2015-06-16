@@ -111,8 +111,8 @@ pre code {
   padding: 0; }
 
 pre, code {
-  background-color: #F8F8F8;
+  background-color: #DDD;
   border: 1px solid #E5E5E5;
   font-size: 13px;
   padding: 3px 5px;
-  border-radius: 3px; }
+  border-radius: 5px; }
