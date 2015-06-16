@@ -286,3 +286,7 @@ article ul, article ol {
   color: #999;
   display: inline-block
 }
+
+.MathJax {
+  font-size: 85%;
+}
