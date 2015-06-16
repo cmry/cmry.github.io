@@ -288,5 +288,5 @@ article ul, article ol {
 }
 
 .MathJax {
-  font-size: 85%;
+  font-size: 85% !IMPORTANT;
 }
