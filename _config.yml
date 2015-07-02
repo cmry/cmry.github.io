@@ -1,5 +1,5 @@
 title:            Chris Emmery -- Blog
-url:              https://fazzeh.github.io/
+url:              https://cmry.github.io
 permalink:        pretty
 pygments:         true
 markdown:         rdiscount
@@ -8,7 +8,7 @@ rdiscount:
 google_analytics: UA-21332781-7
 timezone:         Europe/London
 paginate:  		  5
-links: 
+links:
   - name:         about me
     url:          http://chris.emmery.nl/
 social:
