@@ -1,8 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 
 body {
-  /* font-family: Helvetica, Arial, sans-serif*/
-  font-family: 'Roboto', sans-serif;
+  /* font-family: Helvetica, Arial, sans-serif */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; 
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
@@ -48,7 +49,7 @@ hr {
   margin-bottom: 20px;
   text-align: right
 }
-  
+
 .site-header .site-title {
   float: left;
   color: #676767;
@@ -62,20 +63,20 @@ hr {
   margin-bottom: 5px;
   font-weight: bold
 }
-    
+
 .site-header .site-title:hover {
   color: #13b1d5
 }
-      
+
 .site-header .site-title:hover .block {
   background-color: #199ab7;
 }
-      
+
 .site-header .site-title:hover .lastname {
   opacity: .7;
   color: #13b1d5;
 }
-    
+
 .site-header .site-title .block {
   display: inline-block;
   width: 30px;
@@ -248,7 +249,7 @@ article blockquote {
   padding: 5px 25px 5px 20px;
   background-color: #DDD;
   box-shadow: -3px 0 0 white,  -3px 3px 0 white,  -3px -3px 0 white, 0px 0px 0px 3px white;
-  max-width: 100% 
+  max-width: 100%
 }
 
 article blockquote p:first-child, article blockquote p:last-child {
