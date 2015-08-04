@@ -18,7 +18,7 @@
                 <small class="datetime muted">{{ page.date | date_to_string }}</small>
               {% endif %}
             {% if site.social.github and page.github %}
-            <a href="http://github.com/{{site.social.github}}/{{page.github}}"><i class="fa fa-github"></i></a>
+            <h4><a href="http://github.com/{{site.social.github}}/{{page.github}}"><i class="fa fa-github"></i></a></h4>
             {% endif %}
             </header>
             {{ content }}
