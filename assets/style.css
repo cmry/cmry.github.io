@@ -3,7 +3,8 @@
 body {
   /* font-family: Helvetica, Arial, sans-serif */
   /* font-family: 'Roboto', sans-serif; */
-  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  /* font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;*/
+  font-family: EB Garamond;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
@@ -291,5 +292,5 @@ article ul, article ol {
 }
 
 .MathJax {
-  font-size: 85% !IMPORTANT;
+  font-size: 75% !IMPORTANT;
 }
