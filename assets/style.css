@@ -20,7 +20,7 @@ body {
     font-family: 'Garamond';
     font-weight: normal;
     font-style: normal;
-    src: url('/assets/EBGaramond08-Regular.ttf');
+    src: url('EBGaramond08-Regular.ttf');
 }
 
 a {
