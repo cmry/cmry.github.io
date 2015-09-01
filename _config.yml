@@ -5,9 +5,8 @@ pygments:         true
 markdown:         rdiscount
 rdiscount:
   extensions:     [smart]
-google_analytics: UA-21332781-7
-timezone:         Europe/London
-paginate:  		  5
+timezone:         Europe/Amsterdam
+paginate:  		    5
 links:
   - name:         about me
     url:          http://chris.emmery.nl/

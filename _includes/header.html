@@ -1,11 +1,14 @@
 <header class="site-header">
+  <div class="site-face" style="background-image: url('/assets/img/face.jpg')"></div>
   <a href="/" class="site-title">
-    <div class="block"></div>
     <span class="firstname">Chris</span><span class="lastname">Emmery</strong>
   </a>
   <nav>
+    <a id="ind-home" href="https://cmry.github.io"><i class="fa fa-home"></i></a> ·
+    <a id="ind-git" href="https://www.github.com/cmry"><i class="fa fa-github"></i></a> ·
+    <a id="ind-git" href="https://www.twitter.com/_cmry"><i class="fa fa-twitter"></i></a>
     {% for link in site.links %}
-      <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
+      · <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
     {% endfor %}
   </nav>
 </header>
