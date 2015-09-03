@@ -16,11 +16,28 @@ cyberbullying and child grooming, and author profiling.
 
 ## Academic Background
 
-I hold a BA in Communication and Information Sciences from Tilburg University,
-and realized soon enough that Artificial Intelligence and programming were
-very much my thing. Hence, I obtained my MSc in Human Aspects of Information
-Technology cum laude in Tilburg, and had the honour to receive two awards for
-my thesis that I wrote on discovering trends in societal debates by means
-of Supervised Topic Modelling on online news sources. With my newly developed
-admiration for Natural Language Processing and Machine Learning, I sought to
-continue researching and applied in Antwerp. So here we are.
+After obtaining a BA in Communication and Information Sciences from
+Tilburg University, I realized soon enough that Artificial Intelligence and
+programming were very much my thing. Hence, I stayed in Tilburg and obtained
+an MSc in Human Aspects of Information Technology cum laude. I wrote quite
+the pile of pages that made my master thesis
+under the supervision of [Menno van Zaanen](linky) on discovering
+trends in societal debates by means of Supervised Topic Modelling on online
+news sources, for which I had the honour of receiving two awards
+([Leo Coolen](http://www.clips.uantwerpen.be/news/chris-emmery-wins-leo-coolen-award-for-his-master-dissertation) & [STIL](https://twitter.com/clipsua/status/563648163761106944)). With my newly developed admiration
+for Natural Language Processing and Machine Learning, I sought to continue
+research and applied (and got hired) for a PhD position in Antwerp.
+
+## Development
+
+During my studies I learned to speak most notably Python, PHP, and Java, became
+an avid Linux user and got very enthusiastic about open-source software, and
+thus open data and open science initiatives. I started a sole proprietorship
+in web development and data collection, and scripting was a large part of
+my student assistantship activites. All in all, I typed a whole bunch of code for
+websites, wrappers, and tools. My latest endeavors include a minimalistic
+conference manager ([ebacs](https://www.github.com/cmry/ebacs)), a Python
+wrapper for Stanford's Topic Modelling Toolbox
+([shed](https://www.github.com/cmry/shed)), and an environment for Computational
+Linguistics research (to be published). More details can be found
+[here](https://cmry.github.io/code).
