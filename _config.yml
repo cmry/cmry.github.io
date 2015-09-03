@@ -1,4 +1,4 @@
-title:            Chris Emmery -- Blog
+title:            Chris Emmery
 url:              https://cmry.github.io
 permalink:        pretty
 pygments:         true
@@ -6,9 +6,9 @@ markdown:         rdiscount
 rdiscount:
   extensions:     [smart]
 timezone:         Europe/Amsterdam
-paginate:  		    5
+paginate:         5
 links:
   - name:         about me
-    url:          http://chris.emmery.nl/
+    url:          /about/
 social:
     github:       cmry
