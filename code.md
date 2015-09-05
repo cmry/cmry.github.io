@@ -63,8 +63,6 @@ to a full LaTeX book of abstracts. Sample of the end result can be found [here](
 After manual work on the `.tex` files (can be found in github README),
 can be simply called with:
 
-{% highlight shell %}
-python ec2latex.py
-{% endhighlight %}
+    python ec2latex.py
 
 This code has been integrated into [ebacs](https://www.github.com/cmry/ebacs).
