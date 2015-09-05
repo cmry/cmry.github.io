@@ -40,7 +40,7 @@ hr {
 }
 
 .masthead {
-  height: 350px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   background-color: #000;
@@ -249,7 +249,9 @@ article {
   font-size: 18px;
   color: #333;
   line-height: 1.6em;
-  position: relative
+  position: relative;
+  text-align: justify;
+  text-justify: inter-word
 }
 
 article hr {
@@ -257,8 +259,6 @@ article hr {
 }
 
 article p {
-  text-align: justify;
-  text-justify: inter-word;
   margin: 0.6em 0
 }
 

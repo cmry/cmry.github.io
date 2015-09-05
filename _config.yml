@@ -8,7 +8,13 @@ rdiscount:
 timezone:         Europe/Amsterdam
 paginate:         5
 links:
-  - name:         about me
+  - name:         publ
+    url:          /publications/
+  - name:         code
+    url:          /code/
+  - name:         work
+    url:          /work/
+  - name:         about
     url:          /about/
 social:
     github:       cmry
