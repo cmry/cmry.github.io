@@ -23,7 +23,12 @@
             {% endif %}
             </header>
             {{ content }}
-            {% unless page.url == "/about/" %}{% include signoff.html %}{% endunless %}
+            {% unless page.url == "/about/" %}
+            {% unless page.url == "/publications/" %}
+            {% unless page.url == "/work/" %}
+            {% unless page.url == "/code/" %}
+              {% include signoff.html %}
+            {% endunless %}{% endunless %}{% endunless %}{% endunless %}
           </article>
           {% if page.previous or page.next %}
           <div class="pagination">
