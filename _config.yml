@@ -1,10 +1,16 @@
 title:            Chris Emmery
 url:              https://cmry.github.io
 permalink:        pretty
-pygments:         false
 markdown:         redcarpet
 redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+  extensions:
+    - footnotes
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
+highlighter:      pygments
 timezone:         Europe/Amsterdam
 paginate:         5
 links:
