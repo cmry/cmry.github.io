@@ -5,7 +5,6 @@ markdown:         redcarpet
 redcarpet:
   extensions:
     - footnotes
-    - hard_wrap
     - no_intra_emphasis
     - autolink
     - strikethrough
