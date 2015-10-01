@@ -2,9 +2,9 @@ title:            Chris Emmery
 url:              https://cmry.github.io
 permalink:        pretty
 pygments:         true
-markdown:         redcarpet
-redcarpet:
-  extensions:     ["fenced_code_blocks"]
+markdown:         rdiscount
+rdiscount:
+  extensions:     [smart]
 timezone:         Europe/Amsterdam
 paginate:         5
 links:
