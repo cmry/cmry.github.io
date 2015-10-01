@@ -1,6 +1,7 @@
 title:            Chris Emmery
 url:              https://cmry.github.io
 permalink:        pretty
+pygments:         false
 markdown:         redcarpet
 timezone:         Europe/Amsterdam
 paginate:         5
