@@ -4,6 +4,7 @@ permalink:        pretty
 markdown:         redcarpet
 redcarpet:
   extensions:
+    - tables
     - footnotes
     - no_intra_emphasis
     - autolink
