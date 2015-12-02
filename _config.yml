@@ -10,6 +10,7 @@ redcarpet:
     - autolink
     - strikethrough
     - fenced_code_blocks
+    - with_toc_data
 highlighter:      pygments
 timezone:         Europe/Amsterdam
 paginate:         5
