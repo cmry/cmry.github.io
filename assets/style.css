@@ -12,9 +12,9 @@ body {
   color: #343434;
   line-height: 1.6em;
   /* padding: 20px 10px */
-  -moz-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 70%;
+  -webkit-text-size-adjust: 70%;
+  -ms-text-size-adjust: 70%;
 }
 
 @font-face {
