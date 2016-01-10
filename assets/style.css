@@ -3,7 +3,7 @@ body {
   /* font-family: 'Roboto', sans-serif; */
   /* font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;*/
   font-family: Garamond;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   font-weight: 300;
   /* background-color: #ececec; */
@@ -12,6 +12,9 @@ body {
   color: #343434;
   line-height: 1.6em;
   /* padding: 20px 10px */
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 @font-face {
@@ -75,7 +78,7 @@ hr {
 .site-header {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size:12px;
+  font-size:14px;
   margin-bottom: 50px;
   text-align: center
 }
@@ -246,7 +249,7 @@ article {
   padding: 25px;
   background-color: #fff;
   /* background-color: #ececec; */
-  font-size: 18px;
+  font-size: 20px;
   color: #333;
   line-height: 1.6em;
   position: relative;
