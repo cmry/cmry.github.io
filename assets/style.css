@@ -159,7 +159,7 @@ hr {
 
 .posts .post-link {
   color: inherit;
-  font-size: 18px;
+  font-size: 22px;
   display: block;
   text-align: left;
   margin-bottom: 20px;
@@ -209,7 +209,7 @@ hr {
 .posts .post-link .excerpt {
   color: #333;
   margin: 20px 0 0;
-  max-height: 120px;
+  max-height: 132px;
   overflow: hidden;
   font-weight: 300
 }
