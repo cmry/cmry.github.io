@@ -291,7 +291,7 @@ article img:not([height]) {
 
 article blockquote {
   font-style: normal;
-  font-size: 14px;
+  font-size: 16px;
   width: auto;
   display: block;
   padding: 5px 25px 5px 20px;
