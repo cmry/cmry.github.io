@@ -33,7 +33,7 @@ python3 markdoc.py /dir/to/somefile.py /dir/to/somedoc.md
 
 ## shed
 
-<a href="http://github.com/cmry/shed"><i class="fa fa-github"></i></a><a href="http://readthedocs.org/shed"><i class="fa fa-book"></i></a>
+<a href="http://github.com/cmry/shed"><i class="fa fa-github"></i></a>  &nbsp;  <a href="http://shed.readthedocs.org/"><i class="fa fa-book"></i></a>
 
 A small framework for reproducible Text Mining research that largely builds
 on top of scikit-learn. Its goal is to make common research procedures fully
