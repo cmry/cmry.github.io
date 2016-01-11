@@ -7,15 +7,88 @@ mast: code
 Code, notebooks, and data I made openly available. Quick overview:
 
 ### Code
-* shed - wrapper for Labelled Latent Dirichlet Allocation
+* markdoc - convert NumPy-styled Python docstring to Markdown
+* shed - small framework for reproducible Text Minign research
+* topbox - wrapper for Labelled Latent Dirichlet Allocation (L-LDA)
 * ebacs - minimalistic conference manager
 * ec2latex - XML to LaTeX book of abstracts
 
 ----
 
+## markdoc
+
+<a href="http://github.com/cmry/markdoc"><i class="fa fa-github"></i>
+
+This piece of code can be used to convert NumPy-styled Python docstrings
+(example), such as those used in scikit-learn, to Markdown with minimum
+dependencies. In this way, only the code-contained documentation needs to be
+editted, and your documentation on for example readthedocs can be automatically
+updated thereafter with some configuration.
+
+Simply type:
+
+``` shell
+python3 markdoc.py /dir/to/somefile.py /dir/to/somedoc.md
+```
+
 ## shed
 
-<a href="http://github.com/cmry/shed"><i class="fa fa-github"></i></a>
+<a href="http://github.com/cmry/shed"><i class="fa fa-github"></i></a><a href="http://readthedocs.org/shed"><i class="fa fa-book"></i></a>
+
+A small framework for reproducible Text Mining research that largely builds
+on top of scikit-learn. Its goal is to make common research procedures fully
+automated, optimized, and well recorded. To this end it features:
+
+- Exhaustive search over best features, pipeline options, to classifier optimization.
+- Flexible wrappers to plug in your tools and features of choice.
+- Completely sparse pipeline through hashing - from data to feature space.
+- Record of all settings and fitted parts of the entire experiment, promoting reproducibility.
+- Dump an easily deployable version of the final model for plug-and-play demos.
+
+End-to-End classification in 2 minutes:
+
+``` python
+from shed.experiment import Experiment
+from shed.featurizer import Ngrams
+
+conf = {
+    "gram_experiment": {
+        "name": "gram_experiment",
+        "train_data": ["./n_gram.csv"],
+        "has_header": True,
+        "features": [Ngrams(level='char', n_list=[3])],
+        "text_column": 1,
+        "label_column": 0,
+        "folds": 10,
+        "save": ("log")
+    }
+}
+
+for experiment, configuration in conf.items():
+    Experiment(configuration)
+```
+
+Output:
+
+``` shell
+---- Shed ----
+
+ Config:
+
+        feature:   char_ngram
+        n_list:    [3]
+
+    name: gram_experiment
+    seed: 111
+
+ Sparse train shape: (20, 1287)
+
+ Tf-CV Result: 0.8
+```
+
+## topbox
+
+<a href="http://github.com/cmry/topbox"><i class="fa fa-github"></i></a>
 
 A small Python 3 wrapper around the Stanford Topic Modeling Toolbox (STMT) that
 makes working with L-LDA a bit easier; no need to leave the Python environment.
