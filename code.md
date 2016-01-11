@@ -17,7 +17,7 @@ Code, notebooks, and data I made openly available. Quick overview:
 
 ## markdoc
 
-<a href="http://github.com/cmry/markdoc"><i class="fa fa-github"></i>
+<a href="http://github.com/cmry/markdoc"><i class="fa fa-github"></i></a>
 
 This piece of code can be used to convert NumPy-styled Python docstrings
 (example), such as those used in scikit-learn, to Markdown with minimum
