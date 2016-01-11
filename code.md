@@ -70,7 +70,7 @@ for experiment, configuration in conf.items():
 
 Output:
 
-``` shell
+``` bash
 ---- Shed ----
 
  Config:
