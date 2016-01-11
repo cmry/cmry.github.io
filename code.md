@@ -27,7 +27,7 @@ updated thereafter with some configuration.
 
 Simply type:
 
-``` shell
+``` bash
 python3 markdoc.py /dir/to/somefile.py /dir/to/somedoc.md
 ```
 
