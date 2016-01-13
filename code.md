@@ -8,7 +8,7 @@ Code, notebooks, and data I made openly available. Quick overview:
 
 ### Code
 * markdoc - convert NumPy-styled Python docstring to Markdown
-* shed - small framework for reproducible Text Minign research
+* shed - small framework for reproducible Text Mining research
 * topbox - wrapper for Labelled Latent Dirichlet Allocation (L-LDA)
 * ebacs - minimalistic conference manager
 * ec2latex - XML to LaTeX book of abstracts
