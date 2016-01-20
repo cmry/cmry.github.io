@@ -1,27 +1,20 @@
 body {
-  /* font-family: Helvetica, Arial, sans-serif */
-  /* font-family: 'Roboto', sans-serif; */
-  /* font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;*/
-  font-family: Garamond;
-  font-size: 20px;
-  line-height: 1.5;
+  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-size: 1.1em;
   font-weight: 300;
-  /* background-color: #ececec; */
-  /* background-color: #DAE3E7; */
+  line-height: 1.29em;
   background-color: #fff;
   color: #343434;
-  line-height: 1.6em;
-  /* padding: 20px 10px */
   -moz-text-size-adjust: 70%;
   -webkit-text-size-adjust: 70%;
   -ms-text-size-adjust: 70%;
 }
 
 @font-face {
-    font-family: 'Garamond';
+    font-family: 'Palatino';
     font-weight: normal;
     font-style: normal;
-    src: url('EBGaramond08-Regular.ttf');
+    src: url('pala.ttf')
 }
 
 a {
@@ -78,7 +71,7 @@ hr {
 .site-header {
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
-  font-size:14px;
+  font-size:0.75em;
   margin-bottom: 50px;
   text-align: center
 }
@@ -159,7 +152,7 @@ hr {
 
 .posts .post-link {
   color: inherit;
-  font-size: 22px;
+  font-size: 18px;
   display: block;
   text-align: left;
   margin-bottom: 20px;
@@ -198,7 +191,8 @@ hr {
 }
 
 .posts .post-link .post-title {
-  margin: 0 0 5px
+  margin: 0 0 5px;
+  line-height: 1.2em;
 }
 
 .posts .post-link .meta {
@@ -209,7 +203,7 @@ hr {
 .posts .post-link .excerpt {
   color: #333;
   margin: 20px 0 0;
-  max-height: 132px;
+  max-height: 135px;
   overflow: hidden;
   font-weight: 300
 }
@@ -248,10 +242,9 @@ hr {
 article {
   padding: 25px;
   background-color: #fff;
-  /* background-color: #ececec; */
-  font-size: 22px;
+  font-size: 1.1em;
   color: #333;
-  line-height: 1.6em;
+  line-height: 1.29em;
   position: relative;
   text-align: justify;
   text-justify: inter-word
@@ -291,7 +284,7 @@ article img:not([height]) {
 
 article blockquote {
   font-style: normal;
-  font-size: 16px;
+  font-size: 0.8em;
   width: auto;
   display: block;
   padding: 5px 25px 5px 20px;

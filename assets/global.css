@@ -58,7 +58,8 @@ p {
   float: right; }
 
 .muted {
-  color: #8f8f8f; }
+  color: #8f8f8f;
+}
 
 .colour-1 {
   color: #cc9944; }
@@ -114,6 +115,6 @@ pre, code {
   /* background-color: #DDD; */
   background-color: #f3f3f3;
   border: 1px solid #E5E5E5;
-  font-size: 14px;
+  font-size: 13px;
   padding: 3px 5px;
   border-radius: 5px; }
