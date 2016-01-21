@@ -1,5 +1,5 @@
 body {
-  font-family: Palatino, Palatino Linotype, Palatino LT STD, Book Antiqua, Georgia, serif;
+  font-family: 'Linux Libertine';
   font-size: 1.1em;
   font-weight: 300;
   line-height: 1.29em;
@@ -10,12 +10,12 @@ body {
   -ms-text-size-adjust: 70%;
 }
 
-@font-face {
+/*@font-face {
     font-family: 'Palatino';
     font-weight: normal;
     font-style: normal;
     src: url('pala.ttf')
-}
+}*/
 
 a {
   color: #199ab7;
@@ -152,9 +152,10 @@ hr {
 
 .posts .post-link {
   color: inherit;
-  font-size: 18px;
+  font-size: 20px;
   display: block;
-  text-align: left;
+  text-align: justify;
+  line-height: 1.3em;
   margin-bottom: 20px;
   background-color: #fff;
   /*background-color: #ececec;*/
@@ -244,7 +245,7 @@ article {
   background-color: #fff;
   font-size: 1.1em;
   color: #333;
-  line-height: 1.29em;
+  line-height: 1.5em;
   position: relative;
   text-align: justify;
   text-justify: inter-word
