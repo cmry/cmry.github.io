@@ -50,10 +50,10 @@ defaults:
 
 links:
   - name:         publ
-    url:          /publications/
+    url:          /publications
   - name:         code
-    url:          /code/
+    url:          /code
   - name:         work
-    url:          /work/
+    url:          /work
   - name:         about
-    url:          /about/
+    url:          /about
