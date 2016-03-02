@@ -1,27 +1,50 @@
-title:            Chris Emmery
-url:              https://cmry.github.io
-permalink:        pretty
-markdown:         redcarpet
+# Site Info
+title:              "Chris Emmery"
+description:        "Academic Blog."
+
+# Author Info
+author_name:        "Chris Emmery"
+author_email:       chris.emmery@uantwerpen.be
+author_gravatar:    8920c4869ea592a7bfbe49caa8cba6e8 # Gravatar md5 hash
+twitter_username:   _cmry
+
+# Site Settings
+baseurl:            "" # Base URL must end WITHOUT a slash, default: ""
+permalink:          /notes/:title # Post permalink
+timezone:           Europe/Amsterdam # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# Site Build
+highlighter:        rouge
+markdown:           redcarpet
 redcarpet:
-  extensions:
-    - tables
-    - footnotes
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - fenced_code_blocks
-    - with_toc_data
-highlighter:      pygments
-timezone:         Europe/Amsterdam
-paginate:         5
-links:
-  - name:         publ
-    url:          /publications/
-  - name:         code
-    url:          /code/
-  - name:         work
-    url:          /work/
-  - name:         about
-    url:          /about/
-social:
-    github:       cmry
+    extensions:     ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data", "highlight", "footnotes"]
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+gems:
+  - jekyll-sitemap
+
+compress_html:
+    clippings:      all
+    ingore:
+        envs:       [ "test" ]
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

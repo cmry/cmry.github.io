@@ -1,58 +1,30 @@
-<html>
-  <head>
-    <meta content='{{ site.title }}' property='og:title' />
-    <title>{{ site.title }}</title>
-    {% include head.html %}
-  </head>
-  <body>
-    {% include masthead.html %}
-    <div class="wrapper">
+---
+layout: default
+---
 
-      {% include header.html %}
+<noscript>
+	<style>
 
-        <section class="content">
-          <article>
-            <div class="mark"></div>
-            <header>
-              <h2 class="post-title">{{ page.title }}</h2>
-              {% if page.date %}
-                <small class="datetime muted">{{ page.date | date_to_string }}</small>
-              {% endif %}
-            {% if site.social.github and page.github %}
-            <h3><a href="http://github.com/{{site.social.github}}/{{page.github}}"><i class="fa fa-github"></i></a></h3>
-            {% endif %}
-            </header>
-            {{ content }}
-            {% unless page.url == "/about/" %}
-            {% unless page.url == "/publications/" %}
-            {% unless page.url == "/work/" %}
-            {% unless page.url == "/code/" %}
-              {% include signoff.html %}
-            {% endunless %}{% endunless %}{% endunless %}{% endunless %}
-          </article>
-          {% if page.previous or page.next %}
-          <div class="pagination">
-            {% if page.previous %}
-              <div class="tip">Use ← and → to navigate between posts.</div>
-              <a href="{{ page.previous.url }}" id="js-previous-post">
-                <span class="small-title">Previous Post</span>
-                <h4>{{ page.previous.title }}</h4>
-                <span class="small upcase datetime muted">{{ page.previous.date | date_to_string }}</span>
-              </a>
-            {% endif %}
-            {% if page.next %}
-              <hr />
-              <a href="{{ page.next.url }}" id="js-next-post">
-                <span class="small-title">Next Post</span>
-                <h4>{{ page.next.title }}</h4>
-                <span class="small upcase datetime muted">{{ page.next.date | date_to_string }}</span>
-              </a>
-            {% endif %}
-          </div>
-          {% endif %}
-        </section>
+		article .footnotes {
+			display: block;
+		}
 
-      {% include footer.html %}
-    </div>
-  </body>
-</html>
+	</style>
+</noscript>
+
+<article>
+
+	<div class="center">
+		<h1>{{ page.title }}</h1>
+		<time>{{ page.date | date: '%B %-d, %Y' }}</time>
+	</div>
+
+	<div class="divider"></div>
+
+	{{ content }}
+
+</article>
+
+<div class="back">
+	<a href="{{site.baseurl}}/"></a>
+</div>

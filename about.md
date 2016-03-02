@@ -1,7 +1,6 @@
 ---
 layout: post
 title: README
-mast: about
 ---
 I'm a [PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
 doing research for [CLiPS](http://www.clips.uantwerpen.be/) at the University

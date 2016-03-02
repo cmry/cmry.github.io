@@ -1,14 +1,15 @@
-<header class="site-header">
-  <div class="site-face" style="background-image: url('/assets/img/face.jpg')"></div>
-  <a href="/" class="site-title">
-    <span class="firstname">Chris</span><span class="lastname">Emmery</strong>
-  </a>
-  <nav>
-    <a id="ind-base" href="https://cmry.github.io"><i class="fa fa-home"></i></a> ·
-    <a id="ind-git" href="https://www.github.com/cmry"><i class="fa fa-github"></i></a> ·
-    <a id="ind-twit" href="https://www.twitter.com/_cmry"><i class="fa fa-twitter"></i></a>
-    {% for link in site.links %}
-      · <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
-    {% endfor %}
-  </nav>
-</header>
+<aside class="logo">
+
+	{% if page.url == '/index.html' or page.url == '/' %}
+		{% assign link = '/about' %}
+		{% assign prompt = 'About the Author' %}
+		<a href="{{ link | prepend: site.baseurl }}">
+			<img src="http://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
+		</a>
+		<span class="logo-prompt">{{ prompt }}</span>
+	{% else %}
+		{% assign link = '/' %}
+		{% assign prompt = 'Back to Home' %}
+	{% endif %}
+
+</aside>

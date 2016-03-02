@@ -1,22 +1,22 @@
 ---
-layout: index
-mast: index
+layout: default
 ---
 
-<ul class="posts">
-  {% for post in site.posts %}
-  <li class="post">
-    <a href="{{ post.url }}" class="post-link {% if post.cover %}has-cover{% endif %}">
-      {% if post.cover %}
-        <div class="post-cover" style="background-image: url({{ post.cover }});" /></div>
-      {% endif %}
-      <div class="mark"></div>
-      <h2 class="post-title">
-        {{ post.title }}<br />
-      </h2>
-      <span class="meta">Posted <time data-time="{{ post.date }}" title="{{ post.date }}">{{ post.date | date_to_string }}</time></span>
-      <p class="excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
-    </a>
-  </li>
-  {% endfor %}
-</ul>
+<section>
+	<ul>
+
+		{% for post in site.posts %}
+
+		<li>
+			<div class="post-date">
+				<span>{{ post.date | date: "%b %d, %Y" }}</span>
+			</div>
+			<div class="title">
+				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+			</div>
+		</li>
+
+		{% endfor %}
+
+	</ul>
+</section>
