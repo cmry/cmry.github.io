@@ -108,7 +108,7 @@ span[data-note] {
   }
 }
 .logo {
-  margin: 0 auto 35px;
+  margin: 0 auto 45px;
   text-align: center;
   animation-duration: 0.7s;
   animation-fill-mode: both;
@@ -117,23 +117,25 @@ span[data-note] {
   -webkit-animation-fill-mode: both;
   -webkit-animation-name: bounce;
   a {
-    background: #ddd url("gravatar_wrapper.png");
     color: #000;
     text-decoration: none;
+    text-align: center;
+    border-bottom:none;
+  }
+  nav {
+    margin-top: 10px;
+  }
+  a.face {
     font-weight: 700;
     height: 100px;
     width: 100px;
     font-size: 1.5em;
     border-radius: 100%;
-    display: inline-block;
-    text-align: center;
     line-height: 100px;
+    display: inline-block;
+    background: #ddd url("gravatar_wrapper.png");
     border: 5px solid #fff;
     box-sizing: border-box;
-    &:hover,
-    &:focus {
-      background: #f14e32;
-    }
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
       display: inline-block !important;
@@ -164,7 +166,7 @@ span[data-note] {
     text-align: center;
     line-height: 1.2;
     top: 50%;
-    margin-top: -10px;
+    margin-top: -25px;
     &:before {
       content: "";
       border-width: 5px 5px 5px 0;

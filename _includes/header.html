@@ -3,7 +3,7 @@
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
 		{% assign prompt = 'About the Author' %}
-		<a href="{{ link | prepend: site.baseurl }}">
+		<a href="{{ link | prepend: site.baseurl }}" class="face">
 			<img src="http://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
 		</a>
 		<span class="logo-prompt">{{ prompt }}</span>
@@ -11,5 +11,15 @@
 		{% assign link = '/' %}
 		{% assign prompt = 'Back to Home' %}
 	{% endif %}
-
+	<nav>
+		<a href="https://cmry.github.io"><i class="fa fa-home"></i></a> ·
+		<a href="https://www.github.com/cmry"><i class="fa fa-github"></i></a> ·
+		<a href="https://www.twitter.com/_cmry"><i class="fa fa-twitter"></i></a>
+		{% if site.balls %}
+			AAA
+		{% endif %}
+		{% for link in site.links %}
+			· <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
+		{% endfor %}
+	</nav>
 </aside>

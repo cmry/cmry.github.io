@@ -47,3 +47,13 @@ defaults:
       type:         "posts"
     values:
       layout:       "post"
+
+links:
+  - name:         publ
+    url:          /publications/
+  - name:         code
+    url:          /code/
+  - name:         work
+    url:          /work/
+  - name:         about
+    url:          /about/

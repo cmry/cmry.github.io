@@ -1,5 +1,4 @@
 ---
-layout: post
 title: README
 ---
 I'm a [PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
@@ -37,6 +36,6 @@ my student assistantship activites. All in all, I typed a whole bunch of code fo
 websites, wrappers, and tools. My latest endeavors include a minimalistic
 conference manager ([ebacs](https://www.github.com/cmry/ebacs)), a Python
 wrapper for Stanford's Topic Modelling Toolbox
-([shed](https://www.github.com/cmry/shed)), and an environment for Computational
-Linguistics research (to be published). More details can be found
-[here](https://cmry.github.io/code).
+([topbox](https://www.github.com/cmry/topbox)), and an environment for Text
+Mining research ([Omesa](https://www.github.com/cmry/omesa)). More details can
+be found [here](https://cmry.github.io/code).
