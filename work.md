@@ -7,13 +7,25 @@ mast: actv
 Listed in reverse chronological order are all relevant academic activities
 since the start of my position in Antwerp.
 
+### 2016
+
+* Attending the 2nd Summer School on Integrating Vision & Language: Deep Learning ([iV&L](http://ivl-net.eu/event/2nd-summer-school-on-integrating-vision-language-deep-learning/)).
+
+* Gave a LaTeX tutorial for the course [Computational Models of Language Understanding](https://www.uantwerpen.be/popup/opleidingsonderdeel.aspx?catalognr=2011FLWTAA&taal=en&aj=2016).
+
+* Participating in the [Author Obfuscation](http://pan.webis.de/clef16/pan16-web/author-obfuscation.html) shared task for PAN at [CLEF 2016](http://clef2016.clef-initiative.eu/).
+
+* 'Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource' accepted for [LREC 2016](http://lrec2016.lrec-conf.org/en/).
+
+* Part of the Scientific Committee of [LREC 2016](http://lrec2016.lrec-conf.org/en/); reviewed for main conference and [TA-COS](http://ta-cos.org/) workshop.
+
 ### 2015
 
 * Wrote a Python docstring to Markdown convertor ([markdoc](http://www.amicaproject.be/markdoc)).
 
 * Made [Omesa](https://www.github.com/cmry/omesa) open-source.
 
-* Submitted 'Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource' to LREC.
+* Submitted 'Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource' to [LREC](http://lrec2016.lrec-conf.org/en/).
 
 * Wrote an author profiling module and demo environment for AMiCA ([profl](http://www.amicaproject.be/profl)).
 
