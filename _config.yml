@@ -17,6 +17,7 @@ timezone:           Europe/Amsterdam # https://en.wikipedia.org/wiki/List_of_tz_
 markdown:           kramdown
 kramdown:
     input:          GFM
+    math_engine:    mathjax
 sass:
     style:          :compressed
 
