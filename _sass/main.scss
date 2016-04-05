@@ -35,6 +35,7 @@ mark {
   padding: 0 5px;
 }
 blockquote {
+  font-size: 0.9em;
   border-left: 5px solid #ccc;
   margin: 40px 0;
   padding: 5px 30px;
@@ -236,6 +237,7 @@ table {
   width: 100%;
   table-layout: fixed;
   margin: 45px 0;
+  font-size: 0.9em;
   thead {
     background: #f2f2f2;
   }
@@ -383,7 +385,6 @@ section {
 }
 @media screen and (min-width: 32em) { html { font-size: 16px; }
   h1, .h1 { font-size: 1.5rem; }
-  h2, .h2 { font-ize: 1.0rem;  }
   .logo a { font-size: 0.9rem; }
   .logo { font-size: 0.9rem; } }
 @media screen and (min-width: 48em) { html { font-size: 18px; } }
