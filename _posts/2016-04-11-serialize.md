@@ -202,7 +202,7 @@ print(target, serialisation, deserialisation)
 <class 'numpy.float64'> float64 <class 'numpy.float64'>
 ```
 
-So, we actually need a couple of functions that can `serialize` and entire
+So, we actually need a couple of functions that can `serialize` an entire
 dictionary with python and `numpy` objects, and then `deserialize` when we need
 it again. I was very much helped by [Chris Wagner's blog](http://robotfantastic.org/serializing-python-data-to-json-some-edge-cases.html), who already
 provides quite a big code snippet that does exactly this. I inserted the
