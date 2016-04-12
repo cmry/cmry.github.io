@@ -315,5 +315,5 @@ when using JSON there is no protection from the fact that parameters might be
 changed in different version of scikit-learn. At least now the JSONs stored
 with old versions are transparent
 enough to be easily modifiable. Any suggestions and or improvements are
-obviously more than welcome. I hereby also provide [my version](https://github.com/cmry/cmry.github.io/tree/master/sources/serialize_sk.json) of Chris Wagner's
+obviously more than welcome. I hereby also provide [my version](https://github.com/cmry/cmry.github.io/tree/master/sources/serialize_sk.py) of Chris Wagner's
 script, as well as a Jupyter [notebook](https://github.com/cmry/cmry.github.io/tree/master/sources/serialize_sk.ipynb).
