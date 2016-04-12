@@ -1,5 +1,4 @@
 ---
-layout: compress
 title: README
 ---
 I'm a [PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
