@@ -1,6 +1,7 @@
 ---
 title: The Twitter API and Python - Syntactic Sugar for Tweepy
 date: 2015-05-08 14:19:36
+time: 12
 ---
 
 Lately I have been collecting a large amount of tweets for building a good representation of Twitter-user's expected social discourse and its meta-data. Basically, a fancy way of saying that I want to see who *publicly* shares what, and with whom. After some digging around, I settled for [Tweepy](https://tweepy.readthedocs.org/) to interface with the Twitter API. There were several scenarios which I was looking to implement: grab the available associates (followers, friends) and public timeline given a user's name, and resolving a large number of tweets given a set of tweet IDs. Don't get me wrong, Tweepy offers a very nice interface. It was a bit too general-purpose for my liking though, so I started building a wrapper class around Tweepy. In this post, I will talk a bit about its functionality, considerations and future improvements while discussing the task of utilizing the Twitter API for Natural Language Processing-related research.
@@ -157,10 +158,10 @@ In [1]: api = TwAPI('user')
 In [2]: api.get_friends('_cmry')
 Out[2]:
 ['ProjectJupyter',
-...
+...]
 ```
 
-Note that this assumes that you want pagination anyway; there is no real reason to call the method without a cursor. In normal code, it is just a tad neater to omit this if you do not need multiple pages. This implies, however, that it will **always** retrieve the entire object. If you decide that someone with 1000 friends has only a relevant slice of the first or last 200, then it's best to alter the code. Moreover, though the methods have very similar functionality their 'pre-sets' (`count`, field calls) make it so that abstraction was avoided on purpose.
+Note that this assumes that you want pagination anyway; there is no real reason to call the method without a cursor. In normal code, it is just a tad neater to omit this if you do not need multiple pages. This implies, however, that it will **always** retrieve the entire object. If you decide that someone with 1000 friends has only a relevant slice of the first or last 200, then it's best to alter the code. Moreover, though the methods have very similar functionality, their 'pre-sets' (`count`, field calls) make it so that abstraction was avoided on purpose.
 
 
 # Handling Rate Limits
@@ -225,10 +226,6 @@ Previously I talked about the possibility for one to interact with the Twitter s
 11:54:07 - (stream): djplb: @rustuswayne Obama!s Groundbreaking ...
 
 ```
-
-If we visualize:
-
-![stream](http://www.digital-constructions.com/blog/uploaded_images/twitterStreamGraph-799455.jpg)
 
 In order to pick these Tweets from the stream, we need to add a bit more code. First off, there needs to be a `StdOutListener` so that whatever is given to the streamer can actually be handled in Python:
 
