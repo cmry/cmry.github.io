@@ -5,7 +5,8 @@ read: 8
 ---
 
 *First off, I would like to thank Sebastian Raschka, and Chris Wagner for
-providing the text and code that proved essential for writing this blog.*
+providing the text and code that proved essential for writing this blog.
+Read the follow-up to this post [here](./serialize-sk).*
 
 For some time now, I have been wanting to replace simply pickling my
 [`sklearn`](http://scikit-learn.org/stable/)
