@@ -105,6 +105,15 @@ def _serialize(data):
                              'attr': _serialize(data.__dict__)}}
     if '_csv.reader' in str(type(data)):
         return ''
+    if not isinstance(data, type):
+        try:
+            hook = str(type(data)).split("'")[1].split('.')
+            name, mod = hook.pop(-1), '.'.join(hook)
+            return {'py/class': {'name': name,
+                                 'mod': mod,
+                                 'attr': {}}}
+        except Exception:
+            pass
     raise TypeError("Type %s not data-serializable" % type(data))
 
 
@@ -153,14 +162,14 @@ def encode(data, fp=False):
         return json.dumps(_serialize(data))
 
 
-def decode(fp):
+def decode(hook):
     """File, String, or Dict to python object."""
     try:
-        return json.load(fp, object_hook=_restore)
+        return json.load(hook, object_hook=_restore)
     except (AttributeError, ValueError):
         pass
     try:
-        return json.loads(fp, object_hook=_restore)
+        return json.loads(hook, object_hook=_restore)
     except (TypeError, ValueError):
         pass
-    return json.loads(json.dumps(fp), object_hook=_restore)
+    return json.loads(json.dumps(hook), object_hook=_restore)
