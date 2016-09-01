@@ -14,7 +14,7 @@ research was mainly
 in the field of Text Mining. During this, I focussed on applying Machine Learning
 for forensic and online security-related applications such as detection of
 cyberbullying and child grooming, and author profiling. On top of this, I
-developed software to implement these techniques on social media.
+developed software to apply these techniques on social media.
 
 
 ## Academic Background
