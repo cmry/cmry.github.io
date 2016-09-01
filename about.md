@@ -1,15 +1,20 @@
 ---
 title: README
 ---
-I'm a [PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
-doing research for [CLiPS](http://www.clips.uantwerpen.be/) at the University
-of Antwerp under the supervision of
-[Walter Daelemans](http://www.clips.uantwerpen.be/~walter/).
-For a period of two years, I will be working for the
-[AMiCA project](http://www.amicaproject.be/) where my research will mainly be
-in the field of Text Mining. During this, I focus on applying Machine Learning
+I'm a Lecturer at Tilburg University, as well as a joint
+[PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
+doing research for both the CS&AI group at Tilburg and
+[CLiPS](http://www.clips.uantwerpen.be/) at the University
+of Antwerp under the supervision of [Eric Postma](http://www.ericpostma.nl),
+[Grzegorz Chrupała](http://grzegorz.chrupala.me), and
+[Walter Daelemans](http://www.clips.uantwerpen.be/~walter/). I currently teach
+Text Mining and Social Data Mining in context of the new Data Science master.
+Before, I worked for the [AMiCA project](http://www.amicaproject.be/) where my
+research was mainly
+in the field of Text Mining. During this, I focussed on applying Machine Learning
 for forensic and online security-related applications such as detection of
-cyberbullying and child grooming, and author profiling.
+cyberbullying and child grooming, and author profiling. On top of this, I
+developed software to implement these techniques on social media.
 
 
 ## Academic Background
@@ -19,12 +24,16 @@ Tilburg University, I realized soon enough that Artificial Intelligence and
 programming were very much my thing. Hence, I stayed in Tilburg and obtained
 an MSc in Human Aspects of Information Technology cum laude. I wrote quite
 the pile of pages that made my master thesis
-under the supervision of [Menno van Zaanen](linky) on discovering
+under the supervision of [Menno van Zaanen](http://ilk.uvt.nl/menno/main) on
+discovering
 trends in societal debates by means of Supervised Topic Modelling on online
 news sources, for which I had the honour of receiving two awards
-([Leo Coolen](http://www.clips.uantwerpen.be/news/chris-emmery-wins-leo-coolen-award-for-his-master-dissertation) & [STIL](https://twitter.com/clipsua/status/563648163761106944)). With my newly developed admiration
-for Natural Language Processing and Machine Learning, I sought to continue
-research and applied (and got hired) for a PhD position in Antwerp.
+([Leo Coolen](http://www.clips.uantwerpen.be/news/chris-emmery-wins-leo-coolen-award-for-his-master-dissertation)
+& [STIL](https://twitter.com/clipsua/status/563648163761106944)). With my newly
+developed admiration for Natural Language Processing and Machine Learning, I
+sought to continue research and applied (and got hired) for a PhD position in
+Antwerp. After two years of diligent work, I was offered to continue my work
+and lecture at Tilburg University, where I reside today.
 
 ## Development
 
