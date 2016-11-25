@@ -7,7 +7,7 @@ title: Publications
 * Tulkens, S., Emmery, C., & Daelemans W. (2016).  **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource**. *LREC 2016*.
   <br> [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
        [<i class="fa fa-file-pdf-o"></i>](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
-       []<i class="fa fa-github"></i>](https://github.com/clips/dutchembeddings)
+       [<i class="fa fa-github"></i>](https://github.com/clips/dutchembeddings)
 
 * van Zaanen, M., van Huyssteen G., Aussems S., Emmery C., & Eiselen R. (2014).  **The Development of Dutch and Afrikaans Language Resources for Compound Boundary Analysis**. *Proceedings of the 9th International Conference on Language Resources and Evaluation (LREC 2014)*.
   <br> [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1884) &nbsp;
