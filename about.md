@@ -1,20 +1,25 @@
 ---
 title: README
 ---
-I'm a Lecturer at Tilburg University, as well as a joint
-[PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
-doing research for both the CS&AI group at Tilburg and
-[CLiPS](http://www.clips.uantwerpen.be/) at the University
-of Antwerp under the supervision of [Eric Postma](http://www.ericpostma.nl),
-[Grzegorz Chrupała](http://grzegorz.chrupala.me), and
-[Walter Daelemans](http://www.clips.uantwerpen.be/~walter/). I currently teach
-Text Mining and Social Data Mining in context of the new Data Science master.
-Before, I worked for the [AMiCA project](http://www.amicaproject.be/) where my
-research was mainly
-in the field of Text Mining. During this, I focussed on applying Machine Learning
-for forensic and online security-related applications such as detection of
-cyberbullying and child grooming, and author profiling. On top of this, I
-developed software to apply these techniques on social media.
+I'm a [Lecturer](https://www.tilburguniversity.edu/webwijs/show/c.d.emmery.htm)
+at Tilburg University, as well as a joint [PhD
+candidate](http://www.clips.uantwerpen.be/people/chris-emmery) doing research
+for both the [CS&AI group](https://tcsai.github.io) at Tilburg and
+[CLiPS](http://www.clips.uantwerpen.be/) at the University of Antwerp under the
+supervision of [Eric Postma](http://www.ericpostma.nl), [Grzegorz
+Chrupała](http://grzegorz.chrupala.me), and [Walter
+Daelemans](http://www.clips.uantwerpen.be/~walter/). I currently teach [Text
+Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091) and
+[Social Data
+Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022) in
+context of the new [Data
+Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
+master. Before, I worked for the [AMiCA project](http://www.amicaproject.be/)
+where my research was mainly in the field of Text Mining. During this, I
+focussed on applying Machine Learning for forensic and online security-related
+applications such as detection of cyberbullying and child grooming, and author
+profiling. On top of this, I developed software to apply these techniques on
+social media.
 
 
 ## Academic Background
@@ -32,7 +37,7 @@ news sources, for which I had the honour of receiving two awards
 & [STIL](https://twitter.com/clipsua/status/563648163761106944)). With my newly
 developed admiration for Natural Language Processing and Machine Learning, I
 sought to continue research and applied (and got hired) for a PhD position in
-Antwerp. After two years of diligent work, I was offered to continue my work
+Antwerp. After two years of dilligent work, I was offered to continue my work
 and lecture at Tilburg University, where I reside today.
 
 ## Development

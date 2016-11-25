@@ -4,12 +4,15 @@ title: Publications
 
 ### Papers
 
-* Tulkens, S., Emmery, C., & Daelemans W. (In Press).  **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource**. *LREC 2016*.
+* Tulkens, S., Emmery, C., & Daelemans W. (2016).  **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource**. *LREC 2016*.
+  <br> [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
+       [<i class="fa fa-file-pdf-o"></i>](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
+       <i class="fa fa-github"></i>
 
 * van Zaanen, M., van Huyssteen G., Aussems S., Emmery C., & Eiselen R. (2014).  **The Development of Dutch and Afrikaans Language Resources for Compound Boundary Analysis**. *Proceedings of the 9th International Conference on Language Resources and Evaluation (LREC 2014)*.
-  <br> [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
+  <br> [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1884) &nbsp;
        [<i class="fa fa-file-pdf-o"></i>](http://ilk.uvt.nl/menno/files/docs/p_lrec14.pdf) &nbsp;
-       <i class="fa fa-github"></i>
+       [<i class="fa fa-github"></i>](https://github.com/clips/dutchembeddings)
 
 ### Talks
 
@@ -30,6 +33,8 @@ title: Publications
 ### Theses
 
 * Emmery, C. (2014). **Topic Modelling in Online Discussions: Analysis of the Developments within the Dutch Privacy Debate on News Websites**. *Tilburg Center for Creative Computing. 102*.
-  <br> [<i class="fa fa-file-code-o"></i>](https://www.worldcat.org/title/topic-modelling-in-online-discussions-analysis-of-the-developments-within-the-dutch-privacy-debate-on-news-websites/oclc/894803324&referer=brief_results) &nbsp; [<i class="fa fa-file-pdf-o"></i>](http://arno.uvt.nl/show.cgi?fid=135375) &nbsp; [<i class="fa fa-github"></i>](https://www.github.com/cmry/aivb)
+  <br> [<i class="fa fa-file-code-o"></i>](https://www.worldcat.org/title/topic-modelling-in-online-discussions-analysis-of-the-developments-within-the-dutch-privacy-debate-on-news-websites/oclc/894803324&referer=brief_results) &nbsp;
+       [<i class="fa fa-file-pdf-o"></i>](http://arno.uvt.nl/show.cgi?fid=135375) &nbsp;
+       [<i class="fa fa-github"></i>](https://www.github.com/cmry/aivb)
 
 * ___

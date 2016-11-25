@@ -9,11 +9,29 @@ since the start of my position in Antwerp.
 
 ### 2016
 
-* Attending the 2nd Summer School on Integrating Vision & Language: Deep Learning ([iV&L](http://ivl-net.eu/event/2nd-summer-school-on-integrating-vision-language-deep-learning/)).
+* Built a concept version for the [CS&AI group's webpage](https://tcsai.github.io).
+
+* Attended [ATILA 2016](http://applejack.science.ru.nl/atila2016/).
+
+* Started teaching [Text
+Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091) and
+[Social Data
+Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022) in
+context of the new [Data
+Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
+master. Materials for both courses are [open-source](https://github.com/tcsai/).
+
+* Moved to the [CS&AI group](https://tcsai.github.io) at Tilburg University as
+part [Lecturer](https://www.tilburguniversity.edu/webwijs/show/c.d.emmery.htm),
+part joint [PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
+with [CLiPS](http://www.clips.uantwerpen.be/) at the University of Antwerp under the
+supervision of [Eric Postma](http://www.ericpostma.nl), [Grzegorz
+Chrupała](http://grzegorz.chrupala.me), and [Walter
+Daelemans](http://www.clips.uantwerpen.be/~walter/).
+
+* Attended the 2nd Summer School on Integrating Vision & Language: Deep Learning ([iV&L](http://ivl-net.eu/event/2nd-summer-school-on-integrating-vision-language-deep-learning/)).
 
 * Gave a LaTeX tutorial for the course [Computational Models of Language Understanding](https://www.uantwerpen.be/popup/opleidingsonderdeel.aspx?catalognr=2011FLWTAA&taal=en&aj=2016).
-
-* Participating in the [Author Obfuscation](http://pan.webis.de/clef16/pan16-web/author-obfuscation.html) shared task for PAN at [CLEF 2016](http://clef2016.clef-initiative.eu/).
 
 * 'Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource' accepted for [LREC 2016](http://lrec2016.lrec-conf.org/en/).
 
