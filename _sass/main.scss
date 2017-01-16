@@ -1,8 +1,7 @@
 body {
-  font-family: 'Fira Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 20px;
   margin: 0;
-  font-weight: 300;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   @media (min-width: 992px) {
@@ -37,7 +36,7 @@ mark {
 blockquote {
   font-size: 0.9em;
   border-left: 5px solid #ccc;
-  margin: 40px 0;
+  margin: 1em 0;
   padding: 5px 30px;
   background: #eee;
 }
@@ -384,7 +383,7 @@ section {
   }
 }
 @media screen and (min-width: 32em) { html { font-size: 16px; }
-  h1, .h1 { font-size: 1.5rem; }
+  h1, .h1 { font-size: 3.0rem; }
   .logo a { font-size: 0.9rem; }
   .logo { font-size: 0.9rem; } }
 @media screen and (min-width: 48em) { html { font-size: 18px; } }
