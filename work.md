@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Activities
-mast: actv
 ---
 
 Listed in reverse chronological order are all relevant academic activities
