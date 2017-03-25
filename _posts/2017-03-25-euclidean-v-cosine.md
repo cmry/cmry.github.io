@@ -88,7 +88,7 @@ Looking at the plot above, we can see that the three classes are pretty well dis
 
 ## Picking our Metric
 
-Considering instance #0, #1, and #4 to be our known instances, we assume that we don't know the label of #13. Plotting this will look as follows:
+Considering instance #0, #1, and #4 to be our known instances, we assume that we don't know the label of #14. Plotting this will look as follows:
 
 
 ```python
@@ -155,7 +155,7 @@ print(" x14 and x0:", euclidean_distance(x14, x0), "\n",
      x14 and x4: 2.0591260282
 
 
-According to cosine similarity, instance #13 is closest to #4. Our 4th instance had the label:
+According to cosine similarity, instance #14 is closest to #4. Our 4th instance had the label:
 
 
 ```python
@@ -204,7 +204,7 @@ print(" x14 and x0:", cosine_similarity(x14, x0), "\n",
      x14 and x4: 0.989203462354
 
 
-According to cosine similarity, instance #13 is closest to #1. However, our 1st instance had the label:
+According to cosine similarity, instance #14 is closest to #1. However, our 1st instance had the label:
 
 
 ```python
