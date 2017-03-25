@@ -44,7 +44,7 @@ df = pd.DataFrame(X, columns=['weight', 'length', 'label'])
 df
 ```
 
-**output**
+`output`
 
 
 
@@ -78,7 +78,7 @@ ax = df[df['label'] == 2].plot.scatter(x='weight', y='length', c='red', label='a
 ax
 ```
 
-**output**
+`output`
 
 ![png](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
 
@@ -102,7 +102,7 @@ ax = df3.plot.scatter(x='weight', y='length', c='gray', label='?', ax=ax)
 ax
 ```
 
-**output**
+`output`
 
 ![png2](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
 
@@ -132,7 +132,7 @@ x14 = X[14][:-1]
 print("x0:", x0, "\nx1:", x1, "\nx2:", x4, "\nx4:", x14)
 ```
 
-**output**
+`output`
 
     x0: [ 6.6  6.2]
     x1: [ 9.7  9.9]
@@ -148,7 +148,7 @@ print(" x14 and x0:", euclidean_distance(x14, x0), "\n",
       "x14 and x4:", euclidean_distance(x14, x4))
 ```
 
-**output**
+`output`
 
      x14 and x0: 7.21803297305
      x14 and x1: 12.0216471417
@@ -162,7 +162,7 @@ According to cosine similarity, instance #13 is closest to #4. Our 4th instance 
 X[4]
 ```
 
-**output**
+`output`
 
 
 
@@ -197,7 +197,7 @@ print(" x14 and x0:", cosine_similarity(x14, x0), "\n",
       "x14 and x4:", cosine_similarity(x14, x4))
 ```
 
-**output**
+`output`
 
      x14 and x0: 0.999512076087
      x14 and x1: 0.999947942424
@@ -211,7 +211,7 @@ According to cosine similarity, instance #13 is closest to #1. However, our 1st 
 X[1]
 ```
 
-**output**
+`output`
 
 
     array([ 9.7,  9.9,  2. ])
