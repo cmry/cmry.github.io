@@ -1,6 +1,6 @@
 ---
 title: SDM - Euclidean vs. Cosine Distance
-date: 2016-04-14 18:38:05
+date: 2017-03-25 18:27:10
 read: 5
 ---
 
@@ -47,112 +47,23 @@ df
 
 
 
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>weight</th>
-      <th>length</th>
-      <th>label</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>6.6</td>
-      <td>6.2</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>9.7</td>
-      <td>9.9</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>8.0</td>
-      <td>8.3</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>6.3</td>
-      <td>5.4</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>1.3</td>
-      <td>2.7</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>5</th>
-      <td>2.3</td>
-      <td>3.1</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>6</th>
-      <td>6.6</td>
-      <td>6.0</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>7</th>
-      <td>6.5</td>
-      <td>6.4</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>8</th>
-      <td>6.3</td>
-      <td>5.8</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>9</th>
-      <td>9.5</td>
-      <td>9.9</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>10</th>
-      <td>8.9</td>
-      <td>8.9</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>11</th>
-      <td>8.7</td>
-      <td>9.5</td>
-      <td>2.0</td>
-    </tr>
-    <tr>
-      <th>12</th>
-      <td>2.5</td>
-      <td>3.8</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>13</th>
-      <td>2.0</td>
-      <td>3.1</td>
-      <td>0.0</td>
-    </tr>
-    <tr>
-      <th>14</th>
-      <td>1.3</td>
-      <td>1.3</td>
-      <td>0.0</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
+|     | weight | length |  label |
+| --- | ------ | ------ | ------- |
+| 0   | 6.6 | 6.2 | 1.0 |
+| 1   | 9.7 | 9.9 | 2.0 |
+| 2   | 8.0 | 8.3 | 2.0 |
+| 3   | 6.3 | 5.4 | 1.0 |
+| 4   | 1.3 | 2.7 | 0.0 |
+| 5   | 2.3 | 3.1 | 0.0 |
+| 6   | 6.6 | 6.0 | 1.0 |
+| 7   | 6.5 | 6.4 | 1.0 |
+| 8   | 6.3 | 5.8 | 1.0 |
+| 9   | 9.5 | 9.9 | 2.0 |
+| 10  | 8.9 | 8.9 | 2.0 |
+| 11  | 8.7 | 9.5 | 2.0 |
+| 12  | 2.5 | 3.8 | 0.0 |
+| 13  | 2.0 | 3.1 | 0.0 |
+| 14  | 1.3 | 1.3 | 0.0 |
 
 Now the data can be plotted and colour the three different groups. They are subsetted by their label, assigned a different colour and label, and by repeating this they form different layers in the scatter plot.
 
@@ -166,7 +77,7 @@ ax = df[df['label'] == 2].plot.scatter(x='weight', y='length', c='red', label='a
 ax
 ```
 
-![png](https://github.com/cmry/cmry.github.io/blob/master/sources/output_6_1.png)
+![png](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
 
 
 Looking at the plot above, we can see that the three classes are pretty well distinguishable by these two features that we have. Say that we apply $k$-NN to our data that will learn to classify new instances based on their distance to our known instances (and their labels). The algorithm needs a distance metric to determine which of the known instances are closest to the new one. Let's try to choose between either euclidean or Cosine for this example.
@@ -188,7 +99,7 @@ ax = df3.plot.scatter(x='weight', y='length', c='gray', label='?', ax=ax)
 ax
 ```
 
-![png2](https://github.com/cmry/cmry.github.io/blob/master/sources/output_8_1.png)
+![png2](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
 
 
 ### Euclidean
