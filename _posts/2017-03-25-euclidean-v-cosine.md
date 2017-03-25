@@ -66,7 +66,7 @@ df
 | 13  | 2.0 | 3.1 | 0.0 |
 | 14  | 1.3 | 1.3 | 0.0 |
 
-Now the data can be plotted and colour the three different groups. They are subsetted by their label, assigned a different colour and label, and by repeating this they form different layers in the scatter plot.
+Now the data can be plotted to visualize the three different groups. They are subsetted by their label, assigned a different colour and label, and by repeating this they form different layers in the scatter plot.
 
 
 ```python
@@ -83,12 +83,12 @@ ax
 ![png](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
 
 
-Looking at the plot above, we can see that the three classes are pretty well distinguishable by these two features that we have. Say that we apply $k$-NN to our data that will learn to classify new instances based on their distance to our known instances (and their labels). The algorithm needs a distance metric to determine which of the known instances are closest to the new one. Let's try to choose between either euclidean or Cosine for this example.
+Looking at the plot above, we can see that the three classes are pretty well distinguishable by these two features that we have. Say that we apply $k$-NN to our data that will learn to classify new instances based on their distance to our known instances (and their labels). The algorithm needs a distance metric to determine which of the known instances are closest to the new one. Let's try to choose between either euclidean or cosine for this example.
 
 
 ## Picking our Metric
 
-Let's consider instance #0, #1, and #4 to be our known instances, and assume that we don't know the label of #13. Plotting this will look as follows:
+Considering instance #0, #1, and #4 to be our known instances, we assume that we don't know the label of #13. Plotting this will look as follows:
 
 
 ```python
@@ -104,7 +104,7 @@ ax
 
 `output`
 
-![png2](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
+![png2](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_8_1.png)
 
 
 ### Euclidean
