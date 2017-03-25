@@ -140,6 +140,7 @@ print("x0:", x0, "\nx1:", x1, "\nx2:", x4, "\nx4:", x14)
     x4: [ 1.3  1.3]
 
 
+Doing the calculations:
 
 ```python
 print(" x14 and x0:", euclidean_distance(x14, x0), "\n",
@@ -187,7 +188,7 @@ def cosine_similarity(x, y):
     return np.dot(x, y) / (np.sqrt(np.dot(x, x)) * np.sqrt(np.dot(y, y)))
 ```
 
-Let's see this for all our vectors:
+Let's see these calculations for all our vectors:
 
 
 ```python
