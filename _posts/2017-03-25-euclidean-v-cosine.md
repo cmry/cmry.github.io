@@ -250,15 +250,15 @@ print("vectors \t", x0, x1, "\n"
 `output`
 
 
-    vectors 	   [ 6.6  6.2] [ 9.7  9.9]
-    euclidean 	 4.82700735446
-    cosine 		   0.99914133854
+    vectors      [ 6.6  6.2] [ 9.7  9.9]
+    euclidean    4.82700735446
+    cosine       0.99914133854
 
 
 
 Cosine similarity takes a unit length vector to calculate dot products. However, what happens if we do the same for the vectors we're calculating the euclidian distance for (i.e. take normalize them)? For this, we can for example use the $L_1$ norm:
 
-$\sum_i | x_i |$
+$\sum_i x_i$
 
 Or the $L_2$ norm:
 
@@ -306,9 +306,9 @@ print("vectors \t", x0_n, x1_n, "\n"
 `output`
 
 
-    vectors 	   [ 0.515625  0.484375] [ 0.49489796  0.50510204]
-    euclidean 	 0.0293124622303
-    cosine 		   0.99914133854
+    vectors      [ 0.515625  0.484375] [ 0.49489796  0.50510204]
+    euclidean    0.0293124622303
+    cosine       0.99914133854
 
 
 As we can see, before, the distance was pretty big, but the cosine similarity very high. Now that we normalized our vectors, it turns out that the distance is *now* very small. The same pattern occurs when we compare it against vector 4. Unnormalized:
@@ -323,9 +323,9 @@ print("vectors \t", x0, x4, "\n"
 `output`
 
 
-    vectors 	   [ 6.6  6.2] [ 1.3  2.7]
-    euclidean 	 6.35137780328
-    cosine 		   0.933079411589
+    vectors      [ 6.6  6.2] [ 1.3  2.7]
+    euclidean    6.35137780328
+    cosine       0.933079411589
 
 
 Normalized:
@@ -342,9 +342,9 @@ print("vectors \t", x0_n, x4_n, "\n"
 `output`
 
 
-    vectors 	   [ 0.515625  0.484375] [ 0.325  0.675]
-    euclidean 	 0.269584460327
-    cosine 		   0.933079411589
+    vectors      [ 0.515625  0.484375] [ 0.325  0.675]
+    euclidean    0.269584460327
+    cosine       0.933079411589
 
 
 Notice that because the cosine similarity is a bit lower between `x0` and `x4` than it was for `x0` and `x1`, the euclidean distance is now also a bit larger. To take this point home, let's construct a vector that is almost evenly distant in our euclidean space, but where the cosine similarity is much lower (because the angle is larger):
@@ -361,9 +361,9 @@ print("vectors \t", x0, x00, "\n"
 `output`
 
 
-    vectors 	   [ 6.6  6.2] [ 0.1  6. ]
-    euclidean 	 6.50307619516
-    cosine 		   0.696726168728
+    vectors      [ 6.6  6.2] [ 0.1  6. ]
+    euclidean    6.50307619516
+    cosine       0.696726168728
 
 
 If we normalize this, we should see the same behaviour from our euclidean distance (i.e. it should be larger than for `x0` and `x4`). As follows:
@@ -380,9 +380,9 @@ print("vectors \t", x0_n, x00_n, "\n"
 `output`
 
 
-    vectors 	   [ 0.515625  0.484375] [ 0.01639344  0.98360656]
-    euclidean 	 0.706020039207
-    cosine 		   0.696726168728
+    vectors      [ 0.515625  0.484375] [ 0.01639344  0.98360656]
+    euclidean    0.706020039207
+    cosine       0.696726168728
 
 
 ## Cosine in Action
@@ -422,10 +422,10 @@ print("ML \t", len(q1.content.split()), "\n"
 `output`
 
 
-    ML 	     3694
-    AI 	     10844
-    soccer 	 6134
-    tennis 	 9715
+    ML        3694
+    AI        10844
+    soccer    6134
+    tennis    9715
 
 
 AI is a much larger article than Machine Learning (ML). This would mean that if we do not normalize our vectors, AI will be much further away from ML just because it has many more words. ML will probably be closer to an article with less words. Let's try it out:
@@ -440,9 +440,9 @@ print("ML - AI \t", euclidean_distance(X[0], X[1]), "\n"
 `output`
 
 
-    ML - AI 	     661.102110116
-    ML - soccer 	 459.307086817
-    ML - tennis 	 805.405487938
+    ML - AI        661.102110116
+    ML - soccer    459.307086817
+    ML - tennis    805.405487938
 
 
 Here we can see pretty clearly that our prior assumptions have been confirmed. ML seems to be closest to soccer, which doesn't make a lot of sense intuitively. So, what happens if we look at cosine similairty (thus normalising our vectors)?
@@ -457,9 +457,9 @@ print("ML - AI \t", cosine_similarity(X[0], X[1]), "\n"
 `output`
 
 
-    ML - AI 	     0.886729067818
-    ML - soccer 	 0.785735757699
-    ML - tennis 	 0.797450973312
+    ML - AI        0.886729067818
+    ML - soccer    0.785735757699
+    ML - tennis    0.797450973312
 
 
 ML is closer to AI! Granted, it still seems pretty close to soccer an tennis judging from these scores, but please note that word frequency is not that great of a representation for texts with such rich content.
@@ -487,10 +487,10 @@ print("tweet - ML \t", euclidean_distance(x[0], X[0]), "\n"
 `output`
 
 
-    tweet - ML 	 342.575539115
-    tweet - AI 	 945.624661269
-    tweet - soccer 	 676.677914521
-    tweet - tennis 	 1051.61589946
+    tweet - ML        342.575539115
+    tweet - AI        945.624661269
+    tweet - soccer    676.677914521
+    tweet - tennis    1051.61589946
 
 
 Well, that worked out pretty well at first glance, it's closest to ML. However, see how it's also closer to tennis than AI? There's so many dimensions that come into play here that it's hard to say why this is the case. However, tennis being our second smallest document might have something to do with it. Now we'll do the same for cosine:
@@ -506,10 +506,10 @@ print("tweet - ML \t", cosine_similarity(x, X[0]), "\n"
 `output`
 
 
-    tweet - ML 	 0.299293065515
-    tweet - AI 	 0.215356854916
-    tweet - soccer 	 0.135323358719
-    tweet - tennis 	 0.129773245953
+    tweet - ML        0.299293065515
+    tweet - AI        0.215356854916
+    tweet - soccer    0.135323358719
+    tweet - tennis    0.129773245953
 
 
 There we go! This seems definitely more in line with out intuitions. So, remember how euclidean distance in this example seemed to slightly relate to the length of the document? Let's try the same for a soccer tweet, by Manchester United:
@@ -533,10 +533,10 @@ print("tweet - ML \t", euclidean_distance(x2, X[0]), "\n"
 `output`
 
 
-    tweet - ML 	 340.549555865
-    tweet - AI 	 943.455351355
-    tweet - soccer 	 673.818224746
-    tweet - tennis 	 1048.82124311
+    tweet - ML        340.549555865
+    tweet - AI        943.455351355
+    tweet - soccer    673.818224746
+    tweet - tennis    1048.82124311
 
 
 See how awfully similar these distances are to that of our previous tweet, even though there's very little overlap? Now let's try the same with cosine similarity:
@@ -552,10 +552,10 @@ print("tweet - ML \t", cosine_similarity(x2, X[0]), "\n"
 `output`
 
 
-    tweet - ML 	 0.437509648194
-    tweet - AI 	 0.464447992614
-    tweet - soccer 	 0.611865382744
-    tweet - tennis 	 0.597261139457
+    tweet - ML        0.437509648194
+    tweet - AI        0.464447992614
+    tweet - soccer    0.611865382744
+    tweet - tennis    0.597261139457
 
 
 Nailed it!
