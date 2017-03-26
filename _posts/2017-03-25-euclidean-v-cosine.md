@@ -127,16 +127,16 @@ Let's see this for all our vectors:
 ```python
 x0 = X[0][:-1]
 x1 = X[1][:-1]
-x4 = X[5][:-1]
+x4 = X[4][:-1]
 x14 = X[14][:-1]
 print(" x0:", x0, "\n x1:", x1, "\n x4:", x4, "\nx14:", x14)
 ```
 
 `output`
 
-     x0: [ 6.6  6.2]
-     x1: [ 9.7  9.9]
-     x4: [ 2.3  3.1]
+    x0:  [ 6.6  6.2]
+    x1:  [ 9.7  9.9]
+    x4:  [ 1.3  2.7]
     x14: [ 1.3  1.3]
 
 
@@ -150,12 +150,12 @@ print(" x14 and x0:", euclidean_distance(x14, x0), "\n",
 
 `output`
 
-     x14 and x0: 7.21803297305
-     x14 and x1: 12.0216471417
-     x14 and x4: 2.0591260282
+    x14 and x0: 7.21803297305
+    x14 and x1: 12.0216471417
+    x14 and x4: 1.4
 
 
-According to cosine similarity, instance #14 is closest to #4. Our 4th instance had the label:
+According to euclidean distance, instance #14 is closest to #4. Our 4th instance had the label:
 
 
 ```python
@@ -199,9 +199,9 @@ print(" x14 and x0:", cosine_similarity(x14, x0), "\n",
 
 `output`
 
-     x14 and x0: 0.999512076087
-     x14 and x1: 0.999947942424
-     x14 and x4: 0.989203462354
+    x14 and x0: 0.999512076087 
+    x14 and x1: 0.999947942424
+    x14 and x4: 0.943858356366
 
 
 According to cosine similarity, instance #14 is closest to #1. However, our 1st instance had the label:
