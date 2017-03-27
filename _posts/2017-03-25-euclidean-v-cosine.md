@@ -256,7 +256,7 @@ print("vectors \t", x0, x1, "\n"
 
 
 
-Cosine similarity takes a unit length vector to calculate dot products. However, what happens if we do the same for the vectors we're calculating the euclidian distance for (i.e. take normalize them)? For this, we can for example use the $L_1$ norm:
+Cosine similarity takes a unit length vector to calculate dot products. However, what happens if we do the same for the vectors we're calculating the euclidian distance for (i.e. normalize them)? For this, we can for example use the $L_1$ norm:
 
 $\sum_i x_i$
 
@@ -264,7 +264,7 @@ Or the $L_2$ norm:
 
 $\sqrt{\sum_i  x_i^2 }$
 
-Or:
+In functions:
 
 
 ```python
@@ -279,7 +279,7 @@ def l2_normalize(v):
 
 We divide the values of our vector by these norms to get a normalized vector.
 
-Applying the $L_1$ norm to our vectors will make them sum up to 1, as such:
+Applying the $L_1$ norm to our vectors will make them sum up to 1 respectively, as such:
 
 
 ```python
@@ -399,7 +399,7 @@ q3 = wikipedia.page('Soccer')
 q4 = wikipedia.page('Tennis')
 ```
 
-We represent these by their frequency vectors. Each instance is a document, and each word will be feature. The feature values will then represent how many times a word occurs in a certain document. So the feature `ball`, will probably be 0 for both machine learning and AI, but definitely not 0 for soccer and tennis. For this example I'll use `sklearn`:
+We represent these by their frequency vectors. Each instance is a document, and each word will be a feature. The feature values will then represent how many times a word occurs in a certain document. So the feature `ball`, will probably be 0 for both machine learning and AI, but definitely not 0 for soccer and tennis. For this example I'll use `sklearn`:
 
 
 ```python
@@ -512,7 +512,7 @@ print("tweet - ML \t", cosine_similarity(x, X[0]), "\n"
     tweet - tennis    0.129773245953
 
 
-There we go! This seems definitely more in line with out intuitions. So, remember how euclidean distance in this example seemed to slightly relate to the length of the document? Let's try the same for a soccer tweet, by Manchester United:
+There we go! This seems definitely more in line with our intuitions. So, remember how euclidean distance in this example seemed to slightly relate to the length of the document? Let's try the same for a soccer tweet, by Manchester United:
 
 
 ```python
