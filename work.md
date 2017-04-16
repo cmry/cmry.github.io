@@ -9,6 +9,8 @@ since the start of my PhD position.
 
 * Submitted short paper to [EMNLP 2017](http://emnlp2017.net/).
 
+* Co-reviewed for [EACL](http://eacl2017.org/). 
+
 * Started supervising Evie Izeboud (in collaboration with
   [8vance](https://8vance.com/)), Thomas Rockx, and Vannesa Berhitoe for their
   Master theses in Data Science.
