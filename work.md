@@ -3,7 +3,18 @@ title: Activities
 ---
 
 Listed in reverse chronological order are all relevant academic activities
-since the start of my position in Antwerp.
+since the start of my PhD position.
+
+### 2017
+
+* Submitted short paper to [EMNLP 2017](http://emnlp2017.net/).
+
+* Started supervising Evie Izeboud (in collaboration with
+  [8vance](https://8vance.com/)), Thomas Rockx, and Vannesa Berhitoe for their
+  Master theses in Data Science.
+
+* Taught Spring semester [Social Data
+Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
 
 ### 2016
 
@@ -11,7 +22,7 @@ since the start of my position in Antwerp.
 
 * Attended [ATILA 2016](http://applejack.science.ru.nl/atila2016/).
 
-* Started teaching [Text
+* Started teaching Fall semester [Text
 Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091) and
 [Social Data
 Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022) in
