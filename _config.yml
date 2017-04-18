@@ -50,7 +50,7 @@ defaults:
 
 links:
   - name:         publ
-    url:          /publications
+    url:          /publ
   - name:         code
     url:          /code
   - name:         work

@@ -5,8 +5,9 @@
 		{% endif %}
 		<div class="links">
 			<a href="/"><i class="fa fa-home"></i></a>
+			{% assign url = page.url|remove:'/' %}
 			{% for link in site.links %}
-				{% if link in page.url %}
+				{% if link.name == url %}
 				» <a id="ind-{{ link.name | downcase }}" class="active" href="{{ link.url }}">{{ link.name }}</a>
 				{% else %}
 				» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
