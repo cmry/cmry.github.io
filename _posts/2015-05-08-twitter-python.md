@@ -12,7 +12,7 @@ Lately I have been collecting a large amount of tweets for building a good repre
 
 Twitter's short messaging system has been a well known hurdle for many tasks related to Natural Language Processing (NLP). Most of the techniques in its field tend to work very well given enough context per document; something which is clearly constrained in tweets. It therefore makes for a very challenging and equally interesting platform to work with. Accessing its data, however, can prove a time consuming task. To illustrate: if you're interested in a specific topic relevant for only a region or language (such as political tweets), you can either hope to get some share of this in its [stream](https://dev.twitter.com/streaming/overview), or constrain it with geo location (which many people do not enable). Keeping in mind that a [normal human being](https://www.quora.com/How-much-does-access-to-the-Twitter-firehose-cost?share=1) only has access to a very small percentage of this stream makes it all the more annoying at times. One might think: well, if I know a person who's from the country I'm interested in, I can just pull his tweets and look at those of his friends as well, right? Turns out it's not that simple.
 
-# The Twitter API & Tweepy
+## The Twitter API & Tweepy
 
 Twitter offers an interface to the tasks I described above, as well as a wide variety of most other information one would like to get his hands on. These can in essence be accessed through a [REST](#) interface, which might be rather unintuitive to novel users. Luckily most programming languages offer a wrapper for this API, [Tweepy](https://tweepy.readthedocs.org/) for Python being one of them. To access the API, you need a Twitter account and developer credentials - the latter of which can be obtained by creating an 'app', for which one can refer to [apps section](https://apps.twitter.com/). After receiving your brand spanking new app environment, it will list a *manage keys and access tokens* point near the Consumer Key. From that section, you can generate the tokens needed to fill in for authorization, which I will refer to as `cons_key`, `cons_sec`, `accs_tok`, `accs_sec`. There are two steps to this authorization; app-level authorization, and-user level authorization. The `cons_` keys are needed for app-level, and need to be combined with the `accs_` ones for user-level authorization. This will give us app-level:
 
@@ -46,7 +46,7 @@ api.friends('username')
 
 Which will return up until some amount of friend-names in a list! Great! Now that wasn't so hard, right? Not yet.
 
-# Twitter Rate Limits & Pagination
+## Twitter Rate Limits & Pagination
 
 Well, turns out Twitter has long monetized its data access, and therefore only allows you to pull this `api.friends` for different accounts only some X amount of times per 15 minutes. These rate limits vary per access level (user/app), which is acceptably well documented [here](https://dev.twitter.com/rest/public/rate-limiting) (Twitter docs can be incredibly vague). On top of that, the amount of entries that can be retrieved per 'page' also varies. Example: say that we want to list all the friends from some guy or girl who has more than 200 friends. Twitter only allows us to access these in pages of 200 friends. So in the previous example where I just called `api.friends('username')` we would get 200 friends only, even if the person has more. To solve this, we need to use a `Cursor` function, which in Python is similar to a [generator](). You can call its `pages()` for iteration, which works as follows:
 
@@ -80,11 +80,11 @@ So say that we have three profiles with 1000 ($max = 1000 \cdot 3$) friends, thi
 
 When writing a program that uses this API and which has to deal with its rate limits, it would be a good thing to optimize the amount of queries per some amount of seconds, especially when database interactions, preprocessing and this kind of stuff is happening in the background and taking up time before the next query. This was one of the reasons I started developing the wrapper for Tweepy; to make sure that the $t(q)$ in our equation is very approximate to the amount of time the class methods will be taking.
 
-## Syntactic Sugar
+### Syntactic Sugar
 
 As you might know, syntactic sugar is a way to describe syntax in a programming language that makes it 'tastier to consume': easier to read, work with, or just to make things work in an alternative style. Now while this is predominantly used for lower-level code, it also works well to describe a  type of wrapper. The aim is then to simplify certain interactions, that do mostly the same as existing code, but in a more intuitive or task-specific manner (of which the latter is the case here). So, let's get into the design now.
 
-# Class __init__
+## Class `__init__`
 
 We start off initiating the class, of course, and setting some of the first local parameters. Please note that I will truncate the docstrings and only leave the parameters, the code is documented on [github](). Moving the `auth` function to be called by either 'user' or 'app' makes fiddling with the different handler classes a little less troublesome. Now starting for example `api = TwAPI('user')` already gives a fully authenticated api object to work with directly!
 
@@ -118,7 +118,7 @@ class TwAPI:
 
 > **Note:** For future work, it is probably a good idea to move the tokens a bit higher level in the code (like in a dict) so you don't have to fiddle inside the class. Might also be better to make TwAPI an api class, so you can just call `self.user_timeline` instead of `self.api.user_timeline`.
 
-# Profile-based methods
+## Profile-based methods
 
 Adding pieces of code to just retrieve friends and timelines isn't that big of a deal, as we saw before. We integrate the cursor part and the iterator in separate methods and we just call the appropriate Tweepy function:
 
@@ -164,7 +164,7 @@ Out[2]:
 Note that this assumes that you want pagination anyway; there is no real reason to call the method without a cursor. In normal code, it is just a tad neater to omit this if you do not need multiple pages. This implies, however, that it will **always** retrieve the entire object. If you decide that someone with 1000 friends has only a relevant slice of the first or last 200, then it's best to alter the code. Moreover, though the methods have very similar functionality, their 'pre-sets' (`count`, field calls) make it so that abstraction was avoided on purpose.
 
 
-# Handling Rate Limits
+## Handling Rate Limits
 
 Either way, these functions do not have real added value as-is, and we will quickly run into the [API rate limits](https://dev.twitter.com/rest/public/rate-limits) as we have them set up now. That's why I implemented a waiting function to correct for both processing time and amount of queries allowed per 15 minutes. The current version looks a bit horrible, but the general idea is as follows:
 
@@ -215,7 +215,7 @@ def get_timeline(self, name):
 
 Using these functions between each iteration, the hope is to approximate $t(q)$ as defined before. To properly correct for computation time between functions, the method tries to see how much global time has passed since the previous call, however, if this is $-$, the current code does not smear that out across multiple iterations. This is something for future work.
 
-# Stream and Geo
+## Stream and Geo
 
 Previously I talked about the possibility for one to interact with the Twitter stream. Here, you can 'attach' yourself to the entire live stream of messages that are sent over Twitter. Despite the fact that you can only see some very small percentage of the actual data, sometimes it's useful to use in combination with a filter. The stream allows keyword filtering, as well as geo filtering. In the first case, we tell twitter that if there's a certain keyword (for example 'semantic'), we want it to show up in our stream. In Python, this would look something like this:
 
@@ -262,7 +262,7 @@ def stream(self, o_filter):
 
 As can be seen, we can give this method some filter; either a `str` or a `list`. The list functions as a bound box for coordinates, such as bb = [2.52490234375, 50.6976074219, 5.89248046875, 51.4911132813]  (for Belgium). This will allow you to only collect tweets in some area. Alternatively, passing a string results in the keyword filter I discussed. Sadly, due to the fact that stream only allows you to view a small percentage of the actual data, the more specific your searches will be, the less frequent things will show up in the stream.
 
-# Twitter datasets & List of IDs
+## Twitter datasets & List of IDs
 
 Luckily, we can avoid working with most of the heavy rate limits by using Twitter datasets. These datasets are usually constructed for research purposes; therefore, if you're in luck they will have some form of annotation that provides more meta-data on instance. For example, one might receive a list of user IDs and an annotated gender. Close to every Twitter dataset offers either these user or tweet IDs that have to be resolved, as giving the entire status object is in violation of Twitter's terms of service. It is therefore likely that one has to retrieve either the User or Status objects at some point. Twitter allows for feeding lists of 100 of such IDs, which we can use in code as such:
 

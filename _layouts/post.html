@@ -14,14 +14,12 @@ layout: default
 
 <article>
 
-	<div class="center">
 		<h1>{{ page.title }}</h1>
-		<time>{{ page.date | date: '%B %-d, %Y' }} <br>
-		{% if page.path contains '_posts' %}
-			<small>{{page.read}} minute read</small>
-		{% endif %}
+		<time>{{ page.date | date: '%B %-d, %Y' }} |
+			{% if page.path contains '_posts' %}
+				{{page.read}} minute read
+			{% endif %}
 		</time>
-	</div>
 
 	<div class="divider"></div>
 

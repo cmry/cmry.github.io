@@ -1,26 +1,26 @@
 <aside class="logo">
-
 	{% if page.url == '/index.html' or page.url == '/' %}
-		{% assign link = '/about' %}
-		{% assign prompt = 'About the Author' %}
-		<a href="{{ link | prepend: site.baseurl }}" class="face">
-			<img src="https://www.gravatar.com/avatar/{{ site.author_gravatar }}.png?s=80" class="gravatar">
-		</a>
-		<span class="logo-prompt">{{ prompt }}</span>
-	{% else %}
-		{% assign link = '/' %}
-		{% assign prompt = 'Back to Home' %}
-	{% endif %}
+	<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">contact</span><span class="p">(</span><span class="np">handle</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">social</span> <span class="ow">in</span> <span class="p">[</span><a class="codl" href="https://github.com/cmry"><span class="s">'github'</span></a><span class="p">,</span> <a class="codl" href="https://twitter.com/_cmry"><span class="s">'twitter'</span></a><span class="p">,</span> <span class="s">'@protonmail'</span><span class="p">]:</span>
+        <span class="n">handle</span> <span class="o">=</span> <span class="s">'_'</span> <span class="k">if</span> <span class="s">'twitter'</span> <span class="ow">in</span> <span class="n">social</span> <span class="k">else</span> <span class="s">''</span> <span class="o">+</span> <span class="n">handle</span>
+        <span class="n">prefix</span> <span class="o">=</span> <span class="n">handle</span> <span class="o">+</span> <span class="n">social</span> <span class="k">if</span> <span class="s">'mail'</span> <span class="ow">in</span> <span class="n">social</span> <span class="k">else</span> <span class="n">social</span>
+        <span class="n">suffix</span> <span class="o">=</span> <span class="s">'/'</span> <span class="o">+</span> <span class="n">handle</span> <span class="k">if</span> <span class="s">'mail'</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">social</span> <span class="k">else</span> <span class="s">''</span>
+        <span class="k">print</span><span class="p">(</span><span class="s">"</span><span class="np">{0}</span><span class="s">.com</span><span class="np">{1}</span><span class="s">"</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">prefix</span><span class="p">,</span> <span class="n">suffix</span><span class="p">))</span>
+    <span class="k">return</span> <span class="n">Keybase</span><span class="p">(</span><span class="n">handle</span><span class="p">)</span><span class="o">.</span><span class="n">get_public_key</span><span class="p">()</span><span class="o">.</span><span class="n">key_fingerprint</span>
+
+<span class="o">&gt;&gt;&gt;</span> <span class="n">contact</span><span class="p">(</span><span class="s">"cmry"</span><span class="p">)</span>
+<a class="codl" href="https://keybase.io/cmry"><span class="s">u'590edc87174165fb38c8e119b59f24dc34bba046'</span></a>
+</code></pre></div>
+  {% endif %}
 	<nav>
-		<a href="https://cmry.github.io"><i class="fa fa-home"></i></a> ·
-		<a href="https://www.github.com/cmry"><i class="fa fa-github"></i></a> ·
-		<a href="https://www.twitter.com/_cmry"><i class="fa fa-twitter"></i></a> ·
-		<a href="https://keybase.io/cmry"><i class="fa fa-key" aria-hidden="true"></i></a>
 		{% if site.balls %}
 			AAA
 		{% endif %}
+		<div class="links">
+		<a href="/"><i class="fa fa-home"></i></a>
 		{% for link in site.links %}
-			· <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
+			» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
 		{% endfor %}
+	  </div>
 	</nav>
 </aside>

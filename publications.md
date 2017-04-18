@@ -7,16 +7,16 @@ title: Publications
 > 2016 - **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource** <br>
   Tulkens, S., Emmery, C., & Daelemans W. <br>
   *LREC 2016* <br>
-  [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
-  [<i class="fa fa-file-pdf-o"></i>](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
-  [<i class="fa fa-github"></i>](https://github.com/clips/dutchembeddings)
+  [.bib](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
+  [.pdf](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
+  [.git](https://github.com/clips/dutchembeddings)
 
 > 2014 - **The Development of Dutch and Afrikaans Language Resources for Compound Boundary Analysis** <br>
   van Zaanen, M., van Huyssteen G., Aussems S., Emmery C., & Eiselen R. <br>
   *LREC 2014* <br>
-  [<i class="fa fa-file-code-o"></i>](http://www.clips.uantwerpen.be/biblio/export/bibtex/1884) &nbsp;
-  [<i class="fa fa-file-pdf-o"></i>](http://ilk.uvt.nl/menno/files/docs/p_lrec14.pdf) &nbsp;
-  <i class="fa fa-github"></i>
+  [.bib](http://www.clips.uantwerpen.be/biblio/export/bibtex/1884) &nbsp;
+  [.pdf](http://ilk.uvt.nl/menno/files/docs/p_lrec14.pdf) &nbsp;
+  .git
 
 ### Talks
 
@@ -51,6 +51,6 @@ title: Publications
 > 2014 - **Topic Modelling in Online Discussions: Analysis of the Developments within the Dutch Privacy Debate on News Websites** <br>
   Emmery, C. <br>
   *Tilburg Center for Creative Computing. 102* <br>
-  [<i class="fa fa-file-code-o"></i>](https://www.worldcat.org/title/topic-modelling-in-online-discussions-analysis-of-the-developments-within-the-dutch-privacy-debate-on-news-websites/oclc/894803324&referer=brief_results) &nbsp;
-  [<i class="fa fa-file-pdf-o"></i>](http://arno.uvt.nl/show.cgi?fid=135375) &nbsp;
-  [<i class="fa fa-github"></i>](https://www.github.com/cmry/aivb)
+  [.bib](https://www.worldcat.org/title/topic-modelling-in-online-discussions-analysis-of-the-developments-within-the-dutch-privacy-debate-on-news-websites/oclc/894803324&referer=brief_results) &nbsp;
+  [.pdf](http://arno.uvt.nl/show.cgi?fid=135375) &nbsp;
+  [.git](https://www.github.com/cmry/aivb)
