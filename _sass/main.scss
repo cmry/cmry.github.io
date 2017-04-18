@@ -155,6 +155,9 @@ span[data-note] {
     text-align: center;
     border-bottom:none;
   }
+  a.active {
+    border-bottom: 1px dotted #56b6c2;
+  }
   a.codl {
     border-bottom: 1px dotted #56b6c2;
     font-size: 1em;

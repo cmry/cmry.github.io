@@ -4,11 +4,15 @@
 			AAA
 		{% endif %}
 		<div class="links">
-		<a href="/"><i class="fa fa-home"></i></a>
-		{% for link in site.links %}
-			» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
-		{% endfor %}
-	  </div>
+			<a href="/"><i class="fa fa-home"></i></a>
+			{% for link in site.links %}
+				{% if link in page.url %}
+				» <a id="ind-{{ link.name | downcase }}" class="active" href="{{ link.url }}">{{ link.name }}</a>
+				{% else %}
+				» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
+				{% endif %}
+			{% endfor %}
+		  </div>
 	</nav>
 	{% if page.url == '/index.html' or page.url == '/' %}
 	<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">contact</span><span class="p">(</span><span class="np">handle</span><span class="p">):</span>
