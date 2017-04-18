@@ -27,9 +27,13 @@ on top of scikit-learn. Its goal is to make common research procedures fully
 automated, optimized, and well recorded. To this end it features:
 
 - Exhaustive search over best features, pipeline options, to classifier optimization.
+
 - Flexible wrappers to plug in your tools and features of choice.
+
 - Completely sparse pipeline through hashing - from data to feature space.
+
 - Record of all settings and fitted parts of the entire experiment, promoting reproducibility.
+
 - Dump an easily deployable version of the final model for plug-and-play demos.
 
 End-to-End classification in 2 minutes:
