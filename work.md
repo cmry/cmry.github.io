@@ -7,6 +7,8 @@ since the start of my PhD position.
 
 ### 2017
 
+* Co-reviewed for [CONLL 2017](http://www.conll.org/), and [EMNLP 2017](http://emnlp2017.net/).
+
 * Submitted short paper to [EMNLP 2017](http://emnlp2017.net/).
 
 * Co-reviewed for [EACL 2017](http://eacl2017.org/). 
