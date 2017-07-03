@@ -7,6 +7,8 @@ since the start of my PhD position.
 
 ### 2017
 
+* Organized informal NLP with Deep Learning [summer school](https://twitter.com/_cmry/status/878241733452079104) at Tilburg University.
+
 * Co-reviewed for [CONLL 2017](http://www.conll.org/), and [EMNLP 2017](http://emnlp2017.net/).
 
 * Submitted short paper to [EMNLP 2017](http://emnlp2017.net/).
