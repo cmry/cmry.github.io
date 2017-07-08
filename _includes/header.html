@@ -16,6 +16,11 @@
 		  </div>
 	</nav>
 	{% if page.url == '/index.html' or page.url == '/' %}
+	<div class="style">
+		 style <i class="fa fa-long-arrow-right" aria-hidden="true"></i> &nbsp;
+		 <a href="#" onclick="setActiveStyleSheet('dark'); return false;"><i class="fa fa-ge" aria-hidden="true"></i></a> &nbsp;
+		 <a href="#" onclick="setActiveStyleSheet('light'); return false;"><i class="fa fa-ra" aria-hidden="true"></i></a>
+	</div>
 	<div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">contact</span><span class="p">(</span><span class="np">handle</span><span class="p">):</span>
     <span class="s">"""Get in touch."""</span>
     <span class="k">for</span> <span class="n">social</span> <span class="ow">in</span> <span class="p">[</span><span class="s">'@protonmail'</span><span class="p">,</span> <a class="codl" href="https://github.com/cmry"><span class="s">'github'</span></a><span class="p">,</span> <a class="codl" href="https://twitter.com/_cmry"><span class="s">'twitter'</span></a><span class="p">]:</span>

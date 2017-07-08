@@ -15,13 +15,16 @@
 
 <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/light.css" />
+<link rel="alternate stylesheet" type="text/css" href="{{ site.baseurl }}/assets/dark.css" title="dark" />
+
 <link rel="icon" href="{{ site.baseurl }}/assets/favicon.png">
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/touch-icon.png">
 <script type="text/x-mathjax-config"> MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"], ['\\(','\\)']]}});</script>
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/assets/styleswitcher.js"></script>
 
 <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="{{ site.baseurl }}/assets/core.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 <link rel="canonical" href="{{ page.url | prepend: site.baseurl }}">
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
