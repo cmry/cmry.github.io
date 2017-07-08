@@ -429,6 +429,7 @@ section {
     &:before {
       content: "# ";
     }
+    text-shadow: 0;
   }
   .logo a { font-size: 0.75rem; }
   .logo { font-size: 0.9rem; } }
