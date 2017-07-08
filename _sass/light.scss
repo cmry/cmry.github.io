@@ -1,7 +1,7 @@
 body {
   // background: #fff url("../assets/noise.png") repeat fixed;
   // font-family: 'Source Sans Pro', sans-serif;
-  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif; ;
+  font-family: Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
   color: #000;
   padding: 20px;
   margin: 0;
@@ -139,6 +139,7 @@ span[data-note] {
     border-bottom: 1px solid #000;
     */
     padding-bottom: 1.5em;
+    font-family: "DejaVu Sans Mono", Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   }
   a {
     text-decoration: none;
@@ -215,6 +216,7 @@ span[data-note] {
     font-family: "Fira Sans",sans-serif;
     font-size: 0.8em;
     padding: 10px 10px 10px 0;
+    text-align: center;
   }
 }
 iframe {
@@ -419,6 +421,7 @@ section {
 @media screen and (min-width: 32em) { html { font-size: 16px; }
   h1, .h1 {
     font-size: 2.6rem;
+    text-shadow: -0.06em 0 0 red, 0.06em 0 0 cyan;
   }
   .logo a { font-size: 0.8rem; }
   .logo { font-size: 0.9rem; } }
