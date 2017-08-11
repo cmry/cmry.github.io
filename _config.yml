@@ -57,3 +57,5 @@ links:
     url:          /work
   - name:         about
     url:          /about
+  - name:         contact
+    url:          /contact
