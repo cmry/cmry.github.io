@@ -9,9 +9,9 @@
 				{% else %}
 				» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
 				{% endif %}
-				» <a href="#" onclick="setActiveStyleSheet('dark'); return false;"><i class="fa fa-ge" aria-hidden="true"></i></a> &nbsp;
-				<a href="#" onclick="setActiveStyleSheet('light'); return false;"><i class="fa fa-ra" aria-hidden="true"></i></a>
 			{% endfor %}
-		  </div>
+			» <a href="#" onclick="setActiveStyleSheet('dark'); return false;"><i class="fa fa-ge" aria-hidden="true"></i></a>&nbsp;
+			<a href="#" onclick="setActiveStyleSheet('light'); return false;"><i class="fa fa-ra" aria-hidden="true"></i></a>
+		</div>
 	</nav>
 </aside>
