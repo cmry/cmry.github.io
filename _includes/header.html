@@ -1,8 +1,5 @@
 <aside class="logo">
 	<nav>
-		{% if site.balls %}
-			AAA
-		{% endif %}
 		<div class="links">
 			<a href="/"><i class="fa fa-home"></i></a>
 			{% assign url = page.url|remove:'/' %}
@@ -12,13 +9,9 @@
 				{% else %}
 				» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
 				{% endif %}
+				» <a href="#" onclick="setActiveStyleSheet('dark'); return false;"><i class="fa fa-ge" aria-hidden="true"></i></a> &nbsp;
+				<a href="#" onclick="setActiveStyleSheet('light'); return false;"><i class="fa fa-ra" aria-hidden="true"></i></a>
 			{% endfor %}
 		  </div>
 	</nav>
-	{% if page.url == '/index.html' or page.url == '/' %}
-	<div class="style">
-		 <a href="#" onclick="setActiveStyleSheet('dark'); return false;"><i class="fa fa-ge" aria-hidden="true"></i></a> &nbsp;
-		 <a href="#" onclick="setActiveStyleSheet('light'); return false;"><i class="fa fa-ra" aria-hidden="true"></i></a>
-	</div>
-	{% endif %}
 </aside>
