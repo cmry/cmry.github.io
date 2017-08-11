@@ -7,13 +7,15 @@ since the start of my PhD position.
 
 ### 2017
 
+* 'Simple Queries as Distant Labels for Detecting Gender on Twitter' accepted for [W-NUT 2017](http://noisy-text.github.io/2017/).
+
 * Organized informal NLP with Deep Learning [summer school](https://twitter.com/_cmry/status/878241733452079104) at Tilburg University.
 
 * Co-reviewed for [CONLL 2017](http://www.conll.org/), and [EMNLP 2017](http://emnlp2017.net/).
 
 * Submitted short paper to [EMNLP 2017](http://emnlp2017.net/).
 
-* Co-reviewed for [EACL 2017](http://eacl2017.org/). 
+* Co-reviewed for [EACL 2017](http://eacl2017.org/).
 
 * Started supervising Evie Izeboud (in collaboration with
   [8vance](https://8vance.com/)), Thomas Rockx, and Vannesa Berhitoe for their
