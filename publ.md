@@ -6,7 +6,7 @@ title: Publications
 
 > 2017 - **Simple Queries as Distant Labels for Detecting Gender on Twitter** <br>
   Emmery, C., Chrupała, G., & Daelemans, W. <br>
-  *LREC 2016* <br>
+  *W-NUT 2017* <br>
   .bib &nbsp;
   [.pdf](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
   [.git](https://github.com/clips/dutchembeddings)
