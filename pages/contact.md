@@ -1,5 +1,6 @@
 ---
 title: Contact
+permalink: contact
 ---
 
 <div class="language-python highlighter-rouge"><pre class="highlight"><code><span class="k">def</span> <span class="nf">contact</span><span class="p">(</span><span class="np">handle</span><span class="p">):</span>

@@ -1,5 +1,6 @@
 ---
 title: README
+permalink: about
 ---
 I'm a [Lecturer](https://www.tilburguniversity.edu/webwijs/show/c.d.emmery.htm)
 at Tilburg University, as well as a joint [PhD

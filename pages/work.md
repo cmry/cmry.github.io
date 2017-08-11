@@ -1,5 +1,6 @@
 ---
 title: Activities
+permalink: work
 ---
 
 Listed in reverse chronological order are all relevant academic activities

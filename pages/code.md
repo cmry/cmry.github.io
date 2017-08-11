@@ -1,5 +1,6 @@
 ---
 title: Resources
+permalink: code
 ---
 
 Code, notebooks, and data I made openly available. Quick overview:

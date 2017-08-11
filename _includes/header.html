@@ -4,11 +4,7 @@
 			<a href="/"><i class="fa fa-home"></i></a>
 			{% assign url = page.url|remove:'/' %}
 			{% for link in site.links %}
-				{% if link.name == url %}
-				» <a id="ind-{{ link.name | downcase }}" class="active" href="{{ link.url }}">{{ link.name }}</a>
-				{% else %}
-				» <a id="ind-{{ link.name | downcase }}" href="{{ link.url }}">{{ link.name }}</a>
-				{% endif %}
+				» <a id="ind-{{ link.name | downcase }}" {% if link.name == link.url %}class="active"{% endif %} href="{{ link.url | prepend: site.baseurl }}">{{ link.name }}</a>
 			{% endfor %}
 			» <a href="#" onclick="setActiveStyleSheet('dark'); return false;"><i class="fa fa-ge" aria-hidden="true"></i></a> <a href="#" onclick="setActiveStyleSheet('light'); return false;"><i class="fa fa-ra" aria-hidden="true"></i></a>
 		</div>

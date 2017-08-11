@@ -1,5 +1,6 @@
 ---
 title: Publications
+permalink: publ
 ---
 
 ### Papers
