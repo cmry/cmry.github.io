@@ -8,15 +8,15 @@ title: Publications
   Emmery, C., Chrupała, G., & Daelemans, W. <br>
   *W-NUT 2017* <br>
   .bib &nbsp;
-  [.pdf](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
-  [.git](https://github.com/clips/dutchembeddings)
+  [.pdf](http://noisy-text.github.io/2017/pdf/WNUT07.pdf) &nbsp;
+  [.git](https://github.com/cmry/simple-queries)
 
 > 2016 - **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource** <br>
   Tulkens, S., Emmery, C., & Daelemans, W. <br>
   *LREC 2016* <br>
   [.bib](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
-  [.pdf](http://noisy-text.github.io/2017/pdf/WNUT07.pdf) &nbsp;
-  [.git](https://github.com/cmry/simple-queries)
+  [.pdf](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
+  [.git](https://github.com/clips/dutchembeddings)
 
 > 2014 - **The Development of Dutch and Afrikaans Language Resources for Compound Boundary Analysis** <br>
   van Zaanen, M., van Huyssteen, G., Aussems, S., Emmery, C., & Eiselen, R. <br>
