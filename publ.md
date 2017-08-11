@@ -4,15 +4,22 @@ title: Publications
 
 ### Papers
 
-> 2016 - **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource** <br>
-  Tulkens, S., Emmery, C., & Daelemans W. <br>
+> 2017 - **Simple Queries as Distant Labels for Detecting Gender on Twitter** <br>
+  Emmery, C., Chrupała, G., & Daelemans, W. <br>
   *LREC 2016* <br>
-  [.bib](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
+  .bib &nbsp;
   [.pdf](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
   [.git](https://github.com/clips/dutchembeddings)
 
+> 2016 - **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource** <br>
+  Tulkens, S., Emmery, C., & Daelemans, W. <br>
+  *LREC 2016* <br>
+  [.bib](http://www.clips.uantwerpen.be/biblio/export/bibtex/1828n) &nbsp;
+  [.pdf](http://noisy-text.github.io/2017/pdf/WNUT07.pdf) &nbsp;
+  [.git](https://github.com/cmry/simple-queries)
+
 > 2014 - **The Development of Dutch and Afrikaans Language Resources for Compound Boundary Analysis** <br>
-  van Zaanen, M., van Huyssteen G., Aussems S., Emmery C., & Eiselen R. <br>
+  van Zaanen, M., van Huyssteen, G., Aussems, S., Emmery, C., & Eiselen, R. <br>
   *LREC 2014* <br>
   [.bib](http://www.clips.uantwerpen.be/biblio/export/bibtex/1884) &nbsp;
   [.pdf](http://ilk.uvt.nl/menno/files/docs/p_lrec14.pdf) &nbsp;
