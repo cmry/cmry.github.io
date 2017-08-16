@@ -357,9 +357,13 @@ section {
     margin: 0;
     padding: 0;
     li {
-      margin: 15px 0;
+      margin-top: 2em;
+      padding-bottom: 2em;
+      border-bottom: 1px solid #ccc;
       .title {
+        font-size: 1em !important;
         max-width: 100%;
+        font-weight: 700;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         white-space: nowrap !important;
@@ -371,11 +375,38 @@ section {
         color: #abb2bf;
         box-sizing: border-box;
       }
+      .description {
+        font-size: 0.9em;
+        min-height: 5em;
+        max-height: 8.1em;
+        max-width: 100em;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        word-wrap: normal !important;
+      }
+      .image {
+        display: none;
+        float: right;
+        height: 6em;
+        width: 10em;
+        display: inline;
+        img {
+          margin: 0;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          height: 100%;
+          display: none;
+        }
+        margin: 15px 0px 10px 0px;
+      }
       .post-date {
         float: right;
         margin: 0 0 0 20px;
       }
       span {
+        font-size: 0.7em;
+        font-family: "Fira Sans",sans-serif;
         display: inline-block;
         color: #757575;
         letter-spacing: 1px;

@@ -2,6 +2,7 @@
 title: Scikit-learn Pipeline Persistence and JSON Serialization Part II
 date: 2016-04-14 18:38:05
 read: 5
+image: ./sources/pixel_art/scikit.png
 ---
 
 *This is a follow-up to [this](./serialize) post.*

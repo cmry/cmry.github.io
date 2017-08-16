@@ -2,6 +2,7 @@
 title: Scikit-learn Pipeline Persistence and JSON Serialization
 date: 2016-04-11 17:04:42
 read: 8
+image: ./sources/pixel_art/scikit.png
 ---
 
 *First off, I would like to thank Sebastian Raschka, and Chris Wagner for

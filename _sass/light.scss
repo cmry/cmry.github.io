@@ -54,6 +54,7 @@ blockquote {
   border-left: 5px solid #666;
   margin: 1em 0;
   padding: 5px 30px;
+  margin-bottom: 3em;
   background: #fff;
 }
 span[data-note] {
@@ -257,8 +258,8 @@ code {
 }
 pre {
   display: block;
-  margin-top: 0;
-  margin-bottom: 1rem;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
   font-size: 0.8rem;
   line-height: 1.4;
   white-space: pre;
@@ -350,9 +351,13 @@ section {
     margin: 0;
     padding: 0;
     li {
-      margin: 15px 0;
+      margin-top: 2em;
+      padding-bottom: 4em;
+      border-bottom: 1px solid #ccc;
       .title {
+        font-size: 1.5em !important;
         max-width: 100%;
+        font-weight: 700;
         overflow: hidden !important;
         text-overflow: ellipsis !important;
         white-space: nowrap !important;
@@ -363,6 +368,30 @@ section {
         border: 0;
         color: #000;
         box-sizing: border-box;
+      }
+      .description {
+        font-size: 0.9em;
+        min-height: 5em;
+        max-height: 7.5em;
+        max-width: 27em;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        word-wrap: normal !important;
+      }
+      .image {
+        float: right;
+        height: 6em;
+        width: 10em;
+        display: inline;
+        img {
+          margin: 0;
+          margin-left: auto;
+          margin-right: auto;
+          display: block;
+          height: 100%;
+          display: block;
+        }
+        margin: 15px 0px 10px 0px;
       }
       .post-date {
         float: right;

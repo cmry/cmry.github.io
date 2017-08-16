@@ -2,6 +2,7 @@
 title: SDM - Euclidean vs. Cosine Distance
 date: 2017-03-25 18:27:10
 read: 10
+image: ./sources/pixel_art/cosine.png
 ---
 
 *This post was written as a reply to a question asked in the
@@ -44,11 +45,7 @@ df = pd.DataFrame(X, columns=['weight', 'length', 'label'])
 df
 ```
 
-`output`
-
-
-
-|     | weight | length |  label |
+> |     | weight | length |  label |
 | --- | ------:| ------:| -------:|
 | 0   | 6.6 | 6.2 | 1.0 |
 | 1   | 9.7 | 9.9 | 2.0 |
@@ -78,9 +75,7 @@ ax = df[df['label'] == 2].plot.scatter(x='weight', y='length', c='red', label='a
 ax
 ```
 
-`output`
-
-![png](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
+> ![png](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_6_1.png)
 
 
 Looking at the plot above, we can see that the three classes are pretty well distinguishable by these two features that we have. Say that we apply $k$-NN to our data that will learn to classify new instances based on their distance to our known instances (and their labels). The algorithm needs a distance metric to determine which of the known instances are closest to the new one. Let's try to choose between either euclidean or cosine for this example.
@@ -102,9 +97,7 @@ ax = df3.plot.scatter(x='weight', y='length', c='gray', label='?', ax=ax)
 ax
 ```
 
-`output`
-
-![png2](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_8_1.png)
+> ![png2](https://raw.githubusercontent.com/cmry/cmry.github.io/master/sources/output_8_1.png)
 
 
 ### Euclidean
@@ -132,9 +125,7 @@ x14 = X[14][:-1]
 print(" x0:", x0, "\n x1:", x1, "\n x4:", x4, "\nx14:", x14)
 ```
 
-`output`
-
-
+>    
     x0:  [ 6.6  6.2]
     x1:  [ 9.7  9.9]
     x4:  [ 1.3  2.7]
@@ -149,9 +140,7 @@ print(" x14 and x0:", euclidean_distance(x14, x0), "\n",
       "x14 and x4:", euclidean_distance(x14, x4))
 ```
 
-`output`
-
-
+>    
     x14 and x0: 7.21803297305
     x14 and x1: 12.0216471417
     x14 and x4: 1.4
@@ -164,10 +153,7 @@ According to euclidean distance, instance #14 is closest to #4. Our 4th instance
 X[4]
 ```
 
-`output`
-
-
-
+>
     array([ 1.3,  2.7,  0. ])
 
 
@@ -199,9 +185,7 @@ print(" x14 and x0:", cosine_similarity(x14, x0), "\n",
       "x14 and x4:", cosine_similarity(x14, x4))
 ```
 
-`output`
-
-
+>
     x14 and x0: 0.999512076087
     x14 and x1: 0.999947942424
     x14 and x4: 0.943858356366
@@ -214,9 +198,7 @@ According to cosine similarity, instance #14 is closest to #1. However, our 1st 
 X[1]
 ```
 
-`output`
-
-
+>
     array([ 9.7,  9.9,  2. ])
 
 
@@ -247,9 +229,7 @@ print("vectors \t", x0, x1, "\n"
       "euclidean \t", euclidean_distance(x0, x1), "\n"
       "cosine \t\t", cosine_similarity(x0, x1))
 ```
-`output`
-
-
+>
     vectors      [ 6.6  6.2] [ 9.7  9.9]
     euclidean    4.82700735446
     cosine       0.99914133854
@@ -288,9 +268,7 @@ x1_n = l1_normalize(x1)
 print(x0_n, x1_n)
 ```
 
-`output`
-
-
+>
     [ 0.515625  0.484375] [ 0.49489796  0.50510204]
 
 
@@ -303,9 +281,7 @@ print("vectors \t", x0_n, x1_n, "\n"
       "cosine \t\t", cosine_similarity(x0_n, x1_n))
 ```
 
-`output`
-
-
+>
     vectors      [ 0.515625  0.484375] [ 0.49489796  0.50510204]
     euclidean    0.0293124622303
     cosine       0.99914133854
@@ -320,9 +296,7 @@ print("vectors \t", x0, x4, "\n"
       "cosine \t\t", cosine_similarity(x0, x4))
 ```
 
-`output`
-
-
+>
     vectors      [ 6.6  6.2] [ 1.3  2.7]
     euclidean    6.35137780328
     cosine       0.933079411589
@@ -339,9 +313,7 @@ print("vectors \t", x0_n, x4_n, "\n"
       "cosine \t\t", cosine_similarity(x0_n, x4_n))
 ```
 
-`output`
-
-
+>
     vectors      [ 0.515625  0.484375] [ 0.325  0.675]
     euclidean    0.269584460327
     cosine       0.933079411589
@@ -358,9 +330,7 @@ print("vectors \t", x0, x00, "\n"
       "cosine \t\t", cosine_similarity(x0, x00))
 ```
 
-`output`
-
-
+>
     vectors      [ 6.6  6.2] [ 0.1  6. ]
     euclidean    6.50307619516
     cosine       0.696726168728
@@ -377,9 +347,7 @@ print("vectors \t", x0_n, x00_n, "\n"
       "cosine \t\t", cosine_similarity(x0_n, x00_n))
 ```
 
-`output`
-
-
+>
     vectors      [ 0.515625  0.484375] [ 0.01639344  0.98360656]
     euclidean    0.706020039207
     cosine       0.696726168728
@@ -419,9 +387,7 @@ print("ML \t", len(q1.content.split()), "\n"
       "tennis \t", len(q4.content.split()))
 ```
 
-`output`
-
-
+>
     ML        3694
     AI        10844
     soccer    6134
@@ -437,9 +403,7 @@ print("ML - AI \t", euclidean_distance(X[0], X[1]), "\n"
       "ML - tennis \t", euclidean_distance(X[0], X[3]))
 ```
 
-`output`
-
-
+>
     ML - AI        661.102110116
     ML - soccer    459.307086817
     ML - tennis    805.405487938
@@ -454,9 +418,7 @@ print("ML - AI \t", cosine_similarity(X[0], X[1]), "\n"
       "ML - tennis \t", cosine_similarity(X[0], X[3]))
 ```
 
-`output`
-
-
+>
     ML - AI        0.886729067818
     ML - soccer    0.785735757699
     ML - tennis    0.797450973312
@@ -484,9 +446,7 @@ print("tweet - ML \t", euclidean_distance(x[0], X[0]), "\n"
       "tweet - tennis \t", euclidean_distance(x[0], X[3]))
 ```
 
-`output`
-
-
+>
     tweet - ML        342.575539115
     tweet - AI        945.624661269
     tweet - soccer    676.677914521
@@ -503,9 +463,7 @@ print("tweet - ML \t", cosine_similarity(x, X[0]), "\n"
       "tweet - tennis \t", cosine_similarity(x, X[3]))
 ```
 
-`output`
-
-
+>
     tweet - ML        0.299293065515
     tweet - AI        0.215356854916
     tweet - soccer    0.135323358719
@@ -530,9 +488,7 @@ print("tweet - ML \t", euclidean_distance(x2, X[0]), "\n"
       "tweet - tennis \t", euclidean_distance(x2, X[3]))
 ```
 
-`output`
-
-
+>
     tweet - ML        340.549555865
     tweet - AI        943.455351355
     tweet - soccer    673.818224746
@@ -549,9 +505,7 @@ print("tweet - ML \t", cosine_similarity(x2, X[0]), "\n"
       "tweet - tennis \t", cosine_similarity(x2, X[3]))
 ```
 
-`output`
-
-
+>
     tweet - ML        0.437509648194
     tweet - AI        0.464447992614
     tweet - soccer    0.611865382744
