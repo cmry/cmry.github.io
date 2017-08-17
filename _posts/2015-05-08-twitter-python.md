@@ -2,6 +2,7 @@
 title: The Twitter API and Python - Syntactic Sugar for Tweepy
 date: 2015-05-08 14:19:36
 read: 12
+image: ./sources/pixel_art/twit.png
 ---
 
 Lately I have been collecting a large amount of tweets for building a good representation of Twitter-user's expected social discourse and its meta-data. Basically, a fancy way of saying that I want to see who *publicly* shares what, and with whom. After some digging around, I settled for [Tweepy](https://tweepy.readthedocs.org/) to interface with the Twitter API. There were several scenarios which I was looking to implement: grab the available associates (followers, friends) and public timeline given a user's name, and resolving a large number of tweets given a set of tweet IDs. Don't get me wrong, Tweepy offers a very nice interface. It was a bit too general-purpose for my liking though, so I started building a wrapper class around Tweepy. In this post, I will talk a bit about its functionality, considerations and future improvements while discussing the task of utilizing the Twitter API for Natural Language Processing-related research.
