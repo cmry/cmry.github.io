@@ -14,12 +14,6 @@ layout: default
 			<div class="title">
 				<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 			</div>
-			<div class="image">
-				<img src="{{ post.image }}"/>
-			</div>
-			<div class="description">
-				{{ post.excerpt }}
-			</div>
 		</li>
 
 		{% endfor %}
