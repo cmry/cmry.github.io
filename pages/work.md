@@ -8,6 +8,10 @@ since the start of my PhD position.
 
 ### 2017
 
+* Taught Fall semester [Data Mining for Business and Governance](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
+
+* Attended [EMNLP 2017](https://www.emnlp2017.net) in Copenhagen.
+
 * 'Simple Queries as Distant Labels for Detecting Gender on Twitter' accepted for [W-NUT 2017](http://noisy-text.github.io/2017/).
 
 * Organized informal NLP with Deep Learning [summer school](https://twitter.com/_cmry/status/878241733452079104) at Tilburg University.
