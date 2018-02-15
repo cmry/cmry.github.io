@@ -5,22 +5,23 @@ permalink: about
 I'm a [Lecturer](https://www.tilburguniversity.edu/webwijs/show/c.d.emmery.htm)
 at Tilburg University, as well as a joint [PhD
 candidate](http://www.clips.uantwerpen.be/people/chris-emmery) doing research
-for both the [CS&AI group](https://tcsai.github.io) at Tilburg and
+for both the Department of Cogntive Science and Artificial Intelligence at Tilburg and
 [CLiPS](http://www.clips.uantwerpen.be/) at the University of Antwerp under the
 supervision of [Eric Postma](http://www.ericpostma.nl), [Grzegorz
 Chrupała](http://grzegorz.chrupala.me), and [Walter
-Daelemans](http://www.clips.uantwerpen.be/~walter/). I currently teach [Text
+Daelemans](http://www.clips.uantwerpen.be/~walter/). I previously taught [Text
 Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091) and
-[Social Data
-Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022) in
-context of the new [Data
+currently teach
+[Data Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022) in
+context of our [Data
 Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
 master. Before, I worked for the [AMiCA project](http://www.amicaproject.be/)
 where my research was mainly in the field of Text Mining. During this, I
 focussed on applying Machine Learning for forensic and online security-related
 applications such as detection of cyberbullying and child grooming, and author
 profiling. On top of this, I developed software to apply these techniques on
-social media.
+social media. I'm currently working on extending this research to protect users
+from attacks on their privacy.
 
 
 ## Academic Background
@@ -48,9 +49,7 @@ an avid Linux user and got very enthusiastic about open-source software, and
 thus open data and open science initiatives. I started a sole proprietorship
 in web development and data collection, and scripting was a large part of
 my student assistantship activites. All in all, I typed a whole bunch of code for
-websites, wrappers, and tools. My latest endeavors include a minimalistic
-conference manager ([ebacs](https://www.github.com/cmry/ebacs)), a Python
-wrapper for Stanford's Topic Modelling Toolbox
-([topbox](https://www.github.com/cmry/topbox)), and an environment for Text
-Mining research ([Omesa](https://www.github.com/cmry/omesa)). More details can
-be found [here](https://cmry.github.io/code).
+websites, wrappers, and tools. Apart offering repositories to completely reproduce
+my research (see e.g. my [W-NUT](https://github.com/cmry/simple-queries) paper),
+I also like to build demos of my work (e.g. [tōku](https://onyx.uvt.nl/toku)).
+More details can be found [here](https://cmry.github.io/code).
