@@ -1,12 +1,12 @@
 ---
-title: SDM - Euclidean vs. Cosine Distance
+title: Euclidean vs. Cosine Distance
 date: 2017-03-25 18:27:10
 read: 10
 image: ./sources/pixel_art/cosine.png
 ---
 
 *This post was written as a reply to a question asked in the
-[Social Data Mining](https://github.com/tcsai/social-data-mining) course.*
+[Data Mining](https://github.com/tcsai/data-mining) course.*
 
 > When to use the cosine similarity?
 
