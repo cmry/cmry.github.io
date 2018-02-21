@@ -8,7 +8,7 @@ since the start of my PhD position.
 
 ### 2018
 
-* Part of the Scientific Committee of [LREC 2016](http://lrec2018.lrec-conf.org/en/); reviewed for main conference and [TA-COS](http://ta-cos.org/) workshop.
+* Part of the Scientific Committee of [LREC 2018](http://lrec2018.lrec-conf.org/en/); reviewed for main conference and [TA-COS](http://ta-cos.org/) workshop.
 
 * Presented 'Attribute Obfuscation with Gradient Reversal' at [CLIN 28](http://clin28.cls.ru.nl/).
 
