@@ -6,7 +6,23 @@ permalink: work
 Listed in reverse chronological order are all relevant academic activities
 since the start of my PhD position.
 
+### 2018
+
+* Started supervising for their Zhasmina Kostadinova, Master theses in Data Science.
+
+* Part of the Scientific Committee of [LREC 2016](http://lrec2018.lrec-conf.org/en/); reviewed for main conference and [TA-COS](http://ta-cos.org/) workshop.
+
+* Presented [Attribute Obfuscation with Gradient Reversal](http://clin28.cls.ru.nl/#abstract-67) at [CLIN 28](http://clin28.cls.ru.nl/).
+
+* Taught the Spring semester of [Data Mining for Business and Governance](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
+
 ### 2017
+
+* Presented 'Distantly Supervised Prediction of Demographic Information on Social Media' and [tōku](https://onyx.uvt.nl/toku) at the TiCC PhD Day 2017 and won the Best Demo Award.
+
+* Organized [ATILA'17](https://onyx.uvt.nl/atila) in Tilburg.
+
+* Was part of the jury at the [Xomnia Datathon](https://xomnia.com/news/xomnia-arag-stop-pesten-nu-fight-cyberbullying-artificial-intelligence/) against cyberbullying.
 
 * Taught Fall semester [Data Mining for Business and Governance](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
 
