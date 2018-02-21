@@ -8,11 +8,9 @@ since the start of my PhD position.
 
 ### 2018
 
-* Started supervising for their Zhasmina Kostadinova, Master theses in Data Science.
-
 * Part of the Scientific Committee of [LREC 2016](http://lrec2018.lrec-conf.org/en/); reviewed for main conference and [TA-COS](http://ta-cos.org/) workshop.
 
-* Presented [Attribute Obfuscation with Gradient Reversal](http://clin28.cls.ru.nl/#abstract-67) at [CLIN 28](http://clin28.cls.ru.nl/).
+* Presented 'Attribute Obfuscation with Gradient Reversal' at [CLIN 28](http://clin28.cls.ru.nl/).
 
 * Taught the Spring semester of [Data Mining for Business and Governance](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
 
