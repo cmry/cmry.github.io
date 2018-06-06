@@ -7,7 +7,7 @@ permalink: publ
 
 > 2018 - **Style Obfuscation by Invariance** <br>
   Emmery, C., Manjavacas, E., & Chrupała, G. <br>
-  *W-NUT 2017* <br>
+  *COLING 2018* <br>
   [.bib](https://scholar.googleusercontent.com/scholar.bib?q=info:hyYgUKk52HYJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWxfiKbv-iBHJhjBP3a2Fwft2MCatmkqs&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1) &nbsp;
   [.pdf](https://arxiv.org/abs/1805.07143) &nbsp;
   [.git](https://github.com/cmry/style-obfuscation)
