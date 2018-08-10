@@ -12,7 +12,7 @@ since the start of my PhD position.
 
 * 'Style Obfuscation by Invariance' accepted for [COLING 2018](http://coling2018.org/).
 
-* Supervising Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Prodromo Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
+* Supervising Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Tzoulian Prodromos Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
 
 * Submitted long paper to [COLING 2018](http://coling2018.org/).
 
