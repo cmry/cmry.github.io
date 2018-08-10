@@ -12,15 +12,7 @@ since the start of my PhD position.
 
 * 'Style Obfuscation by Invariance' accepted for [COLING 2018](http://coling2018.org/).
 
-* Supervising Master theses in Data Science (described by general topic):
-    - Joey Dokter - Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/))
-    - Alejandra Hernández Réjon - Gender Differences in Cyberbullying Detection
-    - Kostas Stoitas - Evaluating Word Embeddings for Cyberbullying Detection
-    - Prodromo Ninas - Investigating Cyberbullying and Toxicity
-    - Anwar Amezoug - Out of Domain Performance of Profiling
-    - Coen van Duijnhoven - Robustness of Simple Queries on Political Preference Detection
-    - Martijn Oele - Linguistically Informed Local Changes for Author Obfuscation
-    - Jan de Rooij - Replicating Style Obfuscation by Invariance
+* Supervising Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Prodromo Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
 
 * Submitted long paper to [COLING 2018](http://coling2018.org/).
 
@@ -52,11 +44,7 @@ since the start of my PhD position.
 
 * Co-reviewed for [EACL 2017](http://eacl2017.org/).
 
-* Supervised Master theses in Data Science:
-    - Evie Izeboud - [Prediction of Job Transition Using Publicly Available Professional Profiles](https://www.worldcat.org/title/prediction-of-job-transition-using-publicly-available-professional-profiles/oclc/1023722676&referer=brief_results) (in collaboration with
-  [8vance](https://8vance.com/))
-    - Thomas Rockx - [Profile pictures as predictor for network size on Twitter](https://www.worldcat.org/title/profile-pictures-as-predictor-for-network-size-on-twitter/oclc/1023722678&referer=brief_results)
-    - Vannesa Berhitoe - Multi-label emotion detection on Twitter
+* Supervised Master theses in Data Science: Evie Izeboud — [Prediction of Job Transition Using Publicly Available Professional Profiles](https://www.worldcat.org/title/prediction-of-job-transition-using-publicly-available-professional-profiles/oclc/1023722676&referer=brief_results) (in collaboration with [8vance](https://8vance.com/)), Thomas Rockx — [Profile pictures as predictor for network size on Twitter](https://www.worldcat.org/title/profile-pictures-as-predictor-for-network-size-on-twitter/oclc/1023722678&referer=brief_results), Vannesa Berhitoe — Multi-label emotion detection on Twitter.
 
 * Taught Spring semester [Social Data
 Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
