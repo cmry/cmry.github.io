@@ -8,6 +8,8 @@ since the start of my PhD position.
 
 ### 2018
 
+* Invited lecturer at the Vrije Universiteit, providing the [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.hmtl) lecture for the [Tax & Technology](http://taxandtechnology.com/) course.
+
 * Part of the local organisation committee for [BNAIC2018/BENELEARN2018](https://bnaic2018.nl/).
 
 * 'Style Obfuscation by Invariance' accepted for [COLING 2018](http://coling2018.org/).
