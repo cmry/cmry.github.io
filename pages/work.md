@@ -8,6 +8,10 @@ since the start of my PhD position.
 
 ### 2018
 
+* Teaching assistant
+
+* Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+
 * Invited lecturer at the Vrije Universiteit, providing the [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) lecture for the [Tax & Technology](http://taxandtechnology.com/) course.
 
 * Part of the local organisation committee for [BNAIC2018/BENELEARN2018](https://bnaic2018.nl/).
@@ -22,7 +26,7 @@ since the start of my PhD position.
 
 * Presented 'Attribute Obfuscation with Gradient Reversal' at [CLIN 28](http://clin28.cls.ru.nl/).
 
-* Taught the Spring semester of [Data Mining for Business and Governance](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
+* Taught the Spring semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
 
 ### 2017
 
@@ -32,7 +36,7 @@ since the start of my PhD position.
 
 * Was part of the jury at the [Xomnia Datathon](https://xomnia.com/news/xomnia-arag-stop-pesten-nu-fight-cyberbullying-artificial-intelligence/) against cyberbullying.
 
-* Taught Fall semester [Data Mining for Business and Governance](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
+* Taught Fall semester Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
 
 * Attended [EMNLP 2017](https://www.emnlp2017.net) in Copenhagen.
 
@@ -48,8 +52,8 @@ since the start of my PhD position.
 
 * Supervised Master theses in Data Science: Evie Izeboud — [Prediction of Job Transition Using Publicly Available Professional Profiles](https://www.worldcat.org/title/prediction-of-job-transition-using-publicly-available-professional-profiles/oclc/1023722676&referer=brief_results) (in collaboration with [8vance](https://8vance.com/)), Thomas Rockx — [Profile pictures as predictor for network size on Twitter](https://www.worldcat.org/title/profile-pictures-as-predictor-for-network-size-on-twitter/oclc/1023722678&referer=brief_results), Vannesa Berhitoe — Multi-label emotion detection on Twitter.
 
-* Taught Spring semester [Social Data
-Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
+* Taught Spring semester Social Data
+Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
 
 ### 2016
 
@@ -57,10 +61,9 @@ Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022).
 
 * Attended [ATILA 2016](http://applejack.science.ru.nl/atila2016/).
 
-* Started teaching Fall semester [Text
-Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=N&pfac=FGW&vakcode=880091) and
-[Social Data
-Mining](https://mystudy.uvt.nl/it10.vakzicht?taal=e&pfac=FGW&vakcode=880022) in
+* Started teaching Fall semester Text
+Mining ([880091](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do))and Social Data
+Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)) in
 context of the new [Data
 Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
 master. Materials for both courses are [open-source](https://github.com/tcsai/).
