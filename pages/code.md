@@ -21,7 +21,7 @@ Code, notebooks, and data I made openly available. Quick overview:
 
 ## Omesa
 
-<a href="http://github.com/cmry/omesa"><i class="fa fa-github"></i></a>  &nbsp;  <a href="http://omesa.readthedocs.org/"><i class="fa fa-book"></i></a>
+<a href="http://github.com/cmry/omesa"><i class="fab fa-github"></i></a>  &nbsp;  <a href="http://omesa.readthedocs.org/"><i class="fa fa-book"></i></a>
 
 A small framework for reproducible Text Mining research that largely builds
 on top of scikit-learn. Its goal is to make common research procedures fully
@@ -80,7 +80,7 @@ Output:
 
 ## markdoc
 
-<a href="http://github.com/cmry/markdoc"><i class="fa fa-github"></i></a>
+<a href="http://github.com/cmry/markdoc"><i class="fab fa-github"></i></a>
 
 This piece of code can be used to convert NumPy-styled Python docstrings
 (example), such as those used in scikit-learn, to Markdown with minimum
@@ -97,7 +97,7 @@ python3 markdoc.py /dir/to/somefile.py /dir/to/somedoc.md
 
 ## topbox
 
-<a href="http://github.com/cmry/topbox"><i class="fa fa-github"></i></a>
+<a href="http://github.com/cmry/topbox"><i class="fab fa-github"></i></a>
 
 A small Python 3 wrapper around the Stanford Topic Modeling Toolbox (STMT) that
 makes working with L-LDA a bit easier; no need to leave the Python environment.
@@ -125,7 +125,7 @@ print(average_precision_score(y_true, y_score))
 
 ## ebacs
 
-<a href="http://github.com/cmry/ebacs"><i class="fa fa-github"></i></a> &nbsp; *in development*
+<a href="http://github.com/cmry/ebacs"><i class="fab fa-github"></i></a> &nbsp; *in development*
 
 Minimal working version of a [bottle.py](http://http://www.bottlepy.org/)
 front-end to [ec2latex](http://github.com/cmry/ec2latex). Currently, it demonstrates how
@@ -138,7 +138,7 @@ embeddable for your conference website. Requires `bottle`, `cork`, `beaker` and 
 
 ## ec2latex
 
-<a href="http://github.com/cmry/ec2latex"><i class="fa fa-github"></i></a>
+<a href="http://github.com/cmry/ec2latex"><i class="fab fa-github"></i></a>
 
 Python tool for converting XML-based confrence submissions (such as EasyChair)
 to a full LaTeX book of abstracts. Sample of the end result can be found [here](http://www.clips.uantwerpen.be/~ben/sites/default/files/book_of_abstracts_final.pdf).
