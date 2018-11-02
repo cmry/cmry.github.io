@@ -50,12 +50,16 @@ defaults:
 
 links:
   - name:         fa fa-graduation-cap
+    alias:        publ
     url:          /publ
   - name:         fa fa-terminal
+    alias:        code
     url:          /code
   - name:         fa fa-tasks
+    alias:        work
     url:          /work
   - name:         fa fa-user-circle
+    alias:        about
     url:          /about
   - name:         fab fa-twitter
     url:          https://twitter.com/_cmry
