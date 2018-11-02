@@ -49,16 +49,17 @@ defaults:
       layout:       "post"
 
 links:
-  - name:         publ
+  - name:         fa fa-graduation-cap
     url:          /publ
-  - name:         code
+  - name:         fa fa-terminal
     url:          /code
-  - name:         work
+  - name:         fa fa-tasks
     url:          /work
-  - name:         about
+  - name:         fa fa-user-circle
     url:          /about
-  - name:         twitter
+  - name:         fab fa-twitter
     url:          https://twitter.com/_cmry
-    icon:         twitter
-  - name:         contact
+  - name:         fab fa-github
+    url:          https://github.com/cmry
+  - name:         fa fa-stroopwafel
     url:          /contact
