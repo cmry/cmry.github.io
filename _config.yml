@@ -52,7 +52,7 @@ links:
   - name:         fa fa-graduation-cap
     alias:        publ
     url:          /publ
-  - name:         fa fa-terminal
+  - name:         fa fa-code
     alias:        code
     url:          /code
   - name:         fa fa-tasks
