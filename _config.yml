@@ -57,5 +57,8 @@ links:
     url:          /work
   - name:         about
     url:          /about
+  - name:         twitter
+    url:          https://twitter.com/_cmry
+    icon:         twitter
   - name:         contact
     url:          /contact
