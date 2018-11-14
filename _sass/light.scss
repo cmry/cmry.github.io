@@ -60,7 +60,7 @@ mark {
 }
 blockquote {
   color: #666;
-  font-size: 1em;
+  font-size: 0.85em;
   font-family: "PT Sans", sans-serif;
   border-left: 2px solid #666;
   padding-left: 18px;
@@ -226,12 +226,25 @@ span[data-note] {
 iframe {
   margin: 45px 0 !important;
 }
-ul,
-ol {
+ul {
   margin: 40px 0;
   padding-left: 0px;
   li {
     word-wrap: break-word;
+  }
+  img {
+    margin: 40px 0;
+    border-radius: 5px;
+  }
+}
+ol {
+  margin: 40px 0;
+  padding-left: 14px;
+  border-left: 2px solid #ccc;
+  list-style: disc;
+  li {
+    word-wrap: break-word;
+    padding-top: 3px;
   }
   img {
     margin: 40px 0;
@@ -245,7 +258,7 @@ sup {
   margin-left: 1px;
 }
 time {
-  font-size: 0.6em;
+  font-size: 0.65em;
   color: #666;
 }
 code,
@@ -277,10 +290,9 @@ pre {
 }
 table {
   width: 100%;
-  table-layout: fixed;
+  table-layout: auto;
   margin: 45px 0;
   font-size: 0.7em;
-
   th {
     text-align: left;
     padding: 8px 10px;
@@ -314,7 +326,7 @@ article {
   }
   p {
     font-family: "PT Serif";
-    font-size: 0.80em;
+    font-size: 0.9em;
     line-height: 1.5em;
     overflow-wrap: break-word;
   }
@@ -352,7 +364,7 @@ article {
 section {
   max-width: 720px;
   margin: 0 auto;
-  font-size: 0.8em;
+  font-size: 0.9em;
   ul {
     list-style: none;
     margin: 0;
@@ -450,3 +462,7 @@ section {
 @media screen and (min-width: 48em) { html { font-size: 18px; } }
 @media screen and (min-width: 64em) { html { font-size: 20px; } }
 @media screen and (min-width: 78em) { em img { max-width: 56rem; margin-left: -7em; } }
+
+.MathJax_Display {
+    font-size: 0.9em;
+}
