@@ -5,7 +5,7 @@ permalink: about
 I'm a [Lecturer](https://research.tilburguniversity.edu/en/persons/chris-emmery)
 at Tilburg University, as well as a joint [PhD
 candidate](http://www.clips.uantwerpen.be/people/chris-emmery) doing research
-for both the [Department of Cogntive Science and Artificial Intelligence](www.csai.nl) at Tilburg and
+for both the [Department of Cognitive Science and Artificial Intelligence](https://www.csai.nl/) at Tilburg and
 [CLiPS](http://www.clips.uantwerpen.be/) at the University of Antwerp under the
 supervision of [Eric Postma](http://www.ericpostma.nl), [Grzegorz
 Chrupała](http://grzegorz.chrupala.me), and [Walter
