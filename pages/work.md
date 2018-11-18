@@ -10,9 +10,9 @@ since the start of my PhD position.
 
 ### 2018
 
-10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880083-M-6)).
 
-9. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+9. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
 
 8. Invited lecturer at the Vrije Universiteit, providing the [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) lecture for the [Tax & Technology](http://taxandtechnology.com/) course.
 
@@ -28,7 +28,7 @@ since the start of my PhD position.
 
 2. Presented 'Attribute Obfuscation with Gradient Reversal' at [CLIN 28](http://clin28.cls.ru.nl/).
 
-1. Taught the Spring semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+1. Taught the Spring semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
 
 ### 2017
 
@@ -38,7 +38,7 @@ since the start of my PhD position.
 
 10. Was part of the jury at the [Xomnia Datathon](https://xomnia.com/news/xomnia-arag-stop-pesten-nu-fight-cyberbullying-artificial-intelligence/) against cyberbullying.
 
-9. Taught Fall semester Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+9. Taught Fall semester Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2017&cursus=880022-M-6)).
 
 8. Attended [EMNLP 2017](https://www.emnlp2017.net) in Copenhagen.
 
@@ -55,7 +55,7 @@ since the start of my PhD position.
 2. Supervised Master theses in Data Science: Evie Izeboud — [Prediction of Job Transition Using Publicly Available Professional Profiles](https://www.worldcat.org/title/prediction-of-job-transition-using-publicly-available-professional-profiles/oclc/1023722676&referer=brief_results) (in collaboration with [8vance](https://8vance.com/)), Thomas Rockx — [Profile pictures as predictor for network size on Twitter](https://www.worldcat.org/title/profile-pictures-as-predictor-for-network-size-on-twitter/oclc/1023722678&referer=brief_results), Vannesa Berhitoe — Multi-label emotion detection on Twitter.
 
 1. Taught Spring semester Social Data
-Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2017&cursus=880022-M-6)).
 
 ### 2016
 
@@ -64,8 +64,8 @@ Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/O
 7. Attended [ATILA 2016](http://applejack.science.ru.nl/atila2016/).
 
 6. Started teaching Fall semester Text
-Mining ([880091](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)) and Social Data
-Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)) in
+Mining ([880091](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2016&cursus=880022-M-6)) and Social Data
+Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2016&cursus=880091-M-3)) in
 context of the new [Data
 Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
 master. Materials for both courses are [open-source](https://github.com/tcsai/).
