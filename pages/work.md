@@ -10,6 +10,8 @@ since the start of my PhD position.
 
 ### 2018
 
+11. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
+
 10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880083-M-6)).
 
 9. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
