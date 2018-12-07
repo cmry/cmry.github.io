@@ -9,7 +9,8 @@ permalink: publ
   Emmery, C., Manjavacas, E., & Chrupała, G. <br>
   *COLING 2018* <br>
   [.bib](https://scholar.googleusercontent.com/scholar.bib?q=info:hyYgUKk52HYJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWxfiKbv-iBHJhjBP3a2Fwft2MCatmkqs&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1) &nbsp;
-  [.pdf](https://arxiv.org/abs/1805.07143) &nbsp;
+  [.pdf](http://aclweb.org/anthology/C18-1084) &nbsp;
+  [.rxv](https://arxiv.org/abs/1805.07143) &nbsp;
   [.git](https://github.com/cmry/style-obfuscation)
 
 > 2017 - **Simple Queries as Distant Labels for Detecting Gender on Twitter** <br>

@@ -10,6 +10,8 @@ since the start of my PhD position.
 
 ### 2018
 
+12. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
+
 11. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
 
 10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880083-M-6)).
@@ -20,7 +22,7 @@ since the start of my PhD position.
 
 7. Part of the local organisation committee for [BNAIC2018/BENELEARN2018](https://bnaic2018.nl/).
 
-6. 'Style Obfuscation by Invariance' accepted for [COLING 2018](http://coling2018.org/).
+6. '[Style Obfuscation by Invariance](http://aclweb.org/anthology/C18-1084)' accepted for [COLING 2018](http://coling2018.org/).
 
 5. Supervised Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Tzoulian Prodromos Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
 
