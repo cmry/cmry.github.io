@@ -7,18 +7,34 @@ permalink: publ
 
 > 2018 - **Style Obfuscation by Invariance** <br>
   Emmery, C., Manjavacas, E., & Chrupała, G. <br>
-  *COLING 2018* <br>
-  [.bib](https://scholar.googleusercontent.com/scholar.bib?q=info:hyYgUKk52HYJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWxfiKbv-iBHJhjBP3a2Fwft2MCatmkqs&scisf=4&ct=citation&cd=-1&hl=en&scfhb=1) &nbsp;
+  *COLING 2018* <br> <small>
   [.pdf](http://aclweb.org/anthology/C18-1084) &nbsp;
   [.rxv](https://arxiv.org/abs/1805.07143) &nbsp;
-  [.git](https://github.com/cmry/style-obfuscation)
+  [.git](https://github.com/cmry/style-obfuscation) &nbsp;
+  ```tex
+  @inproceedings{emmery2018style,
+      title={Style Obfuscation by Invariance},
+      author={Emmery, Chris and Manjavacas, Enrique and Chrupa{\l}a, Grzegorz},
+      journal={COLING 2018},
+      pages={984--996},
+      year={2018}
+  }
+  ``` </small>
 
 > 2017 - **Simple Queries as Distant Labels for Detecting Gender on Twitter** <br>
   Emmery, C., Chrupała, G., & Daelemans, W. <br>
   *W-NUT 2017* <br>
-  [.bib](https://scholar.googleusercontent.com/scholar.bib?q=info:AlHwtiRGyzIJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWd8uuUORptDNUAkIxQ8M6f7NDsBTcdEt&scisf=4&ct=citation&cd=-1&hl=en) &nbsp;
   [.pdf](http://noisy-text.github.io/2017/pdf/WNUT07.pdf) &nbsp;
-  [.git](https://github.com/cmry/simple-queries)
+  [.git](https://github.com/cmry/simple-queries) &nbsp;
+  ```tex
+  @inproceedings{emmery2017simple,
+      title={Simple Queries as Distant Labels for Predicting Gender on Twitter},
+      author={Emmery, Chris and Chrupa{\l}a, Grzegorz and Daelemans, Walter},
+      booktitle={Proceedings of the 3rd Workshop on Noisy User-generated Text},
+      pages={50--55},
+      year={2017}
+  }
+  ```
 
 > 2016 - **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource** <br>
   Tulkens, S., Emmery, C., & Daelemans, W. <br>

@@ -51,19 +51,26 @@ defaults:
 links:
   - name:         fa fa-graduation-cap
     alias:        publ
+    info:         Publications
     url:          /publ
   - name:         fa fa-code
     alias:        code
+    info:         Resources
     url:          /code
   - name:         fa fa-tasks
     alias:        work
+    info:         Activities
     url:          /work
   - name:         fa fa-user-circle
     alias:        about
+    info:         README
     url:          /about
   - name:         fab fa-twitter
     url:          https://twitter.com/_cmry
+    info:         Twitter
   - name:         fab fa-github
     url:          https://github.com/cmry
+    info:         GitHub
   - name:         fa fa-stroopwafel
     url:          /contact
+    info:         Contact
