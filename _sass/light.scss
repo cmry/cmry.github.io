@@ -172,14 +172,14 @@ span[data-note] {
     line-height: 100px;
     display: inline-block;
     background: #ddd url("gravatar_wrapper.png");
-    border: 5px solid #fff;
+    border: 2px solid #333;
     box-sizing: border-box;
+    margin-bottom: 20px;
     &:hover + .logo-prompt,
     &:focus + .logo-prompt {
       display: inline-block !important;
     }
     .gravatar {
-      margin-top: 5px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%;

@@ -16,17 +16,19 @@ since the start of my PhD position.
 
 ### 2018
 
-11. Supervised theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
+12. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
 
-10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+11. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
 
-9. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880083-M-6)).
+
+9. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
 
 8. Invited lecturer at the Vrije Universiteit, providing the [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) lecture for the [Tax & Technology](http://taxandtechnology.com/) course.
 
 7. Part of the local organisation committee for [BNAIC2018/BENELEARN2018](https://bnaic2018.nl/).
 
-6. 'Style Obfuscation by Invariance' accepted for [COLING 2018](http://coling2018.org/).
+6. '[Style Obfuscation by Invariance](http://aclweb.org/anthology/C18-1084)' accepted for [COLING 2018](http://coling2018.org/).
 
 5. Supervised Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Tzoulian Prodromos Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
 
@@ -36,7 +38,7 @@ since the start of my PhD position.
 
 2. Presented 'Attribute Obfuscation with Gradient Reversal' at [CLIN 28](http://clin28.cls.ru.nl/).
 
-1. Taught the Spring semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+1. Taught the Spring semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
 
 ### 2017
 
@@ -46,7 +48,7 @@ since the start of my PhD position.
 
 10. Was part of the jury at the [Xomnia Datathon](https://xomnia.com/news/xomnia-arag-stop-pesten-nu-fight-cyberbullying-artificial-intelligence/) against cyberbullying.
 
-9. Taught Fall semester Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+9. Taught Fall semester Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2017&cursus=880022-M-6)).
 
 8. Attended [EMNLP 2017](https://www.emnlp2017.net) in Copenhagen.
 
@@ -63,7 +65,7 @@ since the start of my PhD position.
 2. Supervised Master theses in Data Science: Evie Izeboud — [Prediction of Job Transition Using Publicly Available Professional Profiles](https://www.worldcat.org/title/prediction-of-job-transition-using-publicly-available-professional-profiles/oclc/1023722676&referer=brief_results) (in collaboration with [8vance](https://8vance.com/)), Thomas Rockx — [Profile pictures as predictor for network size on Twitter](https://www.worldcat.org/title/profile-pictures-as-predictor-for-network-size-on-twitter/oclc/1023722678&referer=brief_results), Vannesa Berhitoe — Multi-label emotion detection on Twitter.
 
 1. Taught Spring semester Social Data
-Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
+Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2017&cursus=880022-M-6)).
 
 ### 2016
 
@@ -72,8 +74,8 @@ Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/O
 7. Attended [ATILA 2016](http://applejack.science.ru.nl/atila2016/).
 
 6. Started teaching Fall semester Text
-Mining ([880091](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)) and Social Data
-Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)) in
+Mining ([880091](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2016&cursus=880022-M-6)) and Social Data
+Mining ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2016&cursus=880091-M-3)) in
 context of the new [Data
 Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
 master. Materials for both courses are [open-source](https://github.com/tcsai/).

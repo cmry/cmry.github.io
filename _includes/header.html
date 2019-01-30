@@ -1,10 +1,15 @@
 <aside class="logo">
 	<nav>
+	{% assign link = '/contact' %}
+	{% assign prompt = 'Get in touch!' %}
+	<a href="{{ link | prepend: site.baseurl }}" class="face">
+		<img src="https://s3.amazonaws.com/keybase_processed_uploads/f2e9e0db8ae46fb966b232deee1ac905_360_360.jpg" class="gravatar">
+	</a>
 		<div class="links">
 			<a href="/"><i class="fa fa-home"></i></a>
 			{% assign url = page.url|remove:'/' %}
 			{% for link in site.links %}
-				&nbsp; &nbsp; <a id="ind-{{ link.name | downcase }}" {% if link.alias == link.url %}class="active"{% endif %} href="{{ link.url | prepend: site.baseurl }}"><i class="{{ link.name }}"></i></a>
+				&nbsp; &nbsp; <a id="ind-{{ link.name | downcase }}" {% if link.alias == link.url %}class="active"{% endif %} href="{{ link.url | prepend: site.baseurl }}" title="{{ link.info }}"><i class="{{ link.name }}"></i></a>
 			{% endfor %}
 		</div>
 	</nav>

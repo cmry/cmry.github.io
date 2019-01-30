@@ -6,7 +6,7 @@ image: ./sources/pixel_art/cosine.png
 ---
 
 *This post was written as a reply to a question asked in the
-[Data Mining](https://github.com/tcsai/data-mining) course.*
+[Data Mining](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6) course.*
 
 > When to use the cosine similarity?
 
