@@ -8,9 +8,15 @@ permalink: work
 Listed in reverse chronological order are all relevant academic activities
 since the start of my PhD position.
 
+
+### 2019
+
+1. Attended [ICT with Industry 2019](https://ict-research.nl/ict-with-industry/programme/) at the Lorentz Center in Leiden, predicting public importance of news for the [Persgroep](https://www.persgroep.nl/). My observations [here](https://twitter.com/_cmry/status/1089906255643271168).
+
+
 ### 2018
 
-11. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
+11. Supervised theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
 
 10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusZoekCursus.do)).
 
