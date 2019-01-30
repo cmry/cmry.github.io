@@ -13,7 +13,6 @@ since the start of my PhD position.
 
 1. Attended [ICT with Industry 2019](https://ict-research.nl/ict-with-industry/programme/) at the Lorentz Center in Leiden, predicting public importance of news for the [Persgroep](https://www.persgroep.nl/). My observations [here](https://twitter.com/_cmry/status/1089906255643271168).
 
-
 ### 2018
 
 12. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
