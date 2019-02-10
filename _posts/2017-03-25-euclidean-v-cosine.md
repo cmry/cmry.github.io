@@ -453,7 +453,7 @@ print("tweet - ML \t", euclidean_distance(x[0], X[0]), "\n"
     tweet - tennis    1051.61589946
 
 
-Well, that worked out pretty well at first glance, it's closest to ML. However, see how it's also closer to tennis than AI? There's so many dimensions that come into play here that it's hard to say why this is the case. However, tennis being our second smallest document might have something to do with it. Now we'll do the same for cosine:
+Well, that worked out pretty well at first glance, it's closest to ML. However, see how it's also closer to soccer than AI? There's so many dimensions that come into play here that it's hard to say why this is the case. However, soccer being our second smallest document might have something to do with it. Now we'll do the same for cosine:
 
 
 ```python
