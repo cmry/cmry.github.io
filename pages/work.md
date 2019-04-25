@@ -11,6 +11,8 @@ since the start of my PhD position.
 
 ### 2019
 
+3. Gave a talk on [(Adversarial) Computational Stylometry](https://onyx.uvt.nl/toku/static/colq/index.html) for our department's colloquium series. 
+
 2. Gave an [Introduction to AI](https://onyx.uvt.nl/toku/static/ai/index.html) guest lecture at the Tilburg Law School.
 
 1. Attended [ICT with Industry 2019](https://ict-research.nl/ict-with-industry/programme/) at the Lorentz Center in Leiden, predicting public importance of news for the [Persgroep](https://www.persgroep.nl/). My observations [here](https://twitter.com/_cmry/status/1089906255643271168).
