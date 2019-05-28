@@ -7,7 +7,7 @@ permalink: publ
 
 > 2018 - **Style Obfuscation by Invariance** <br>
   Emmery, C., Manjavacas, E., & Chrupała, G. <br>
-  *COLING 2018* <br> <small>
+  *COLING 2018* <br>
   [.pdf](http://aclweb.org/anthology/C18-1084) &nbsp;
   [.rxv](https://arxiv.org/abs/1805.07143) &nbsp;
   [.git](https://github.com/cmry/style-obfuscation) &nbsp;

@@ -11,7 +11,11 @@ since the start of my PhD position.
 
 ### 2019
 
-3. Gave a talk on [(Adversarial) Computational Stylometry](https://onyx.uvt.nl/toku/static/colq/index.html) for our department's colloquium series. 
+5. Submitted paper to [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113).
+
+4. Attended the [Blackbox@NL](https://blackbox-nl.github.io/) workshop at [JADS](https://www.jads.nl/).
+
+3. Gave a talk on [(Adversarial) Computational Stylometry](https://onyx.uvt.nl/toku/static/colq/index.html) for our department's colloquium series.
 
 2. Gave an [Introduction to AI](https://onyx.uvt.nl/toku/static/ai/index.html) guest lecture at the Tilburg Law School.
 
