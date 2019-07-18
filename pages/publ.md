@@ -5,6 +5,13 @@ permalink: publ
 
 ### Papers
 
+> In Press - **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
+  Emmery, C., Kádár, Á., Wiltshire, T. J. & Hendrickson, A. T. <br>
+  *Computational Brain & Behavior* <br>
+  .pdf &nbsp;
+  .rxv &nbsp;
+  .cite &nbsp;
+
 > 2018 - **Style Obfuscation by Invariance** <br>
   Emmery, C., Manjavacas, E., & Chrupała, G. <br>
   *COLING 2018* <br>
@@ -12,6 +19,13 @@ permalink: publ
   [.rxv](https://arxiv.org/abs/1805.07143) &nbsp;
   [.git](https://github.com/cmry/style-obfuscation) &nbsp;
   [.cite](https://research.tilburguniversity.edu/en/publications/style-obfuscation-by-invariance)
+
+> 2018 - **Automatic Detection of Cyberbullying in Social Media Text** <br>
+  Cynthia Van Hee , Gilles Jacobs, Chris Emmery, Bart Desmet, Els Lefever, Ben Verhoeven, Guy De Pauw, Walter Daelemans, Véronique Hoste <br>
+  *PLoS ONE* <br> 
+  [.pdf](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794) &nbsp;
+  [.osf](https://osf.io/rgqw8/) &nbsp;
+  [.cite](https://research.tilburguniversity.edu/en/publications/automatic-detection-of-cyberbullying-in-social-media-text)
 
 > 2017 - **Simple Queries as Distant Labels for Detecting Gender on Twitter** <br>
   Emmery, C., Chrupała, G., & Daelemans, W. <br>

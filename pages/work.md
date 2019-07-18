@@ -11,6 +11,8 @@ since the start of my PhD position.
 
 ### 2019
 
+6. '[Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective]()' accepted as commentary paper in [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113). 
+
 5. Submitted paper to [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113).
 
 4. Attended the [Blackbox@NL](https://blackbox-nl.github.io/) workshop at [JADS](https://www.jads.nl/).
@@ -23,7 +25,9 @@ since the start of my PhD position.
 
 ### 2018
 
-12. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
+13. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
+
+12. '[Automatic detection of cyberbullying in social media text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794)' accepted in [PLoS ONE](https://journals.plos.org/plosone/).
 
 11. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
 
