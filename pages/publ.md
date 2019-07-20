@@ -21,7 +21,7 @@ permalink: publ
   [.cite](https://research.tilburguniversity.edu/en/publications/style-obfuscation-by-invariance)
 
 > 2018 - **Automatic Detection of Cyberbullying in Social Media Text** <br>
-  Cynthia Van Hee , Gilles Jacobs, Chris Emmery, Bart Desmet, Els Lefever, Ben Verhoeven, Guy De Pauw, Walter Daelemans, Véronique Hoste <br>
+  Van Hee, C., Jacobs, G., Emmery, C., Desmet, B., Lefever, E., Verhoeven, B., De Pauw, G., Daelemans, W. & Hoste, V. <br>
   *PLoS ONE* <br> 
   [.pdf](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794) &nbsp;
   [.osf](https://osf.io/rgqw8/) &nbsp;
