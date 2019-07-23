@@ -209,7 +209,7 @@ X[1]
 
 Consider the following picture:
 
-![img](http://semanticvoid.com/images/cosine_similarity.png)
+![eucos](/sources/eucos.png)
 
 This is a visual representation of euclidean distance ($d$) and cosine similarity ($\theta$). While cosine looks at the **angle** between vectors (thus not taking into regard their weight or magnitude), euclidean distance is similar to using a ruler to actually measure the distance. In our example the angle between `x14` and `x4` was larger than those of the other vectors, even though they were further away.
 
