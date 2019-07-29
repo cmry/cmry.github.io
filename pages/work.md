@@ -11,9 +11,9 @@ since the start of my PhD position.
 
 ### 2019
 
-6. '[Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective]()' accepted as commentary paper in [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113). 
+6. '[Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective](https://psyarxiv.com/9y72b/)' accepted as commentary paper in [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113). 
 
-5. Submitted paper to [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113).
+5. Submitted commentary to [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113).
 
 4. Attended the [Blackbox@NL](https://blackbox-nl.github.io/) workshop at [JADS](https://www.jads.nl/).
 

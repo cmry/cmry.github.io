@@ -5,12 +5,12 @@ permalink: publ
 
 ### Papers
 
-> In Press - **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
+> Accepted/preprint - **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
   Emmery, C., Kádár, Á., Wiltshire, T. J. & Hendrickson, A. T. <br>
   *Computational Brain & Behavior* <br>
   .pdf &nbsp;
-  .rxv &nbsp;
-  .cite &nbsp;
+  [.rxv](https://psyarxiv.com/9y72b/) &nbsp;
+  [.cite](https://research.tilburguniversity.edu/en/publications/towards-replication-in-computational-cognitive-modeling-a-machine) &nbsp;
 
 > 2018 - **Style Obfuscation by Invariance** <br>
   Emmery, C., Manjavacas, E., & Chrupała, G. <br>
