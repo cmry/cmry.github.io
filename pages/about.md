@@ -17,6 +17,6 @@ During my studies I learned to speak most notably Python, PHP, and Java, became 
 
 ## Personal
 
-I enjoy too many things outside of academia than I have time for: primarily music (yearly most frequent albums below, I'm [unfortunately](https://www.youtube.com/watch?v=nkCMSrvOTAo) also into vinyl, I play guitar and drums), food (cooking and eating, I love stews, Asian cuisine, stouts and scotch), and video games. If I'm not doing the above I binge crunchyroll, pay to lift heavy objects, run and cycle around, or pretend to be a sysadmin.
+I enjoy too many things outside of academia than I have time for: primarily music (yearly most frequent albums below, I'm [unfortunately](https://www.youtube.com/watch?v=nkCMSrvOTAo) also into vinyl, I play guitar and drums), food (cooking and eating, I love making stews, mastering Asian cuisine, and drinking stouts and scotch), and video games. If I'm not doing the above I binge crunchyroll, pay to lift heavy objects, run and cycle around, or pretend to be a sysadmin.
 
-<img style="display: block; margin-left: auto; margin-right: auto; width: 80%;" src="http://chrisawren.com/widgets/userchart/?name=fazzeh&row=6&time=12month&size=600"/>
+<img style="display: block; margin-left: auto; margin-right: auto; width: 80%; padding-top: 20px;" src="http://chrisawren.com/widgets/userchart/?name=fazzeh&row=6&time=12month&size=600"/>
