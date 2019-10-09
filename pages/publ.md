@@ -5,10 +5,10 @@ permalink: publ
 
 ### Papers
 
-> Accepted/preprint - **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
+> 2019- **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
   Emmery, C., Kádár, Á., Wiltshire, T. J. & Hendrickson, A. T. <br>
   *Computational Brain & Behavior* <br>
-  .pdf &nbsp;
+  [.pdf](https://link.springer.com/content/pdf/10.1007%2Fs42113-019-00055-w.pdf) &nbsp;
   [.rxv](https://psyarxiv.com/9y72b/) &nbsp;
   [.cite](https://research.tilburguniversity.edu/en/publications/towards-replication-in-computational-cognitive-modeling-a-machine) &nbsp;
 
