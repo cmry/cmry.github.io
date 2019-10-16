@@ -11,6 +11,10 @@ since the start of my PhD position.
 
 ### 2019
 
+9. Gave a guest lecture on [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) for the [Tax & Technology](http://taxandtechnology.com/) course at the Vrije Universiteit.
+
+8. Attended [ATILA 2019](https://www.clips.uantwerpen.be/atila19).
+
 7.  Reviewed for [CONLL 2019](http://www.conll.org/).
 
 6. '[Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective](https://psyarxiv.com/9y72b/)' accepted as commentary paper in [Computational Brain & Behaviour](https://www.springer.com/psychology/cognitive+psychology/journal/42113). 
