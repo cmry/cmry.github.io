@@ -5,15 +5,22 @@ permalink: publ
 
 ### Papers
 
-> 2019- **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
-  Emmery, C., Kádár, Á., Wiltshire, T. J. & Hendrickson, A. T. <br>
+> 2019 - **Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity** <br>
+  **Chris Emmery**, Ben Verhoeven, Guy De Pauw, Cynthia van Hee, Gilles Jacobs, Els Lefever, Bart Desmet, Véronique Hoste, & Walter Daelemans <br>
+  *arXiv* <br>
+  .rxv &nbsp;
+  [.git](https://github.com/cmry/amica) &nbsp;
+  .cite &nbsp;
+
+> 2019 - **Towards Replication in Computational Cognitive Modeling: A Machine Learning Perspective** <br>
+  **Chris Emmery**, Ákos Kádár, Travis J. Wiltshire, & Andrew T. Hendrickson <br>
   *Computational Brain & Behavior* <br>
   [.pdf](https://link.springer.com/content/pdf/10.1007%2Fs42113-019-00055-w.pdf) &nbsp;
   [.rxv](https://psyarxiv.com/9y72b/) &nbsp;
   [.cite](https://research.tilburguniversity.edu/en/publications/towards-replication-in-computational-cognitive-modeling-a-machine) &nbsp;
 
 > 2018 - **Style Obfuscation by Invariance** <br>
-  Emmery, C., Manjavacas, E., & Chrupała, G. <br>
+  **Chris Emmery**, Enrique Manjavacas, & Grzegorz Chrupała <br>
   *COLING 2018* <br>
   [.pdf](http://aclweb.org/anthology/C18-1084) &nbsp;
   [.rxv](https://arxiv.org/abs/1805.07143) &nbsp;
@@ -21,14 +28,14 @@ permalink: publ
   [.cite](https://research.tilburguniversity.edu/en/publications/style-obfuscation-by-invariance)
 
 > 2018 - **Automatic Detection of Cyberbullying in Social Media Text** <br>
-  Van Hee, C., Jacobs, G., Emmery, C., Desmet, B., Lefever, E., Verhoeven, B., De Pauw, G., Daelemans, W. & Hoste, V. <br>
+  Cynthia Van Hee, Gilles Jacobs, **Chris Emmery**, Bart Desmet, Els Lefever, Ben Verhoeven, Guy De Pauw, Walter Daelemans, & Véronique Hoste <br>
   *PLoS ONE* <br> 
   [.pdf](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794) &nbsp;
   [.osf](https://osf.io/rgqw8/) &nbsp;
   [.cite](https://research.tilburguniversity.edu/en/publications/automatic-detection-of-cyberbullying-in-social-media-text)
 
 > 2017 - **Simple Queries as Distant Labels for Detecting Gender on Twitter** <br>
-  Emmery, C., Chrupała, G., & Daelemans, W. <br>
+  **Chris Emmery**, Grzegorz Chrupała, & Walter Daelemans <br>
   *W-NUT 2017* <br>
   [.pdf](http://noisy-text.github.io/2017/pdf/WNUT07.pdf) &nbsp;
   .rxv &nbsp;
@@ -36,7 +43,7 @@ permalink: publ
   [.cite](https://research.tilburguniversity.edu/en/publications/simple-queries-as-distant-labels-for-detecting-gender-on-twitter)
 
 > 2016 - **Evaluating Unsupervised Dutch Word Embeddings as a Linguistic Resource** <br>
-  Tulkens, S., Emmery, C., & Daelemans, W. <br>
+  Stéphan Tulkens, **Chris Emmery**, & Walter Daelemans <br>
   *LREC 2016* <br>
   [.pdf](https://arxiv.org/pdf/1607.00225.pdf) &nbsp;
   [.rxv](https://arxiv.org/abs/1607.00225) &nbsp;
@@ -44,7 +51,7 @@ permalink: publ
   [.cite](https://research.tilburguniversity.edu/en/publications/evaluating-unsupervised-dutch-word-embeddings-as-a-linguistic-res)
 
 > 2014 - **The Development of Dutch and Afrikaans Language Resources for Compound Boundary Analysis** <br>
-  van Zaanen, M., van Huyssteen, G., Aussems, S., Emmery, C., & Eiselen, R. <br>
+  Menno van Zaanen, Gerhard van Huyssteen, Suzanne Aussems, **Chris Emmery**, & Roald Eiselen <br>
   *LREC 2014* <br>
   [.pdf](http://ilk.uvt.nl/menno/files/docs/p_lrec14.pdf) &nbsp;
   .rxv &nbsp;
@@ -55,7 +62,7 @@ permalink: publ
 ### Theses
 
 > 2014 - **Topic Modelling in Online Discussions: Analysis of the Developments within the Dutch Privacy Debate on News Websites** <br>
-  Emmery, C. <br>
+  Chris Emmery <br>
   *Tilburg Center for Creative Computing. 102* <br>
   [.pdf](http://arno.uvt.nl/show.cgi?fid=135375) &nbsp;
   .rxv &nbsp;

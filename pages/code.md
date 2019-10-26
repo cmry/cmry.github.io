@@ -8,6 +8,7 @@ permalink: code
 
 | name                                                          | type        | description                                              |
 | ------------------------------------------------------------- | ----------- | -------------------------------------------------------- |
+| [amica](https://github.com/cmry/amica)                        | paper repo  | All experiments described in [this]() paper.             |
 | [dutch-embeddings](https://github.com/clips/dutch-embeddings) | data        | Various Dutch word embeddings trained with word2vec.     |
 | [style-obfuscation](http://github.com/cmry/style-obfuscation) | paper repo  | All experiments described in [this](http://aclweb.org/anthology/C18-1084) paper. |
 | [simple-queries](http://github.com/cmry/simple-queries)       | paper repo  | All experiments and data described in [this](http://www.aclweb.org/anthology/W17-4407) paper. |
