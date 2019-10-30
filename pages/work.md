@@ -11,6 +11,10 @@ since the start of my PhD position.
 
 ### 2019
 
+11. '[Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity](https://arxiv.org/abs/1910.11922)' available on arXiv.
+
+10. Submitted paper to [Language Resources and Evaluation](https://www.springer.com/journal/10579).
+
 9. Gave a guest lecture on [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) for the [Tax & Technology](http://taxandtechnology.com/) course at the Vrije Universiteit.
 
 8. Attended [ATILA 2019](https://www.clips.uantwerpen.be/atila19).
