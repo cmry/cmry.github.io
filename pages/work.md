@@ -8,6 +8,12 @@ permalink: work
 Listed in reverse chronological order are all relevant academic activities
 since the start of my PhD position.
 
+### 2020
+
+2. Submitted paper to [EMNLP 2020](https://2020.emnlp.org/).
+
+1. '[Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity](https://arxiv.org/abs/1910.11922)' accepted to [Language Resources and Evaluation](https://www.springer.com/journal/10579) with minor revisions. 
+
 
 ### 2019
 
