@@ -10,7 +10,9 @@ since the start of my PhD position.
 
 ### 2020
 
-2. Submitted paper to [EMNLP 2020](https://2020.emnlp.org/).
+3. Submitted paper to [EMNLP 2020](https://2020.emnlp.org/).
+
+2. Became a founding member of the Culture Committee at the [Department of Cognitive Science \& Artifical Intelligence](www.csai.nl), and Head of the PhD Culture Board. Started organizing weekly meetings with [Lieke Gelderloos](https://research.tilburguniversity.edu/en/persons/lieke-gelderloos), [Paris Mavromoustakos Blom](https://research.tilburguniversity.edu/en/persons/paris-mavromoustakos-blom), and [George Aalbers](https://research.tilburguniversity.edu/en/persons/george-aalbers)
 
 1. '[Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity](https://arxiv.org/abs/1910.11922)' accepted to [Language Resources and Evaluation](https://www.springer.com/journal/10579) with minor revisions. 
 
@@ -41,23 +43,27 @@ since the start of my PhD position.
 
 ### 2018
 
-13. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
+14. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
 
-12. '[Automatic detection of cyberbullying in social media text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794)' accepted in [PLoS ONE](https://journals.plos.org/plosone/).
+13. '[Automatic detection of cyberbullying in social media text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794)' accepted in [PLoS ONE](https://journals.plos.org/plosone/).
 
-11. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
+12. Supervising theses in Data Science (described by general topic): Gytha Muller — Improving Cross-Domain Distant Profiling, Ruben van de Kerkhof — Stylometric Features in Sarcasm Detection.
 
-10. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880083-M-6)).
+11. Teaching Assistant (provided the Decision Tree lecture) for Machine Learning ([880083](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880083-M-6)).
 
-9. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
+10. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
 
-8. Invited lecturer at the Vrije Universiteit, providing the [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) lecture for the [Tax & Technology](http://taxandtechnology.com/) course.
+9. Invited lecturer at the Vrije Universiteit, providing the [Data Quality](https://onyx.uvt.nl/toku/static/tt/index.html) lecture for the [Tax & Technology](http://taxandtechnology.com/) course.
 
-7. Part of the local organisation committee for [BNAIC2018/BENELEARN2018](https://bnaic2018.nl/).
+8. Part of the local organisation committee for [BNAIC2018/BENELEARN2018](https://bnaic2018.nl/).
 
-6. '[Style Obfuscation by Invariance](http://aclweb.org/anthology/C18-1084)' accepted for [COLING 2018](http://coling2018.org/).
+7. '[Style Obfuscation by Invariance](http://aclweb.org/anthology/C18-1084)' accepted for [COLING 2018](http://coling2018.org/).
 
-5. Supervised Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Tzoulian Prodromos Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
+6. Supervised Master theses in Data Science (described by general topic): Joey Dokter — Predicting Customer Conversion for In-House Advertisements (in collaboration with [OnMarc](https://www.onmarc.nl/)), Alejandra Hernández Réjon — Gender Differences in Cyberbullying Detection, Kostas Stoitas — Evaluating Word Embeddings for Cyberbullying Detection, Tzoulian Prodromos Ninas — Investigating Cyberbullying and Toxicity, Anwar Amezoug — Out of Domain Performance of Profiling, Coen van Duijnhoven — Robustness of Simple Queries on Political Preference Detection, Martijn Oele — Linguistically Informed Local Changes for Author Obfuscation, Jan de Rooij — Replicating Style Obfuscation by Invariance.
+
+5. Blog shared by KDNuggets, again:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Euclidean vs. Cosine Distance<br>&quot;This post was written as a reply to a question asked in the Data Mining (<a href="https://t.co/oCLBFN8ELc">https://t.co/oCLBFN8ELc</a>) course: When to use the cosine similarity?&quot; <a href="https://t.co/Wf3GjpWn0t">https://t.co/Wf3GjpWn0t</a> <a href="https://t.co/MOT7Pw2AE2">pic.twitter.com/MOT7Pw2AE2</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/977233014412533761?ref_src=twsrc%5Etfw">March 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 4. Submitted long paper to [COLING 2018](http://coling2018.org/).
 
@@ -68,6 +74,12 @@ since the start of my PhD position.
 1. Taught the Spring semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)).
 
 ### 2017
+
+13. Blog shared by KDNuggets, twice:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scikit-learn Pipeline Persistence and JSON Serialization Part II <a href="https://t.co/q0DdKRHR45">https://t.co/q0DdKRHR45</a> <a href="https://t.co/WMQUqhsTf2">pic.twitter.com/WMQUqhsTf2</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/945912240141688832?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scikit-learn Pipeline Persistence and JSON Serialization <a href="https://t.co/eLJ5jiPxRd">https://t.co/eLJ5jiPxRd</a> <a href="https://t.co/EiimZV6zz8">pic.twitter.com/EiimZV6zz8</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/945882018512080896?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 12. Presented 'Distantly Supervised Prediction of Demographic Information on Social Media' and [tōku](https://onyx.uvt.nl/toku) at the TiCC PhD Day 2017 and won the Best Demo Award.
 
@@ -107,7 +119,7 @@ context of the new [Data
 Science](https://www.tilburguniversity.edu/education/masters-programmes/data-science-business-and-governance/)
 master. Materials for both courses are [open-source](https://github.com/tcsai/).
 
-5. Moved to the [CS&AI group](https://tcsai.github.io) at Tilburg University as
+5. Moved to the [CS&AI group](www.csai.nl) at Tilburg University as
 part [Lecturer](https://www.tilburguniversity.edu/webwijs/show/c.d.emmery.htm),
 part joint [PhD candidate](http://www.clips.uantwerpen.be/people/chris-emmery)
 with [CLiPS](http://www.clips.uantwerpen.be/) at the University of Antwerp under the
