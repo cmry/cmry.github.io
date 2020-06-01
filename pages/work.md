@@ -12,7 +12,7 @@ since the start of my PhD position.
 
 3. Submitted paper to [EMNLP 2020](https://2020.emnlp.org/).
 
-2. Became a founding member of the Culture Committee at the [Department of Cognitive Science \& Artifical Intelligence](www.csai.nl), and Head of the PhD Culture Board. Started organizing weekly meetings with [Lieke Gelderloos](https://research.tilburguniversity.edu/en/persons/lieke-gelderloos), [Paris Mavromoustakos Blom](https://research.tilburguniversity.edu/en/persons/paris-mavromoustakos-blom), and [George Aalbers](https://research.tilburguniversity.edu/en/persons/george-aalbers)
+2. Became a founding member of the Culture Committee at the [Department of Cognitive Science & Artifical Intelligence](https://www.csai.nl), and Head of the PhD Culture Board. Started organizing weekly meetings with [Lieke Gelderloos](https://research.tilburguniversity.edu/en/persons/lieke-gelderloos), [Paris Mavromoustakos Blom](https://research.tilburguniversity.edu/en/persons/paris-mavromoustakos-blom), and [George Aalbers](https://research.tilburguniversity.edu/en/persons/george-aalbers)
 
 1. '[Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity](https://arxiv.org/abs/1910.11922)' accepted to [Language Resources and Evaluation](https://www.springer.com/journal/10579) with minor revisions. 
 
