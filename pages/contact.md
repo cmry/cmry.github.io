@@ -3,6 +3,6 @@ title: Referring...
 permalink: contact
 ---
 
-<img src="https://img03.deviantart.net/989f/i/2012/165/6/a/pikachu___nyan_cat_by_mnrart-d53fu71.gif" style="display: block;margin: 0 auto;" />
+<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.tenor.co%2Fimages%2Ffceca10d1e5fe19067a74018f89a6977%2Fraw&f=1&nofb=1" style="display: block;margin: 0 auto;" />
 
 <meta http-equiv="refresh" content="0; url=https://keybase.io/cmry" />
