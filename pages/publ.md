@@ -5,9 +5,24 @@ permalink: publ
 
 ### Papers
 
-> 2019 - **Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity** <br>
+> 2021 - **Adversarial Stylometry in the Wild: Transferable Lexical Substitution Attacks on Author Profiling** <br>
+  Chris Emmery, Ákos Kádár, Grzegorz Chrupała <br>
+  *EACL 2021* <br>
+  [.rxv](https://arxiv.org/abs/2101.11310) &nbsp;
+  [.git](https://github.com/cmry/reap) &nbsp;
+  [.cite](https://research.tilburguniversity.edu/en/publications/adversarial-stylometry-in-the-wild-transferable-lexical-substitut) &nbsp;
+
+> 2020 - **The CACAPO Dataset: A Multilingual, Multi-Domain Dataset for Neural Pipeline and End-to-End Data-to-Text Generation** <br>
+  Chris van der Lee, **Chris Emmery**, Sander Wubben, Emiel Krahmer <br>
+  *INLG 2020* <br>
+  [.pdf](https://pdfs.semanticscholar.org/9629/f883ab622488ea6d24dd0d3af7014d734852.pdf) &nbsp;
+  [.git](https://github.com/TallChris91/CACAPO-Dataset) &nbsp;
+  [.cite](https://research.tilburguniversity.edu/en/publications/the-cacapo-dataset-a-multilingual-multi-domain-dataset-for-neural) &nbsp;
+
+> 2020 - **Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity** <br>
   **Chris Emmery**, Ben Verhoeven, Guy De Pauw, Cynthia van Hee, Gilles Jacobs, Els Lefever, Bart Desmet, Véronique Hoste, & Walter Daelemans <br>
-  *arXiv pre-print* <br>
+  *Language Resources & Evaluation* <br>
+  [.pdf](https://link.springer.com/article/10.1007/s10579-020-09509-1) &nbsp;
   [.rxv](https://arxiv.org/abs/1910.11922) &nbsp;
   [.git](https://github.com/cmry/amica) &nbsp;
   [.cite](https://research.tilburguniversity.edu/en/publications/current-limitations-in-cyberbullying-detection-on-evaluation-crit#cite-BIBTEX) &nbsp;
