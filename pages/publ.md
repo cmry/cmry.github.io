@@ -6,7 +6,7 @@ permalink: publ
 ### Papers
 
 > 2021 - **Adversarial Stylometry in the Wild: Transferable Lexical Substitution Attacks on Author Profiling** <br>
-  Chris Emmery, Ákos Kádár, Grzegorz Chrupała <br>
+  **Chris Emmery**, Ákos Kádár, Grzegorz Chrupała <br>
   *EACL 2021* <br>
   [.rxv](https://arxiv.org/abs/2101.11310) &nbsp;
   [.git](https://github.com/cmry/reap) &nbsp;
