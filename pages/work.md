@@ -8,7 +8,33 @@ permalink: work
 Listed in reverse chronological order are all relevant academic activities
 since the start of my PhD position.
 
-### 2020
+4. Supervising theses in Data Science: Anke Bodewes, Cas Goos, Cas van den Hurk, Leon Korbee, and Ronald van Os.
+
+3. Teaching the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+
+2. Gave a talk about my work on [Invasive Artificial Intelligence](https://www.youtube.com/watch?v=y968hwGCBOw) at the kick-off of the [TAISIG Talks](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig/kickoff-taisig-talks). 
+
+1. [Adversarial Stylometry in the Wild: Transferable Lexical Substitution Attacks on Author Profiling](https://arxiv.org/abs/2101.11310) accepted to EACL 2021 (2.5, 3.5, 4.5).
+
+### 2021
+
+12. Taught the Fall semester of RS: Spatiotemportal Data Analysis ([800880](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=800880-M-3)). 
+
+11. [The CACAPO Dataset: A Multilingual, Multi-Domain Dataset for NeuralPipeline and End-to-End Data-to-Text Generation](https://www.aclweb.org/anthology/2020.inlg-1.10.pdf) accepted to INLG 2020 and CONLL 2020 (retracted latter).
+
+10. Collaboration paper submitted to INLG / CONLL 2020.
+
+9. Submitted paper to EACL 2021.
+
+8. Supervised theses in Data Science (described by general topic): Robbin Breeuwer — extending adversarial stylometry via lexical subsitution attacks, Max Knegt — debiasing racial hate speech using distantly supervision, Mert Torun — comparing polls with Twitter sentiment for the 2020 US elections. 
+
+7. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&taal=en&collegejaar=2018&cursus=880022-M-6)), and RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+
+6. [Current Limitations in Cyberbullying Detection: on Evaluation Criteria, Reproducibility, and Data Scarcity](https://link.springer.com/article/10.1007/s10579-020-09509-1)' published in [Language Resources and Evaluation](https://www.springer.com/journal/10579). 
+
+5. Paper rejected for EMNLP 2020 (1.5, 3.0, 3.5, 4.0).
+
+4. Supervised theses in Data Science (described by general topic): Myrthe Reuver — predicting complaint labels for short clinical texts.
 
 3. Submitted paper to [EMNLP 2020](https://2020.emnlp.org/).
 
