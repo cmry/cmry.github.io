@@ -8,6 +8,8 @@ permalink: work
 Listed in reverse chronological order are all relevant academic activities
 since the start of my PhD position.
 
+### 2021
+
 4. Supervising theses in Data Science: Anke Bodewes, Cas Goos, Cas van den Hurk, Leon Korbee, and Ronald van Os.
 
 3. Teaching the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
@@ -16,7 +18,7 @@ since the start of my PhD position.
 
 1. [Adversarial Stylometry in the Wild: Transferable Lexical Substitution Attacks on Author Profiling](https://arxiv.org/abs/2101.11310) accepted to EACL 2021 (2.5, 3.5, 4.5).
 
-### 2021
+### 2020
 
 12. Taught the Fall semester of RS: Spatiotemportal Data Analysis ([800880](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=800880-M-3)). 
 
