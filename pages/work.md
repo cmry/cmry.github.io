@@ -10,9 +10,15 @@ since the start of my PhD position.
 
 ### 2021
 
-4. Supervising theses in Data Science: Anke Bodewes, Cas Goos, Cas van den Hurk, Leon Korbee, and Ronald van Os.
+7. Collaboration paper submitted to EMNLP 2021.
 
-3. Teaching the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+6. Attended [EACL 2021](https://2021.eacl.org/) (virtually).
+
+5. Gave an [Introduction to AI](https://onyx.uvt.nl/toku/static/ai/index.html) and 'Introduction to Machine Learning' guest lecture at the Tilburg Law School.
+
+4. Supervised theses in Data Science: Anke Bodewes, Cas Goos, Cas van den Hurk, Leon Korbee, and Ronald van Os.
+
+3. Taught the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
 
 2. Gave a talk about my work on [Invasive Artificial Intelligence](https://www.youtube.com/watch?v=y968hwGCBOw) at the kick-off of the [TAISIG Talks](https://www.tilburguniversity.edu/research/institutes-and-research-groups/taisig/kickoff-taisig-talks). 
 
