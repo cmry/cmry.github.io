@@ -3,12 +3,38 @@ title: Activities
 permalink: work
 ---
 
-
-
 Listed in reverse chronological order are all relevant academic activities
 since the start of my PhD position.
 
+### 2022
+
+9. Supervising theses in Data Science: Mikhail Bogdanov, Koen Kurver, Anne Plomp, Bob Sanders, Sam Sanders, and Ronald van Os.
+
+8. Pre-prosal submitted for NWO call on [subversive crime](https://www.nwo.nl/calls/ondermijnende-criminaliteit).
+
+7. Acquired a 18k grant for educational innovation for a broad implementation of Git, and specifically GitHub classroom in courses at our Department (and more broadly providing tools for the university).
+
+6. [Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations](https://arxiv.org/pdf/2201.06384.pdf) accepted to LREC 2022.
+
+5. Taught the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+
+4. Gave an [Introduction to AI](https://onyx.uvt.nl/toku/static/ai/index.html) and 'Introduction to Machine Learning' guest lecture at the Tilburg Law School.
+
+3. Gave a few internal talks about reproducibility and robust academic workflows.
+
+2. Dissertation 'User-Centered Security in Natural Language Processing' internally submitted (and accepted).
+
+1. Submitted [Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations](https://arxiv.org/pdf/2201.06384.pdf) to LREC 2022.
+
 ### 2021
+
+11.  Supervised theses in Data Science (described by general topic): Eklavya Dahiya — Unsupervised Clustering of News Articles, and Sena Solak — Sentiment Classification on Turkish Political Twitter.
+
+10. Taught Cognitive Science 2 (Language & AI) for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus).
+
+9. [NeuTral Rewriter: A Rule-Based and Neural Approach to Automatic Rewriting into Gender Neutral Alternatives](./#) accepted to EMNLP 2021<!-- (3.5, 4.0, 3.0) -->.
+
+8. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/examenprogramma/37170/2S300-2020?taal=en).
 
 7. Collaboration paper submitted to EMNLP 2021.
 
@@ -16,7 +42,7 @@ since the start of my PhD position.
 
 5. Gave an [Introduction to AI](https://onyx.uvt.nl/toku/static/ai/index.html) and 'Introduction to Machine Learning' guest lecture at the Tilburg Law School.
 
-4. Supervised theses in Data Science: Anke Bodewes, Cas Goos, Cas van den Hurk, Leon Korbee, and Ronald van Os.
+4. Supervised theses in Data Science (described by general topic): Anke Bodewes — differential privacy and e-mail categorization, Cas Goos — effects of off-topic conversations on sentiment classifiers, Cas van den Hurk — polarization on reddit, and Leon Korbee — predicting the Dutch elections.
 
 3. Taught the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
 

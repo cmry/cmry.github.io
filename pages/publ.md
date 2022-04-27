@@ -5,6 +5,21 @@ permalink: publ
 
 ### Papers
 
+> 2022 - **Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations** <br>
+  **Chris Emmery**, Ákos Kádár, Grzegorz Chrupała, Walter Daelemains <br>
+  *LREC 2022* <br>
+  [.rxv](https://arxiv.org/abs/2109.06105) &nbsp;
+  [.git](https://github.com/cmry/augtox) &nbsp;
+  [.cite](https://research.tilburguniversity.edu/en/publications/cyberbullying-classifiers-are-sensitive-to-model-agnostic-perturb) &nbsp;
+
+> 2021 - **NeuTral Rewriter: A Rule-Based and Neural Approach to Automatic Rewriting into Gender Neutral Alternatives** <br>
+  Eva Vanmassenhove, **Chris Emmery**, Dimitar Shterionov <br>
+  *EMNLP 2021* <br>
+  [.pdf](https://aclanthology.org/2021.emnlp-main.704/) &nbsp;
+  [.rxv](https://arxiv.org/abs/2109.06105) &nbsp;
+  [.git](https://github.com/vnmssnhv/NeuTralRewriter) &nbsp;
+  [.cite](https://research.tilburguniversity.edu/en/publications/neutral-rewriter-a-rule-based-and-neural-approach-to-automatic-re) &nbsp;
+
 > 2021 - **Adversarial Stylometry in the Wild: Transferable Lexical Substitution Attacks on Author Profiling** <br>
   **Chris Emmery**, Ákos Kádár, Grzegorz Chrupała <br>
   *EACL 2021* <br>
