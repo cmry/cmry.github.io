@@ -3,8 +3,7 @@ title: Activities
 permalink: work
 ---
 
-Listed in reverse chronological order are all relevant academic activities
-since the start of my PhD position.
+Listed in reverse chronological order are all relevant academic activities.
 
 ### 2022
 

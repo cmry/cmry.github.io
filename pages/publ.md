@@ -6,7 +6,7 @@ permalink: publ
 ### Papers
 
 > 2022 - **Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations** <br>
-  **Chris Emmery**, Ákos Kádár, Grzegorz Chrupała, Walter Daelemains <br>
+  **Chris Emmery**, Ákos Kádár, Grzegorz Chrupała, Walter Daelemans <br>
   *LREC 2022* <br>
   [.rxv](https://arxiv.org/abs/2109.06105) &nbsp;
   [.git](https://github.com/cmry/augtox) &nbsp;
