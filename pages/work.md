@@ -7,11 +7,21 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2022
 
-9. Supervising theses in Data Science: Mikhail Bogdanov, Koen Kurver, Anne Plomp, Bob Sanders, Sam Sanders, and Ronald van Os.
+14. Submitted a proposal for two GPUs to the [NVIDIA Academic Hardware Grant](https://mynvidia.force.com/HardwareGrant/s/Application) program.
 
-8. Pre-prosal submitted for NWO call on [subversive crime](https://www.nwo.nl/calls/ondermijnende-criminaliteit).
+13. Submitted 12.9K internal grant proposal for data collection and research on digitization in society.
 
-7. Acquired a 18k grant for educational innovation for a broad implementation of Git, and specifically GitHub classroom in courses at our Department (and more broadly providing tools for the university).
+12. Attended [LREC 2022](https://lrec2022.lrec-conf.org/en/).
+
+11. Elected as [faculty board](https://www.tilburguniversity.edu/about/organization/participative-decision-making/elections) member.
+
+10. Supervised theses in Data Science (described by general topic): Mikhail Bogdanov — Predicting educational outcomes, Koen Kurver — Adaptive age classification targets, Anne Plomp — Automatic categorization of academic output under sustainability goals, Bob Sanders — Distant toxicity classification, Sam Sanders — Extending author obfuscation to multiple platforms, and Ronald van Os — Replicating transformer-based lexical substitution.
+
+9. Pre-prosal submitted for NWO call on [subversive crime](https://www.nwo.nl/calls/ondermijnende-criminaliteit).
+
+8. Acquired a 18k grant for educational innovation for a broad implementation of Git, and specifically GitHub classroom in courses at our Department (and more broadly providing tools for the university).
+
+7. Runner-up for the [DSA Pattern](https://dsapattern.nl/) Best Teacher award (Bachelors).
 
 6. [Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations](https://arxiv.org/pdf/2201.06384.pdf) accepted to LREC 2022.
 
@@ -31,7 +41,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 10. Taught Cognitive Science 2 (Language & AI) for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus).
 
-9. [NeuTral Rewriter: A Rule-Based and Neural Approach to Automatic Rewriting into Gender Neutral Alternatives](./#) accepted to EMNLP 2021<!-- (3.5, 4.0, 3.0) -->.
+9. [NeuTral Rewriter: A Rule-Based and Neural Approach to Automatic Rewriting into Gender Neutral Alternatives](./#) accepted to EMNLP 2021 <!-- (3.5, 4.0, 3.0) -->.
 
 8. Taught the Fall semester of Data Mining for Business and Governance ([880022](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/examenprogramma/37170/2S300-2020?taal=en).
 
