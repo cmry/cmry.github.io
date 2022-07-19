@@ -9,7 +9,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 14. Submitted a proposal for two GPUs to the [NVIDIA Academic Hardware Grant](https://mynvidia.force.com/HardwareGrant/s/Application) program.
 
-13. Submitted 12.9K internal grant proposal for data collection and research on digitization in society.
+13. Won a 12.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection and research on digitization in society with [Bennett Kleinberg](https://bkleinberg.net/).
 
 12. Attended [LREC 2022](https://lrec2022.lrec-conf.org/en/).
 
