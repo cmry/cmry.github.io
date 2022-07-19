@@ -1,0 +1,48 @@
+{
+    "image-set": "...",
+    "speakers": ["...", "..."],
+    "round": {
+        "scenario": "yer a f**kin wizzard harry",
+        "messages": [
+            {
+                "speaker": "barry",
+                "message": "i'll f**in put my d*ck in the owl",
+                "images": [
+                    {
+                        "id": 123455689,
+                        "grid-position": 1,
+                        "locked": false,
+                        "selected": true
+                    },
+                    {
+                        "grid-position": 2,
+                        "locked": false,
+                        "selected": false
+                    }
+                ],
+                "round-active": true
+            },
+            {
+                "speaker": "hagrid",
+                "message": "f**king spells and sh*t",
+                "images": [
+                    {
+                        "id": 123455689,
+                        "grid-position": 1,
+                        "locked": false,
+                        "selected": true
+                    },
+                    {
+                        "id": 123455689,
+                        "grid-position": 2,
+                        "locked": false,
+                        "selected": false
+                    }
+                ],
+                "round-active": true
+            }
+        ]
+    }
+}
+{}
+
