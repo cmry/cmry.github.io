@@ -6,7 +6,7 @@ permalink: publ
 ### Papers
 
 > 2022 - **Neural Data-to-Text Generation Based on Small Datasets: Comparing the Added Value of Two Semi-Supervised Learning Approaches on Top of a Large Language Model**, Chris van der Lee, Thiago Castro Ferreira, **Chris Emmery**, Travis Wiltshire, Emiel Krahmer <br>
-  *LREC 2022* <br>
+  *Under Review* <br>
   [.rxv](https://arxiv.org/abs/2207.06839) &nbsp;
   [.git](https://github.com/TallChris91/Extending_Trainsets) &nbsp;
 
