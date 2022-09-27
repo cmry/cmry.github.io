@@ -7,7 +7,11 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2022
 
-14. Submitted a proposal for two GPUs to the [NVIDIA Academic Hardware Grant](https://mynvidia.force.com/HardwareGrant/s/Application) program.
+16. Accepted a permanent position as Assistant Professor at the department of Cognitive Science & Artificial Intelligence of Tilburg University per 1st of October.
+
+15. R&R for [Neural Data-to-Text Generation Based on Small Datasets: Comparing the Added Value of Two Semi-Supervised Learning Approaches on Top of a Large Language Model](https://arxiv.org/abs/2207.06839) submitted to a journal.
+
+14. Submitted a proposal for two GPUs to the [NVIDIA Academic Hardware Grant](https://mynvidia.force.com/HardwareGrant/s/Application) program (not granted).
 
 13. Won a 12.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection and research on digitization in society with [Bennett Kleinberg](https://bkleinberg.net/).
 
