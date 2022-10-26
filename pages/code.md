@@ -9,9 +9,10 @@ permalink: code
 | name                                                          | type        | description                                              |
 | ------------------------------------------------------------- | ----------- | -------------------------------------------------------- |
 |                                                               |
-| [augtox](https://github.com/cmry/augtox)                          | paper repo  | All experiments described in [this](https://arxiv.org/abs/2109.06105) paper. |     
-| [reap](https://github.com/cmry/reap)                          | paper repo  | All experiments described in [this](https://arxiv.org/abs/2101.11310) paper. |                                              
-| [cacapo](https://github.com/TallChris91/CACAPO-Dataset)       | data        | Multilingual, multi-domain data-to-text generation dataset. |
+| [augtox](https://github.com/cmry/augtox)                          | paper repo  | All experiments described in [this](https://aclanthology.org/2022.lrec-1.319/) paper. |
+| [neutralrewriter](https://github.com/vnmssnhv/NeuTralRewriter) | paper repo  | All experiments described in [this](https://aclanthology.org/2021.emnlp-main.704/)     
+| [reap](https://github.com/cmry/reap)                          | paper repo  | All experiments described in [this](https://aclanthology.org/2021.eacl-main.203/) paper. |                                              
+| [cacapo-dataset](https://github.com/TallChris91/CACAPO-Dataset)       | data        | Multilingual, multi-domain data-to-text generation dataset. |
 | [amica](https://github.com/cmry/amica)                        | paper repo  | All experiments described in [this](https://link.springer.com/article/10.1007/s10579-020-09509-1) paper.             |
 | [dutch-embeddings](https://github.com/clips/dutch-embeddings) | data        | Various Dutch word embeddings trained with word2vec.     |
 | [style-obfuscation](http://github.com/cmry/style-obfuscation) | paper repo  | All experiments described in [this](http://aclweb.org/anthology/C18-1084) paper. |
