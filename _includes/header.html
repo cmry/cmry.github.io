@@ -9,7 +9,7 @@
 			<a href="/"><i class="fa fa-home"></i></a>
 			{% assign url = page.url|remove:'/' %}
 			{% for link in site.links %}
-				&nbsp; &nbsp; {% if link.info == "Twitter" %} | &nbsp; &nbsp; {% endif %}<a id="ind-{{ link.name | downcase }}" {% if link.alias == link.url %}class="active"{% endif %} href="{{ link.url | prepend: site.baseurl }}" title="{{ link.info }}"><i class="{{ link.name }}"></i></a>
+				&nbsp; &nbsp; {% if link.info == "Mastodon" %} | &nbsp; &nbsp; {% endif %}<a id="ind-{{ link.name | downcase }}" {% if link.alias == link.url %}class="active"{% endif %} href="{{ link.url | prepend: site.baseurl }}" title="{{ link.info }}"><i class="{{ link.name }}"></i></a>
 			{% endfor %}
 		</div>
 	</nav>
