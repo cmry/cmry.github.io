@@ -65,6 +65,9 @@ links:
     alias:        about
     info:         README
     url:          /about
+  - name:         fab fa-mastodon
+    url:          https://mastodon.social/@cmry
+    info:         Mastodon
   - name:         fab fa-twitter
     url:          https://twitter.com/_cmry
     info:         Twitter
