@@ -5,7 +5,17 @@ permalink: work
 
 Listed in reverse chronological order are all relevant academic activities.
 
+### 2023
+
+1. Wiped Twitter account. You can find me on [Mastodon](https://mastodon.social/@cmry) (and elsewhere).
+
 ### 2022
+
+19. Finished 'User-Centered Security in Natural Language Processing' for print.
+
+18. Started the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) with principal investigator Henry Brighton.
+
+17. Supervised MSc theses in Data Science (DSS) and BSc Artificial Intelligence (CSAI), described by general topic: Gordon Arscott (CSAI) — distantly supervised political bias assessment on Reddit, Benoit de Booij (DSS) — meta-learning in Phishing Website Detection, Emiel Culleton (DSS) — detecting sensitive information in text corpora, Melanie Waterham (DSS) — sentiment bias in news-related comments on Twitter.
 
 16. Accepted a permanent position as Assistant Professor at the department of Cognitive Science & Artificial Intelligence of Tilburg University per 1st of October.
 
@@ -116,7 +126,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2018
 
-14. Presented [Style Obfuscation by Invarance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
+14. Presented [Style Obfuscation by Invariance](https://onyx.uvt.nl/toku/static/atila/index.html#/) at [ATILA 2018](https://atila.ugent.be/).
 
 13. '[Automatic detection of cyberbullying in social media text](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203794)' accepted in [PLoS ONE](https://journals.plos.org/plosone/).
 
