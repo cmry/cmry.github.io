@@ -68,9 +68,6 @@ links:
   - name:         fab fa-mastodon
     url:          https://mastodon.social/@cmry
     info:         Mastodon
-  - name:         fab fa-twitter
-    url:          https://twitter.com/_cmry
-    info:         Twitter
   - name:         fab fa-github
     url:          https://github.com/cmry
     info:         GitHub
