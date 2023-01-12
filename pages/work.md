@@ -7,11 +7,15 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2023
 
+3. I'm giving a talk on ChatGPT and the potential impact of language generation on our (higher) education on Wednesday the 18th of January.
+
+2. Defending my [PhD thesis](http://arno.uvt.nl/show.cgi?fid=135375) on [Friday the 13th](https://www.tilburguniversity.edu/current/events/phd-defense-cd-emmery) of January.
+
 1. Wiped Twitter account. You can find me on [Mastodon](https://mastodon.social/@cmry) (and elsewhere).
 
 ### 2022
 
-19. Finished 'User-Centered Security in Natural Language Processing' for print.
+19. Finished '[User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230)' for print.
 
 18. Started the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) with principal investigator Henry Brighton.
 
@@ -45,7 +49,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 3. Gave a few internal talks about reproducibility and robust academic workflows.
 
-2. Dissertation 'User-Centered Security in Natural Language Processing' internally submitted (and accepted).
+2. Dissertation '[User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230)' internally submitted (and accepted).
 
 1. Submitted [Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations](https://arxiv.org/pdf/2201.06384.pdf) to LREC 2022.
 

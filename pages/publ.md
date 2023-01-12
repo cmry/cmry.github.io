@@ -97,9 +97,13 @@ permalink: publ
 
 ### Theses
 
+> 2023 - **User-Centered Security in Natural Language Processing** <br>
+  Chris Emmery, PhD Thesis <br>
+  [.rxv](https://arxiv.org/abs/2301.04230) &nbsp;
+  .cite
+
 > 2014 - **Topic Modelling in Online Discussions: Analysis of the Developments within the Dutch Privacy Debate on News Websites** <br>
-  Chris Emmery <br>
-  *Tilburg Center for Creative Computing. 102* <br>
+  Chris Emmery, MSc Thesis <br>
   [.pdf](http://arno.uvt.nl/show.cgi?fid=135375) &nbsp;
   .rxv &nbsp;
   [.git](https://github.com/cmry/gomi/tree/master/AIVB) &nbsp;
