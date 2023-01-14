@@ -9,7 +9,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 3. I'm giving a talk on ChatGPT and the potential impact of language generation on our (higher) education on Wednesday the 18th of January.
 
-2. Defending my [PhD thesis](http://arno.uvt.nl/show.cgi?fid=135375) on [Friday the 13th](https://www.tilburguniversity.edu/current/events/phd-defense-cd-emmery) of January.
+2. Successfully defended my [PhD thesis](https://arxiv.org/abs/2301.04230) on [Friday the 13th](https://www.tilburguniversity.edu/current/events/phd-defense-cd-emmery) of January.
 
 1. Wiped Twitter account. You can find me on [Mastodon](https://mastodon.social/@cmry) (and elsewhere).
 
