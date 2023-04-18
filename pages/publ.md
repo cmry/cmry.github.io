@@ -5,10 +5,16 @@ permalink: publ
 
 ### Papers
 
-> 2022 - **Neural Data-to-Text Generation Based on Small Datasets: Comparing the Added Value of Two Semi-Supervised Learning Approaches on Top of a Large Language Model**, Chris van der Lee, Thiago Castro Ferreira, **Chris Emmery**, Travis Wiltshire, Emiel Krahmer <br>
-  *Under Review* <br>
+> 2023 - **Tailoring Domain Adaptation for Quality Estimation in NMT**, Javad Pourmostafa Roshan Sharami, Dimitar Shterionov, Frédéric Blain, Eva Vanmassenhove, Mirella De Sisto, **Chris Emmery**, Pieter Spronck <br>
+  *EMNT 2023* (accepted)
+
+> 2023 - **Neural Data-to-Text Generation Based on Small Datasets: Comparing the Added Value of Two Semi-Supervised Learning Approaches on Top of a Large Language Model**, Chris van der Lee, Thiago Castro Ferreira, **Chris Emmery**, Travis Wiltshire, Emiel Krahmer <br>
+  *Computational Linguistics* (accepted) <br>
   [.rxv](https://arxiv.org/abs/2207.06839) &nbsp;
   [.git](https://github.com/TallChris91/Extending_Trainsets) &nbsp;
+  
+> 2023 - **Machine Morality**, **Chris Emmery**, Travis Wiltshire <br>
+  *Encyclopedia of Heroism Studies* (under review)
 
 > 2022 - **Cyberbullying Classifiers are Sensitive to Model-Agnostic Perturbations** <br>
   **Chris Emmery**, Ákos Kádár, Grzegorz Chrupała, Walter Daelemans <br>
