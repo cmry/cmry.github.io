@@ -7,7 +7,15 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2023
 
-3. I'm giving a talk on ChatGPT and the potential impact of language generation on our (higher) education on Wednesday the 18th of January.
+7. Won a 9.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection on digital globalization (extremism in particular) with [Bennett Kleinberg](https://bkleinberg.net/).
+
+6. I contributed to our department's internal policy surrounding LLMs and am currently part of the University's workgroup dealing with short and long term educational policy.
+
+5. Supervising MSc theses in Data Science and Msc Artficial Intelligence (CSAI), described by general topic: Sergey Kramp (DSS) — classification of native language style in English, Ronja Rönnback (CSAI) — political bias in news media.
+
+4. Gave an 'Introductie AI' guest lecture at the Tilburg Law School.
+
+3. I'm gave a talk on ChatGPT and the potential impact of language generation on our (higher) education.
 
 2. Successfully defended my [PhD thesis](https://arxiv.org/abs/2301.04230) on [Friday the 13th](https://www.tilburguniversity.edu/current/events/phd-defense-cd-emmery) of January.
 
