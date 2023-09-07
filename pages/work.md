@@ -7,6 +7,14 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2023
 
+11. Wrote a chapter about Machine Morality with Travis J. Wiltshire for the Encyclopedia of Heroism Studies.
+
+10. I gave a talk on [Reproducibility Caveats in Machine Learning](https://surfdrive.surf.nl/files/index.php/s/AxQVniAdhuZjHAu) at the [Open to Complexity](https://www.tilburguniversity.edu/current/events/open-complexity) Symposium on Open Science.
+
+9. I received a 240K starter grant and will be looking for PhD candidates soon.
+
+8. I was appointed as a member of the Program Committee for [Data Science and Society](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society).
+
 7. Won a 9.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection on digital globalization (extremism in particular) with [Bennett Kleinberg](https://bkleinberg.net/).
 
 6. I contributed to our department's internal policy surrounding LLMs and am currently part of the University's workgroup dealing with short and long term educational policy.
