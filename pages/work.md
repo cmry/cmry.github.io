@@ -7,23 +7,29 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2023
 
-11. Wrote a chapter about Machine Morality with Travis J. Wiltshire for the Encyclopedia of Heroism Studies.
+14. Organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams.
 
-10. I gave a talk on [Reproducibility Caveats in Machine Learning](https://surfdrive.surf.nl/files/index.php/s/AxQVniAdhuZjHAu) at the [Open to Complexity](https://www.tilburguniversity.edu/current/events/open-complexity) Symposium on Open Science.
+13. Gave a talk about [User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230) at [CLIN 2023](https://clin33.uantwerpen.be).
 
-9. I received a 240K starter grant and will be looking for PhD candidates soon.
+12. Wrote a chapter about Machine Morality for the Encyclopedia of Heroism Studies.
 
-8. I was appointed as a member of the Program Committee for [Data Science and Society](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society).
+11. Gave a talk on [Reproducibility Caveats in Machine Learning](https://surfdrive.surf.nl/files/index.php/s/AxQVniAdhuZjHAu) at the [Open to Complexity](https://www.tilburguniversity.edu/current/events/open-complexity) Symposium on Open Science.
+
+10. Received a 240K starter grant and will be looking for PhD candidates soon.
+
+9. Received a 150k grant under the Tilburg Algorithm Observatory to work on LGBQT+ misinformation propagation. This work will be conducted together with the Prague Pride non-profit, and the Department of Political Studies at Charles University in Prague.
+
+8. Was appointed as a member of the Program Committee for [Data Science and Society](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society).
 
 7. Won a 9.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection on digital globalization (extremism in particular) with [Bennett Kleinberg](https://bkleinberg.net/).
 
-6. I contributed to our department's internal policy surrounding LLMs and am currently part of the University's workgroup dealing with short and long term educational policy.
+6. Contributed to our department's internal policy surrounding LLMs and am currently part of the University's workgroup dealing with short and long term educational policy.
 
 5. Supervising MSc theses in Data Science and Msc Artficial Intelligence (CSAI), described by general topic: Sergey Kramp (DSS) — classification of native language style in English, Ronja Rönnback (CSAI) — political bias in news media.
 
 4. Gave an 'Introductie AI' guest lecture at the Tilburg Law School.
 
-3. I'm gave a talk on ChatGPT and the potential impact of language generation on our (higher) education.
+3. Gave a talk on ChatGPT and the potential impact of language generation on our (higher) education.
 
 2. Successfully defended my [PhD thesis](https://arxiv.org/abs/2301.04230) on [Friday the 13th](https://www.tilburguniversity.edu/current/events/phd-defense-cd-emmery) of January.
 
