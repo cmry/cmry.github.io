@@ -53,7 +53,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 12. Attended [LREC 2022](https://lrec2022.lrec-conf.org/en/).
 
-11. Elected as [faculty board](https://www.tilburguniversity.edu/about/organization/participative-decision-making/elections) member.
+11. Elected as [faculty council](https://www.tilburguniversity.edu/about/organization/participative-decision-making/elections) member.
 
 10. Supervised theses in Data Science (described by general topic): Mikhail Bogdanov — Predicting educational outcomes, Koen Kurver — Adaptive age classification targets, Anne Plomp — Automatic categorization of academic output under sustainability goals, Bob Sanders — Distant toxicity classification, Sam Sanders — Extending author obfuscation to multiple platforms, and Ronald van Os — Replicating transformer-based lexical substitution.
 
