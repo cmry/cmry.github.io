@@ -7,7 +7,19 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2023
 
-14. Organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams.
+20. Teaching Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus).
+
+19. Supervising MSc theses in Data Science (DSS), described by general topic: Feyza Aslan — assessing bias in LLMs, Brian Leung — author profiling on Reddit, Cheyenne Ramada — debiasing text classifiers, Heleen de Vos — obfuscation through paraphrasing.
+
+18. Proposed a new DSS MSc course around reproducibility and computational model deployment.
+
+17. Submitted two papers to LREC/COLING 2024.
+
+16. Contributed to some departmental culture actibities: organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams. Gave input to the remodeling of our Dante building. Volunteered to organize a session on financial administration.
+
+15. Taught the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+
+14. [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) available on arXiv. Work by DSS MSc student Sergey Kramp.
 
 13. Gave a talk about [User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230) at [CLIN 2023](https://clin33.uantwerpen.be).
 
@@ -37,11 +49,15 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2022
 
-19. Finished '[User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230)' for print.
+21. Finished '[User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230)' for print.
 
-18. Started the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) with principal investigator Henry Brighton.
+20. Started the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) with principal investigator Henry Brighton.
 
-17. Supervised MSc theses in Data Science (DSS) and BSc Artificial Intelligence (CSAI), described by general topic: Gordon Arscott (CSAI) — distantly supervised political bias assessment on Reddit, Benoit de Booij (DSS) — meta-learning in Phishing Website Detection, Emiel Culleton (DSS) — detecting sensitive information in text corpora, Melanie Waterham (DSS) — sentiment bias in news-related comments on Twitter.
+19. Supervised MSc theses in Data Science (DSS) and BSc Artificial Intelligence (CSAI), described by general topic: Gordon Arscott (CSAI) — distantly supervised political bias assessment on Reddit, Benoit de Booij (DSS) — meta-learning in Phishing Website Detection, Emiel Culleton (DSS) — detecting sensitive information in text corpora, Melanie Waterham (DSS) — sentiment bias in news-related comments on Twitter.
+
+18. Taught Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus).
+
+17. Taught the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
 
 16. Accepted a permanent position as Assistant Professor at the department of Cognitive Science & Artificial Intelligence of Tilburg University per 1st of October.
 
