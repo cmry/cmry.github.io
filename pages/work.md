@@ -5,17 +5,31 @@ permalink: work
 
 Listed in reverse chronological order are all relevant academic activities.
 
+### 2024
+
+20. Giving an 'Introductie AI' guest lecture at the Tilburg Law School.
+
+19. Teaching a guest lecture on profiling and obfuscation for the [Responsible AI](https://uvt.osiris-student.nl/onderwijscatalogus/extern/cursus?collegejaar=huidig&taal=en&cursuscode=800992-M-6) course of our CSAI BSc.
+
+18. My DSS master thesis student [Sergey Kramp](https://github.com/SergeyKramp) won one of Tilburg's thesis prices (associated paper: [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923)). 
+
+17. Supervising MSc theses in Data Science (DSS).
+
+16. Won a 10k [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) to collaborate on researching the role and impact of Large Language Models (LLMs) used in Dutch public healthcare platforms with Supraja Sankaran, Emiel Krahmer, Chris van der Lee, Ronald Leenes, Tineke Broer, Bennett Kleinberg, and Bartho Hengst.
+
+15. Teaching the Spring semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2024&taal=en&cursus=880254-M-3)).
+
 ### 2023
 
-20. Teaching Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus).
+20. Taught Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus)).
 
-19. Supervising MSc theses in Data Science (DSS), described by general topic: Feyza Aslan — assessing bias in LLMs, Brian Leung — author profiling on Reddit, Cheyenne Ramada — debiasing text classifiers, Heleen de Vos — obfuscation through paraphrasing.
+19. Supervised MSc theses in Data Science (DSS), described by general topic: Feyza Aslan — assessing bias in LLMs, Brian Leung — author profiling on Reddit, Heleen de Vos — obfuscation through paraphrasing.
 
 18. Proposed a new DSS MSc course around reproducibility and computational model deployment.
 
 17. Submitted two papers to LREC/COLING 2024.
 
-16. Contributed to some departmental culture actibities: organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams. Gave input to the remodeling of our Dante building. Volunteered to organize a session on financial administration.
+16. Contributed to some departmental culture activities: organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams. Gave input to the remodeling of our Dante building. Volunteered to organize a session on financial administration.
 
 15. Taught the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
 
@@ -23,7 +37,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 13. Gave a talk about [User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230) at [CLIN 2023](https://clin33.uantwerpen.be).
 
-12. Wrote a chapter about Machine Morality for the Encyclopedia of Heroism Studies.
+12. Wrote a chapter about [Machine Morality](https://link.springer.com/referenceworkentry/10.1007/978-3-031-17125-3_317-1) for the Encyclopedia of Heroism Studies.
 
 11. Gave a talk on [Reproducibility Caveats in Machine Learning](https://surfdrive.surf.nl/files/index.php/s/AxQVniAdhuZjHAu) at the [Open to Complexity](https://www.tilburguniversity.edu/current/events/open-complexity) Symposium on Open Science.
 
