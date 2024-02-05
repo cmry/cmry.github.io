@@ -11,7 +11,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 19. Teaching a guest lecture on profiling and obfuscation for the [Responsible AI](https://uvt.osiris-student.nl/onderwijscatalogus/extern/cursus?collegejaar=huidig&taal=en&cursuscode=800992-M-6) course of our CSAI BSc.
 
-18. My DSS master thesis student [Sergey Kramp](https://github.com/SergeyKramp) won one of Tilburg's thesis prices (associated paper: [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923)). 
+18. My DSS master thesis student [Sergey Kramp](https://github.com/SergeyKramp) won Tilburg's best '23 master thesis prize (associated paper: [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923)). 
 
 17. Supervising MSc theses in Data Science (DSS).
 
