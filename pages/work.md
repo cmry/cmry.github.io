@@ -21,39 +21,43 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2023
 
-20. Taught Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus)).
+21. Taught Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus)).
 
-19. Supervised MSc theses in Data Science (DSS), described by general topic: Feyza Aslan — assessing bias in LLMs, Brian Leung — author profiling on Reddit, Heleen de Vos — obfuscation through paraphrasing.
+20. Supervised MSc theses in Data Science (DSS), described by general topic: Feyza Aslan — assessing bias in LLMs, Brian Leung — author profiling on Reddit, Heleen de Vos — obfuscation through paraphrasing.
 
-18. Proposed a new DSS MSc course around reproducibility and computational model deployment.
+19. Proposed a new DSS MSc course around reproducibility and computational model deployment.
 
-17. Submitted two papers to LREC/COLING 2024.
+18. Submitted two papers to LREC/COLING 2024.
 
-16. Contributed to some departmental culture activities: organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams. Gave input to the remodeling of our Dante building. Volunteered to organize a session on financial administration.
+17. Contributed to some departmental culture activities: organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams. Gave input to the remodeling of our Dante building. Volunteered to organize a session on financial administration.
 
-15. Taught the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+16. Taught the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
 
-14. [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) available on arXiv. Work by DSS MSc student Sergey Kramp.
+15. [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) available on arXiv. Work by DSS MSc student Sergey Kramp.
 
-13. Gave a talk about [User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230) at [CLIN 2023](https://clin33.uantwerpen.be).
+14. Gave a talk about [User-Centered Security in Natural Language Processing](https://arxiv.org/abs/2301.04230) at [CLIN 2023](https://clin33.uantwerpen.be).
 
-12. Wrote a chapter about [Machine Morality](https://link.springer.com/referenceworkentry/10.1007/978-3-031-17125-3_317-1) for the Encyclopedia of Heroism Studies.
+13. Wrote a chapter about [Machine Morality](https://link.springer.com/referenceworkentry/10.1007/978-3-031-17125-3_317-1) for the Encyclopedia of Heroism Studies.
 
-11. Gave a talk on [Reproducibility Caveats in Machine Learning](https://surfdrive.surf.nl/files/index.php/s/AxQVniAdhuZjHAu) at the [Open to Complexity](https://www.tilburguniversity.edu/current/events/open-complexity) Symposium on Open Science.
+12. Gave a talk on [Reproducibility Caveats in Machine Learning](https://surfdrive.surf.nl/files/index.php/s/AxQVniAdhuZjHAu) at the [Open to Complexity](https://www.tilburguniversity.edu/current/events/open-complexity) Symposium on Open Science.
 
-10. Received a 240K starter grant and will be looking for PhD candidates soon.
+11. Received a 240K starter grant and will be looking for PhD candidates soon.
 
-9. Received a 150k grant under the Tilburg Algorithm Observatory to work on LGBQT+ misinformation propagation. This work will be conducted together with the Prague Pride non-profit, and the Department of Political Studies at Charles University in Prague.
+10. Received a 150k grant under the Tilburg Algorithm Observatory to work on LGBQT+ misinformation propagation. This work will be conducted together with the Prague Pride non-profit, and the Department of Political Studies at Charles University in Prague.
 
-8. Was appointed as a member of the Program Committee for [Data Science and Society](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society).
+9. Was appointed as a member of the Program Committee for [Data Science and Society](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society).
 
-7. Won a 9.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection on digital globalization (extremism in particular) with [Bennett Kleinberg](https://bkleinberg.net/).
+8. Won a 9.9K [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) for data collection on digital globalization (extremism in particular) with [Bennett Kleinberg](https://bkleinberg.net/).
 
-6. Contributed to our department's internal policy surrounding LLMs and am currently part of the University's workgroup dealing with short and long term educational policy.
+7. Contributed to our department's internal policy surrounding LLMs and am currently part of the University's workgroup dealing with short and long term educational policy.
 
-5. Supervising MSc theses in Data Science and Msc Artficial Intelligence (CSAI), described by general topic: Sergey Kramp (DSS) — classification of native language style in English, Ronja Rönnback (CSAI) — political bias in news media.
+6. Supervising MSc theses in Data Science and Msc Artficial Intelligence (CSAI), described by general topic: Sergey Kramp (DSS) — classification of native language style in English, Ronja Rönnback (CSAI) — political bias in news media.
 
-4. Gave an 'Introductie AI' guest lecture at the Tilburg Law School.
+5. Gave an 'Introductie AI' guest lecture at the Tilburg Law School.
+
+4. I was a guest the One Deeper Podcast, hosted by Udesh Habaraduwa (one of our CSAI students), talking about ChatGPT, the impact of (generative) AI, safety, privacy, computational creativity, etc: 
+
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6cbrJOwThgC1C7U5M5NoXM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 3. Gave a talk on ChatGPT and the potential impact of language generation on our (higher) education.
 
