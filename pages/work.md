@@ -55,9 +55,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 5. Gave an 'Introductie AI' guest lecture at the Tilburg Law School.
 
-4. I was a guest the One Deeper Podcast, hosted by Udesh Habaraduwa (one of our CSAI students), talking about ChatGPT, the impact of (generative) AI, safety, privacy, computational creativity, etc: 
-
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6cbrJOwThgC1C7U5M5NoXM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+4. I was a guest the One Deeper Podcast, hosted by Udesh Habaraduwa (one of our CSAI students), talking about ChatGPT, the impact of (generative) AI, safety, privacy, computational creativity, etc: <br><br> <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/6cbrJOwThgC1C7U5M5NoXM?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 3. Gave a talk on ChatGPT and the potential impact of language generation on our (higher) education.
 
