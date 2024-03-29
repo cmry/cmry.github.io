@@ -7,13 +7,19 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2024
 
+23. Submitting a paper to [COLM 2024](https://colmweb.org).
+
+22. [Ronja Rönnback](https://www.researchgate.net/profile/Ronja-Roennback) is starting as a PhD student on a Starter Grant project at the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) under supervision of myself, Dr. Henry Brighton, and Prof. Dr. Marie Šafář as promotor. 
+
+21. [BigBLI: Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) and [SOBR: A Corpus for Stylometry, Obfuscation, and Bias on Reddit](./#) accepted to LREC/COLING 2024 (2, 3, 3 and 4, 3, 3).
+
 20. Giving an 'Introductie AI' guest lecture at the Tilburg Law School.
 
 19. Teaching a guest lecture on profiling and obfuscation for the [Responsible AI](https://uvt.osiris-student.nl/onderwijscatalogus/extern/cursus?collegejaar=huidig&taal=en&cursuscode=800992-M-6) course of our CSAI BSc.
 
 18. My DSS master thesis student [Sergey Kramp](https://github.com/SergeyKramp) won Tilburg's best '23 master thesis prize (associated paper: [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923)). 
 
-17. Supervising MSc theses in Data Science (DSS).
+17. Supervising MSc theses in Data Science (DSS): Beāte Abāšina, Bram Diesch, Ben Witte, Orcun Erdem, Storm Zeelenberg, Yexin Yang, and BSc thesis in Data Science (JBC): Jason Lin -- augmenting research retrieval systems with LLMs.
 
 16. Won a 10k [faculty grant](https://www.scienceguide.nl/2022/06/verloten-van-beurzen-is-eerlijker-dus-dat-gaan-we-doen/) to collaborate on researching the role and impact of Large Language Models (LLMs) used in Dutch public healthcare platforms with Supraja Sankaran, Emiel Krahmer, Chris van der Lee, Ronald Leenes, Tineke Broer, Bennett Kleinberg, and Bartho Hengst.
 
@@ -27,7 +33,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 19. Proposed a new DSS MSc course around reproducibility and computational model deployment.
 
-18. Submitted two papers to LREC/COLING 2024.
+18. Submitted two papers to [LREC/COLING 2024](https://lrec-coling-2024.org).
 
 17. Contributed to some departmental culture activities: organized DCA team participation for the 5K Business Run of the [Tilburg Ten Miles](https://www.tilburgtenmiles.nl). We ended 19th out of 52 teams. Gave input to the remodeling of our Dante building. Volunteered to organize a session on financial administration.
 
@@ -43,7 +49,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 11. Received a 240K starter grant and will be looking for PhD candidates soon.
 
-10. Received a 150k grant under the Tilburg Algorithm Observatory to work on LGBQT+ misinformation propagation. This work will be conducted together with the Prague Pride non-profit, and the Department of Political Studies at Charles University in Prague.
+10. Received a 150k grant under the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) to work on LGBQT+ misinformation propagation. This work will be conducted together with the Prague Pride non-profit, and the Department of Political Studies at Charles University in Prague.
 
 9. Was appointed as a member of the Program Committee for [Data Science and Society](https://www.tilburguniversity.edu/education/masters-programs/data-science-and-society).
 
@@ -73,7 +79,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 19. Supervised MSc theses in Data Science (DSS) and BSc Artificial Intelligence (CSAI), described by general topic: Gordon Arscott (CSAI) — distantly supervised political bias assessment on Reddit, Benoit de Booij (DSS) — meta-learning in Phishing Website Detection, Emiel Culleton (DSS) — detecting sensitive information in text corpora, Melanie Waterham (DSS) — sentiment bias in news-related comments on Twitter.
 
-18. Taught Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus).
+18. Taught Language & AI for the JADS-based Data Science Bachelor at TU/e ([JBC090](https://uvt.osiris-student.nl/#/onderwijscatalogus/extern/cursus)).
 
 17. Taught the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
 

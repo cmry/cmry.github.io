@@ -3,7 +3,8 @@ title: README
 permalink: about
 ---
 
-I'm an [Assistant Professor](https://research.tilburguniversity.edu/en/persons/chris-emmery) and part of the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) at the [Department of Cognitive Science and Artificial Intelligence](https://www.csai.nl/) of Tilburg University. I’m interested in the (harmful) effects of intelligent systems on our lives; systems that uncover our personal information, monitor and change our behavior, subtly restrict our exposure to information, and treat us unfairly.
+I'm an [Assistant Professor](https://research.tilburguniversity.edu/en/persons/chris-emmery) and part of the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) at the [Department of Cognitive Science and Artificial Intelligence](https://www.csai.nl/) of Tilburg University. I work on algorithm monitoring and auditing, specifically relating to privacy, security, and harms in Machine Learning (and Natural Language Processing). Generally, I’m interested in the (harmful) effects of intelligent systems on our lives; systems that uncover our personal information, monitor and change our behavior, subtly restrict our exposure to information, and treat us unfairly.
+
 
 ## Expertise
 
