@@ -7,11 +7,13 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2024
 
-23. Submitting a paper to [COLM 2024](https://colmweb.org).
+24. Reviewed for [Journal of Big Data](https://journalofbigdata.springeropen.com).
 
-22. [Ronja Rönnback](https://www.researchgate.net/profile/Ronja-Roennback) is starting as a PhD student on a Starter Grant project at the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) under supervision of myself, Dr. Henry Brighton, and Prof. Dr. Marie Šafář as promotor. 
+23. Submitted a paper to [COLM 2024](https://colmweb.org).
 
-21. [BigBLI: Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) and [SOBR: A Corpus for Stylometry, Obfuscation, and Bias on Reddit](./#) accepted to LREC/COLING 2024 (2, 3, 3 and 4, 3, 3).
+22. [Ronja Rönnback](https://www.researchgate.net/profile/Ronja-Roennback) started as a PhD student on a Starter Grant project at the [Tilburg Algorithm Observatory](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) under supervision of myself, Dr. Henry Brighton, and Prof. Dr. Marie Šafář as promotor. 
+
+21. [BigNLI: Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) and [SOBR: A Corpus for Stylometry, Obfuscation, and Bias on Reddit](./#) accepted to LREC/COLING 2024 (2, 3, 3 and 4, 3, 3).
 
 20. Giving an 'Introductie AI' guest lecture at the Tilburg Law School.
 
