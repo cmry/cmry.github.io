@@ -7,6 +7,18 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2024
 
+29. I received a Teacher Award Certificate for Excellent Course Evaluation of Language & AI (JBC090) from TU/e.
+
+28. Submitted an [EMIF](https://gulbenkian.pt/emifund/) grant proposal.
+
+27. Attended [LREC/COLING 2024](https://lrec-coling-2024.org).
+
+26. I gave a [Studium Generale](https://www.tilburguniversity.edu/campus/studium-generale) talk 'Framing Intelligence: Web Intelligence as Artificial Intelligence' about programming and what people would like you to believe is intelligence:
+
+<iframe width="1530" height="870" src="https://www.youtube.com/embed/mhAFmQvvU_E" title="Human vs AI: What is true Intelligence? - Studium Generale - Tilburg University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+25. I taught a guest lecture on 'Calling Bullsh*t: the CL Edition' for the Computational Linguistics course of our CSAI BSc.
+
 24. Reviewed for [Journal of Big Data](https://journalofbigdata.springeropen.com).
 
 23. Submitted a paper to [COLM 2024](https://colmweb.org).
@@ -15,9 +27,9 @@ Listed in reverse chronological order are all relevant academic activities.
 
 21. [BigNLI: Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923) and [SOBR: A Corpus for Stylometry, Obfuscation, and Bias on Reddit](./#) accepted to LREC/COLING 2024 (2, 3, 3 and 4, 3, 3).
 
-20. Giving an 'Introductie AI' guest lecture at the Tilburg Law School.
+20. I gave an 'Introductie AI' guest lecture at the Tilburg Law School.
 
-19. Teaching a guest lecture on profiling and obfuscation for the [Responsible AI](https://uvt.osiris-student.nl/onderwijscatalogus/extern/cursus?collegejaar=huidig&taal=en&cursuscode=800992-M-6) course of our CSAI BSc.
+19. I taught a guest lecture on profiling and obfuscation for the [Responsible AI](https://uvt.osiris-student.nl/onderwijscatalogus/extern/cursus?collegejaar=huidig&taal=en&cursuscode=800992-M-6) course of our CSAI MSc.
 
 18. My DSS master thesis student [Sergey Kramp](https://github.com/SergeyKramp) won Tilburg's best '23 master thesis prize (associated paper: [Native Language Identification with Big Bird Embeddings](https://arxiv.org/abs/2309.06923)). 
 
