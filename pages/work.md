@@ -7,9 +7,17 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2024
 
+33. Teaching a guest lectures on Social Media Monitoring for the Natural Language Processing course (joint CSAI and DSS MSc) and on Web Intelligence for the Data Science for Society minor.
+
+32. Developing thesis track material on reproducibility and model deployment.
+
+31. Teaching the Fall semester of RS: Data Processing ([880254](https://catalogus.tilburguniversity.edu/osiris_student_tiuprd/OnderwijsCatalogusSelect.do?selectie=cursus&collegejaar=2020&taal=en&cursus=880254-M-3)).
+
+30. Our abstract "Learning from neural networks: a strategy to identify systematic improvements to activity coefficient models" was accepted to NPS.
+
 29. I received a Teacher Award Certificate for Excellent Course Evaluation of Language & AI (JBC090) from TU/e.
 
-28. Submitted an [EMIF](https://gulbenkian.pt/emifund/) grant proposal.
+28. Submitted an [EMIF](https://gulbenkian.pt/emifund/) grant proposal (not granted).
 
 27. Attended [LREC/COLING 2024](https://lrec-coling-2024.org).
 
