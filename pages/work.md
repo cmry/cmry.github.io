@@ -7,13 +7,25 @@ Listed in reverse chronological order are all relevant academic activities.
 
 ### 2025
 
-3. Supervising MSc theses in Data Science (DSS): Giannis Machairidis, Jesse Osseweijer, Ralitsa Andreeva, Sara Welter, Emma (Zhiyan) Zhang, Carol John, Rens Van Schaardenburg, and Mikel Villalabeitia Ford and one MSc thesis in Cognitive Science & AI (CSAI): Yifei Mao.
+8. 'The "r" in "woman" stands for rights: Auditing LLMs in Uncovering Social Dynamics in Implicit Misogyny' was accepted to EMNLP Findings.
+
+7. Developed, coordinating, and teaching two new courses: Programming for Data Science, and Reproducibility & Model Deployment.
+
+6. Reviewed a chapter for 'Democracy and AI-based Language Technologies: Recovering Social Rights', an article for [Society & AI](https://link.springer.com/journal/146), and for [ARR](https://aclrollingreview.org) May 2025.
+
+5. Gave another 'Introductie AI' guest lecture at the Tilburg Law School.
+
+4. '[Automatic Large-scale Political Bias Detection of News Outlets](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0321418)' was accepted to PLOS One.
+
+3. Supervised MSc theses in Data Science (DSS): Giannis Machairidis, Jesse Osseweijer, Ralitsa Andreeva, Sara Welter, Emma (Zhiyan) Zhang, Carol John, Rens Van Schaardenburg, and Mikel Villalabeitia Ford and one MSc thesis in Cognitive Science & AI (CSAI): Yifei Mao.
 
 2. [TAO](https://www.tilburguniversity.edu/about/schools/tshd/departments/dca/lab/algorithm-observatory) received an 8k SIDN grant in collaboration with (ao) [Justice for Prosperity](https://justiceforprosperity.org).
 
 1. I assisted during the first lecture of Introduction to AI 2 (CSAI BSc).
 
 ### 2024
+
+36. I (successfully) helped submit a request for higher funding of our Data Science & Society master.
 
 35. TAO submitted '[Automatic Large-scale Political Bias Detection of News Outlets](https://research.tilburguniversity.edu/en/publications/automatic-large-scale-political-bias-detection-of-news-outlets)' to PLOS One.
 
