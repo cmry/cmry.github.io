@@ -1,25 +1,25 @@
---- layout: null ---
-
+---
+layout: null
+---
 <?xml version="1.0" encoding="utf-8" ?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>{{ site.title | xml_escape }}</title>
   <subtitle>{{ site.description | xml_escape }}</subtitle>
-  <link href="{{ site.baseurl }}/" rel="alternate"/>
-  <link /feed.xml" }}" href="{{ site.baseurl | append: " rel="self"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate"/>
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self"/>
   <rights>Copyright @
     {{ site.time | date: '%Y' }},
     {{ site.author_name | xml_escape }}</rights>
-  <icon>{{ site.baseurl }}/assets/favicon.png</icon>
+  <icon>{{ site.url }}{{ site.baseurl }}/assets/favicon.png</icon>
 
   <author>
     <name>{{ site.author_name | xml_escape }}</name>
-    <email>{{ site.author_email | xml_escape }}</email>
-    <uri>https://twitter.com/{{ site.twitter_username }}</uri>
+    <uri>{{ site.url }}</uri>
   </author>
 
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.baseurl }}/</id>
+  <id>{{ site.url }}{{ site.baseurl }}/</id>
   <generator version="{{ jekyll.version }}">Jekyll</generator>
 
   {% for post in site.posts limit:40 %}
@@ -30,9 +30,10 @@
 
   <entry>
     <title type="html">{{ post.title | xml_escape }}</title>
-    <id>{{ post.url | prepend: site.baseurl }}</id>
-    <updated>{{ post.updated | date_to_xmlschema }}</updated>
-    <published>{{ post.path | truncate: 20 | replace: "...", "" | replace: "_posts/", "" }}T10:00:00+02:00</published>
+    <link href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" rel="alternate"/>
+    <id>{{ post.url | prepend: site.baseurl | prepend: site.url }}</id>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <published>{{ post.date | date_to_xmlschema }}</published>
     <content type="html" xml:lang="en">
       <![CDATA[{{ content }}]]>
     </content>
