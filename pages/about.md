@@ -41,5 +41,5 @@ During a mix of my studies in AI and a minor in (applied) Computer Science, I le
 Apart from my main activity in life (providing often noisy feedback signals to the developmental marvel that is my son), I enjoy (too) many things outside of academia: heavy music (yearly most frequent albums below, I'm [unfortunately](https://www.youtube.com/watch?v=nkCMSrvOTAo) also into vinyl, I play guitar, drums, and some piano), food (cooking and eating, I'm particular fond of (South)-East Asian cuisine, BBQ, stews, and Erwtensoep), video games (RPGs/shooters, but tbf I mostly have an ungodly amount of hours on the EA Skate games), binging [Crunchyroll](https://www.crunchyroll.com/) shows, and deadlifting in my garage.
 
 <div style="overflow: hidden; height:308px;">
-<img src="http://lastfmtopalbums.dinduks.com/patchwork.php?user=cmry_&period=12month&rows=4&cols=10&imageSize=150&noborder=on" style="display: block; margin-left: auto; margin-right: auto; width: 100%; padding-top: 20px;">
+<img src="https://lastfmtopalbums.dinduks.com/patchwork.php?user=cmry_&period=12month&rows=4&cols=10&imageSize=150&noborder=on" style="display: block; margin-left: auto; margin-right: auto; width: 100%; padding-top: 20px;">
 </div>

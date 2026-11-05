@@ -47,7 +47,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 26. I gave a [Studium Generale](https://www.tilburguniversity.edu/campus/studium-generale) talk 'Framing Intelligence: Web Intelligence as Artificial Intelligence' about programming and what people would like you to believe is intelligence:
 
-<iframe width="1530" height="870" src="https://www.youtube.com/embed/mhAFmQvvU_E" title="Human vs AI: What is true Intelligence? - Studium Generale - Tilburg University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="1530" height="870" src="https://www.youtube-nocookie.com/embed/mhAFmQvvU_E" title="Human vs AI: What is true Intelligence? - Studium Generale - Tilburg University" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 25. I taught a guest lecture on 'Calling Bullsh*t: the CL Edition' for the Computational Linguistics course of our CSAI BSc.
 
@@ -258,7 +258,7 @@ Listed in reverse chronological order are all relevant academic activities.
 
 5. Blog shared by KDNuggets, again:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Euclidean vs. Cosine Distance<br>&quot;This post was written as a reply to a question asked in the Data Mining (<a href="https://t.co/oCLBFN8ELc">https://t.co/oCLBFN8ELc</a>) course: When to use the cosine similarity?&quot; <a href="https://t.co/Wf3GjpWn0t">https://t.co/Wf3GjpWn0t</a> <a href="https://t.co/MOT7Pw2AE2">pic.twitter.com/MOT7Pw2AE2</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/977233014412533761?ref_src=twsrc%5Etfw">March 23, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Euclidean vs. Cosine Distance<br>&quot;This post was written as a reply to a question asked in the Data Mining (<a href="https://t.co/oCLBFN8ELc">https://t.co/oCLBFN8ELc</a>) course: When to use the cosine similarity?&quot; <a href="https://t.co/Wf3GjpWn0t">https://t.co/Wf3GjpWn0t</a> <a href="https://t.co/MOT7Pw2AE2">pic.twitter.com/MOT7Pw2AE2</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/977233014412533761?ref_src=twsrc%5Etfw">March 23, 2018</a></blockquote> 
 
 4. Submitted long paper to [COLING 2018](http://coling2018.org/).
 
@@ -272,9 +272,9 @@ Listed in reverse chronological order are all relevant academic activities.
 
 13. Blog shared by KDNuggets, twice:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scikit-learn Pipeline Persistence and JSON Serialization Part II <a href="https://t.co/q0DdKRHR45">https://t.co/q0DdKRHR45</a> <a href="https://t.co/WMQUqhsTf2">pic.twitter.com/WMQUqhsTf2</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/945912240141688832?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scikit-learn Pipeline Persistence and JSON Serialization Part II <a href="https://t.co/q0DdKRHR45">https://t.co/q0DdKRHR45</a> <a href="https://t.co/WMQUqhsTf2">pic.twitter.com/WMQUqhsTf2</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/945912240141688832?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote> 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scikit-learn Pipeline Persistence and JSON Serialization <a href="https://t.co/eLJ5jiPxRd">https://t.co/eLJ5jiPxRd</a> <a href="https://t.co/EiimZV6zz8">pic.twitter.com/EiimZV6zz8</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/945882018512080896?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Scikit-learn Pipeline Persistence and JSON Serialization <a href="https://t.co/eLJ5jiPxRd">https://t.co/eLJ5jiPxRd</a> <a href="https://t.co/EiimZV6zz8">pic.twitter.com/EiimZV6zz8</a></p>&mdash; KDnuggets (@kdnuggets) <a href="https://twitter.com/kdnuggets/status/945882018512080896?ref_src=twsrc%5Etfw">December 27, 2017</a></blockquote> 
 
 12. Presented 'Distantly Supervised Prediction of Demographic Information on Social Media' and [tōku](https://onyx.uvt.nl/toku) at the TiCC PhD Day 2017 and won the Best Demo Award.
 
