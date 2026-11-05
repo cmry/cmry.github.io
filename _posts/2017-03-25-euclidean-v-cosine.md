@@ -3,6 +3,7 @@ title: Euclidean vs. Cosine Distance
 date: 2017-03-25 18:27:10
 read: 10
 image: ./sources/pixel_art/cosine.png
+math: true
 ---
 
 *This post was written as a reply to a question asked in the
